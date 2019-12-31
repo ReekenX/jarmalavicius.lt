@@ -8,8 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-browsersync'
   gem 'jekyll-feed'
-  gem 'jekyll-language-plugin'
-  gem 'jekyll-polyglot'
   gem 'jekyll-postcss'
   gem 'jekyll-purgecss'
   gem 'jekyll-responsive-image'
