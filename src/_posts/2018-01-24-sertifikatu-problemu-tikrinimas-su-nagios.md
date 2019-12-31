@@ -1,6 +1,5 @@
 ---
 title: Sertifikatų problemų tikrinimas su Nagios
-permalink: /atviras-kodas/sertifikatu-problemu-tikrinimas-su-nagios
 category: atviras-kodas
 image: i/monitorinimas.png
 description: Sekite savo HTTPS sertifikatų galiojimą, konfigūraciją ir kitokias problemas su Nagios! Su kodo pavyzdžiais.

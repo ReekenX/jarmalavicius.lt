@@ -1,6 +1,5 @@
 ---
 title: Pirmasis Docker konteineris
-permalink: /docker/pirmasis-docker-konteineris
 category: docker
 image: i/pirmas_docker_konteineris.jpg
 description: Kaip sukurti pirmą Docker konteinerį, jį pavykdyti ir patikrinti jo statusą.

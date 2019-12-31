@@ -1,6 +1,5 @@
 ---
 title: Ką galima nuveikti su Raspberry Pi 3
-permalink: /raspberry-pi/ka-galima-nuveikti-su-raspberry-pi-3
 category: raspberry-pi
 image: i/raspberry-pi/ka-galima-nuveikti-su-raspberry-pi-3.png
 description: Straipsnis apie Raspberry Pi (versijos 3) panaudojimą ir praktinį pritaikymą.

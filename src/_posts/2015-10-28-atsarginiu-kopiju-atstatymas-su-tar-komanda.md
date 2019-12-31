@@ -1,6 +1,5 @@
 ---
 title: Atsarginių kopijų atstatymas su tar komanda
-permalink: /atviras-kodas/atsarginiu-kopiju-atstatymas-su-tar-komanda
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip tvarkingai daryti atsargines kopijas su tar komanda. Kaip rasti tinkamą archyvą dideliame archyvų kataloge ir kaip tą archyvą atstatyti.

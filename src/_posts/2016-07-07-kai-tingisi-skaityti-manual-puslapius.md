@@ -1,6 +1,5 @@
 ---
 title: Kai tingisi skaityti manual puslapius
-permalink: /atviras-kodas/kai-tingisi-skaityti-manual-puslapius
 category: atviras-kodas
 image: i/user_manual.jpg
 description: Taupykite savo laiką ir neskaitykite man puslapių. Skaitykite jų vykdymo pavyzdžius su tldr komanda!

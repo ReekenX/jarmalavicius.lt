@@ -1,6 +1,5 @@
 ---
 title: Kuom skiriasi Raspberry Pi 2 nuo Pi 3?
-permalink: /raspberry-pi/kuom-skiriasi-raspberry-pi-2-nuo-raspberry-pi-3
 category: raspberry-pi
 image: i/raspberry_pi_1_ir_3.png
 description: Oficialūs, praktiški ir kitokie skirtumai tarp Raspberry Pi 2 ir Pi 3 versijų su palyginimais iš praktinės patirties.

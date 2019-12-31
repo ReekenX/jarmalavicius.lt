@@ -1,6 +1,5 @@
 ---
 title: Kokias programas naudoju 2018 metais
-permalink: /mano-projektai/kokias-programas-naudoju-2018-metais
 category: mano-projektai
 image: i/programos_2018.png
 description: Kokias programas naudoju po 10 metų darbo prie kompiuterio? Kaip pasikeitė stackas nuo ankstesnių metų?

@@ -1,6 +1,5 @@
 ---
 title: Dažniausiai naudojamos komandos
-permalink: /atviras-kodas/dazniausiai-naudojamos-komandos
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Dažniausiai naudojamos komandos, bash populiariausios komandos, top bash komandos, top naudojamos komandos.

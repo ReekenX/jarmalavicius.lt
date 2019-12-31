@@ -1,6 +1,5 @@
 ---
 title: Vykdome komandas po failų pakeitimo su Entr
-permalink: /atviras-kodas/vykdome-komandas-po-failu-pakeitimo-su-entr
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Straipsnis apie automatinį komandų vykdymą kai stebimas failas yra keičiamas.

@@ -1,35 +1,71 @@
 ---
-title: Knygos „Essentialism“ apžvalga
-permalink: /knygos/essentialism-knygos-apzvalga
-category: knygos
-image: i/essentialism_knyga.png
-description: Essentialism knygoje pasakojama, kad žmogui nereikia dirbti tam, kad turėtų mašiną kurios dėka išleidžia pinigus ir dėl to reikia dirbti.
+title: Pomodoro technika - patirtis po 6+ metų naudojimo
+category: atviras-kodas
+image: i/pomodoro_laikmatis.jpg
+description: Pomodoro atradau 2012 metais, nuo tada praktiškai nepertraukiamai naudojau kiekieną darbo dieną. Mano įspūdžiai, patirtis ir kodėl vis dar šios technikos laikausi.
 ---
 
-Dar viena filosofinė knyga mano perskaitytų knygų sąraše - „Essentialism: The Disciplined Pursuit of Less“ (autorius Greg McKeown).
+2012 metais pirmą kartą perskaičiau apie Pomodoro. Kadangi esu megėjas visokių straipsnių / knygų / seminarų apie produktyvumą - nekantravau išbandyti.
 
-Skiriu jai straipsnio įrašą, nes šių dienų verdančiame gyvenime knyga galėtų būti naudinga ne vienam kuris skuba ar bando uždirbti viską.
+Tai labai paprasta technika:
+
+1) Nusistatai laikmatį. Standartiškai 25 min.
+2) Dirbi ir stengiesi neturėti per tą laiką trikdžių.
+3) Pailsi 5-15 min.
+4) Kartoji 2-3 punktus kol griūni apspangęs nuo produktyvumo.
+
+Ketvirtas punktas nebūtinas.
+
+Bene standartiškai yra siūloma po kiekvienos sesijos padaryti 5 min. pertrauką, o po ketvirtosios - ilgesnę - 15 min. pertrauką.
+
+Trikdžių atsikratymas čia dirba svarbią rolę ir tam turbūt reikėtų atskiro straipsnio.
 
 <p class="text-center">
-<img src="/i/essentialism_knyga.png" style="max-width: 100%; max-height: 500px" />
+<img src="/i/tomatoes.png" />
 </p>
-<p class="text-muted text-center small">„Essentialism“ knygos viršelis</p>
+<p class="text-center text-muted small">Iškarpa iš mano Tomato.es profilio - tiek kasdien Pomodoro padarau</p>
 
-Kalbant ypatingai apie programuotojus, natūralu, kad diena yra pilna streso, mėginimo padaryti kiek įmanoma daugiau ir gauti kaip įmanoma daugiau. Taip pat atrodo beveik natūralu nespėti į terminus, daryti ne visai prioritetinius darbus arba vienu metu daryti ne vieną užduotį.
+## Tinka beveik visiems
 
-**Ši knyga tai tokio gyvenimo filosofijos priešingybė: koncentruotis tik ties svarbiais dalykais atsikratant nesvarbių.**
+Tokios technikos puikiai tinka prie kompiuterio sėdintiems darbuotojams - ypač programuotojams, dizaineriams, marketingistams ir pan.
 
-Skaitant knygą dažnai pagalvojau, kad čia viską apibendrintų tiesiog paprasčiausias Pareto dėsnis (apie kurį taip pat yra aprašyta). Bet dėl praktinių pavyzdžių gausos - sunku buvo atsitraukti.
+Arba tobula technika studentams - žmonėms kuriems dažniausiai reikia prisiversti prisėsti prie studijų.
 
-**Knygos autorius gyvenimiškų pavyzdžių tikrai nepagailėjo.** Tai yra vienas iš dalykų kurie man labai patinka skaitant knygas - praktinė / gyvenimiška patirtis.
+Greičiausiai netinka fabriko darbuotojams arba žmonėms kurie turi daug pasikartojančio darbo. Tokia technika tik išsekintų smegenis.
 
-Keletas man labiausiai patikusių šios knygos frazių:
+## Atidėliojimo problema
 
-* Daugiau streso - mažiau kokybės.
-* Nuolat savęs klauskite - ar tai tikrai TOP svarbiausias dalykas ką galėčiau daryti?
-* Galvokite mažiau - bet geriau.
-* **Žodis „prioritetas“ daugiau nei 500 metų buvo vartojamas vienaskaita. Tik prieš šimtą metų šis žodis buvo pradėtas naudoti daugiskaita.**
-* Kada paskutinį kartą tiesiog sedėjote ramiai ir galvojote?
-* Sunku išsirinkti ką norisi veikti ar turėti? Knygoje pateiktas 90-10 modelis - manau, kad kiekvienas stipriai užsiėmęs žmogus galėtų pritaikyti šią vertinimo sistemą gyvenime ar karjeroje.
+Iš patirties atradau, kad tai labai gerai išsprendžia atidėliojimo problemą.
 
-Šioje knygoje rasite tikrai daug patarimų kaip „išsivalyti“ savo užimtą gyvenimą: kaip planuoti susitikimus ar pasitarimus, kaip įprasti sakyti „ne“, kaip vertinti materialius dalykus, kaip branginti laiką ar miegą, kokiais kriterijais samdyti žmones ir taip toliau.
+Visi turime darbų kuriuos anksčiau ar vėliau atidedame ir dėl to, žinoma, gailimės. Aš su šia bėda jau gana anksti pradėjau kovoti taip: kiekvieną dieną skirdamas vieną ar kelias Pomodoro sesijas (viena sesija, tipiškai būna 25 min).
+
+Ir taip, 1-2 Pomodoro kasdien yra ženkliai geriau nei žadėjimas sau, kad RYTOJ kelioms valandoms prisėsite prie to ko reikia.
+
+Tai ypač tinka programuotojams kurie be savo standartinio darbo dar nori kažką padaryti savo, bet sunkiai sekasi tą padaryti po darbo. Turiu omeny, kad pats sunkumas yra ne tiek, kad rasti laiko, o rasti jėgų ir noro. Pomodoro čia labai gerai veikia.
+
+## Kitoks laiko nustatymas
+
+Nors keletą kartų eksperimentavau su laiko nustatymais (mėgindamas didesnius nei 25 min. ruožus) - visgi pats geriausias pasirodė standartiškai rekomenduojamos 25 minutės.
+
+Bet su pertraukomis taip gerai nesielgiu.
+
+Dažniausiai padirbu 2 pomodoro iš eilės (viso 50 min.) ir tada einu trumpai pailsėti: 10-15 min.
+
+Turėjau ir viešą profilį su [Pomodoro sekimu - Tomato.es](http://www.tomato.es/users/5073f55fd43b8100020001f4). Jame galima pažiūrėti kaip maždaug atrodė mano tipinės dienos.
+
+Arba dienos - rekordininkės - 31 pomodoro per dieną.
+
+## Pomodoro įrankiai
+
+Tas pats [Tomato.es](http://www.tomato.es) yra visiškai nemokamas ir atviro kodo. Man yra tekę jį parsisiųsti ir modifikuoti pagal savo norus - kodo bazė nesudėtinga, todėl galima prasiplėsti įrankį.
+
+Esu naudojęs [Gnome Pomodoro](http://gnomepomodoro.org/) - super įrankis, jeigu naudojate Linux.
+
+<p class="text-center">
+<img src="/i/toggl.png" />
+</p>
+<p class="text-center text-muted small">Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams</p>
+
+Turbūt populiariausias laiko apskaitos įrankis internete yra [Toggl](https://toggl.com/). Jis duoda šią galimybę per tokius įrankius (nemokamus) kaip Chrome Extension. Nors ir veikia ne 100%, bet aš pats naudoju jau virš 4 metų ir iš esmės galima susitaikyti su nedidelėmis klaidomis.
+
+Visiškams geek'ams galėtų pamatyti [Pomodoro BASH skriptas](https://www.jarmalavicius.lt/mano-projektai/pomodoro-bash-skriptas) - irgi naudojau ilgiau nei metus.

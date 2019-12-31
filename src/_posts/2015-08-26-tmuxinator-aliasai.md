@@ -1,6 +1,5 @@
 ---
 title: Tmuxinator aliasai / greitos darbų aplinkos
-permalink: /tmux/tmuxinator-aliasai
 category: tmux
 image: i/tmux/tmuxinator-aliasai.png
 description: Tmuxinator aliasų panaudojimas. Praktiniai Tmuxinator konfigūracijų pavyzdžiai PHP, Django, ir kitokiems projektams.

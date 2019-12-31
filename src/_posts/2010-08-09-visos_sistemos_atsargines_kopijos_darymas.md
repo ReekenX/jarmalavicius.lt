@@ -1,6 +1,5 @@
 ---
 title: Visos sistemos atsarginės kopijos darymas
-permalink: /atviras-kodas/visos-sistemos-atsargines-kopijos-darymas
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Straipsnis apie tai, kaip pasidaryti visos sistemos atsarginę kopiją su tar komanda ir kaip archyvą išarchyvuoti.

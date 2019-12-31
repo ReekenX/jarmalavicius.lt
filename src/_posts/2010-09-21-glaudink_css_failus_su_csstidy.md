@@ -1,6 +1,5 @@
 ---
 title: Glaudink CSS failus su CSStidy
-permalink: /atviras-kodas/glaudink-css-failus-su-csstidy
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kas yra CSStidy ir kaip juo naudotis. CSS failų glaudinimas ir formatavimas.

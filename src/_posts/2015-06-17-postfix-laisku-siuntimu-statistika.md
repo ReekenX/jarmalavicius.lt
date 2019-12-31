@@ -1,6 +1,5 @@
 ---
 title: Postfix laiškų siuntimų statistika
-permalink: /atviras-kodas/postfix-laisku-siuntimu-statistika
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Siunčiamų laiškų statistikos generavimas Postfix įrangai. Mums padės pflogsumm programinė įranga / pagalbininkas.

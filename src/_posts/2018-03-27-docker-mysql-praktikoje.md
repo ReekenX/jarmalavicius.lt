@@ -1,6 +1,5 @@
 ---
 title: Praktinis Docker panaudojimas su Mysql
-permalink: /docker/docker-mysql-praktikoje
 category: docker
 image: i/docker_mysql.png
 description: Docker praktinis panaudojimas su Mysql duomenų baze. Ar žinojote, kad sistemoje galite naudoti kelias skirtingas Mysql versijas ir nesibaiminti dėl senos operacinės sistemos ar paketų priklausomybių?

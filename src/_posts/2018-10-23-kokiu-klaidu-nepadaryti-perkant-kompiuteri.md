@@ -1,6 +1,5 @@
 ---
 title: Kokių klaidų nepadaryti perkant kompiuterį?
-permalink: /atviras-kodas/kokiu-klaidu-nepadaryti-perkant-kompiuteri
 category: atviras-kodas
 image: i/pc.jpg
 description: Sunku išsirinkti laisvalaikiui, darbui ar žaidimams patogų kompiuterį kai prekyboje toks gausus asortimentas. Pasirinkimas bus lengvesnis, jeigu išvengsite kai kurių kompiuterių pirkimo klaidų.

@@ -1,68 +1,24 @@
 ---
-title: CRON komandų „debuginimas“
-permalink: /atviras-kodas/cron-komandu-debuginimas
+title: CRON komandų žurnalai
 category: atviras-kodas
-image: i/cron_darbas.png
-description: Kaip debuginti CRON komandas? O kaip pakeisti standartinį CRON shellą į bash vietoje sh? Kaip surasti kur nutrūko programa?
+image: i/crontab.png
+description: Cron automatizavimui yra praktiškai neišvengiamas įrankis. Bet tas pats pagalbinis įrankis gali tapti didelė kančia surasti kas įvyko, jeigu neteisingai naudojama. Kaip sekti ir analizuoti Cron komandas.
 ---
 
-Kadangi jau ne kartą sulaukiau klausimų apie tai, kodėl viena ar kita komanda veikia ne taip, kaip tikėtasi, leidžiant per CRON, nusprendžiau, kad parašysiu straipsnį apie tai.
+Cron'as yra viena populiariausių automatizavimo programų. Nors automatizavimo komandas rašo tie patys programuotojai ir jiems spręsti kaip ir kas veiks - didelę bėdą Cron'as atneša, kada reikia aiškintis kas įvyko ir kada.
 
-Pirmiausiai, tai komandos neveikti arba veikti ne taip kaip tikėtasi gali dėl labai daug priežasčių, sunku būtų ir išvardinti. Trumpai apie dažniausiai sutinkamas bėdas.
+Kalbu apie žurnalų kūrimą.
 
-**CRON programinės įrangos yra daug**
-
-Reikia nepamiršti, kad programa `cron` nėra kažkokia tai sisteminė programinė įranga kurią būtinai rasite vienodą visose operacinėse sistemose. Variacijų yra daug ir įvairių.
-
-Jeigu paieškosite internete arba paleistumėte `apt-cache search cron` (Debian paremtose sistemose) pamatytumėte įvairiausią sąrašą programinės įrangos: anacron, cron, bcron ir t.t.
-
-Taigi, jeigu migruojate su duomenimis ir `cron` įrašais į kitą serverį, įsitikinkite ar tikrai tą pačią programą naudojate.
-
-**Standartinis shell'as**
-
-Klaidų žurnaluose gaunate `command not found`? Taip yra todėl, kad greičiausiai testuodami naudojate modernų shellą, tokį kaip `bash` ar `zsh` ar kitą. O `cron` vykdomas pagal nutylėjimą su `/bin/sh`. O jis gali neturėti `env` kintamųjų pasiekti `/usr/local/bin` ir kitus katalogus kurių komandoms gali reikėti pavyzdžiui $PATH kintamojo.
-
-Shell'ą pakeisti galite `crontab -e` įrašę viršuje:
+Pavyzdinė `crontab` eilutė iš mano serverių:
 
 ```
-SHELL=/bin/bash
+*/5 9-20 *  * 2 /projektas/send_newsletter >> /logs/send_newsletter.$(date '+\%F').log 2>&1
 ```
 
-**Naudotojas ir kiti env kintamieji**
+Čia nagrinėkime ne tiek komandą ar kada ji vykdoma (antradienį, nuo 9 iki 20 valandos, kas 5 minutes), bet kur įrašomas žurnalas.
 
-Dažnai esu užtikęs, kad žmonės neradę sprendimo kaip viską paleisti arba kaip tvarkingai nustatyti priėjimo taisykles, `cron` įrašus kuria ant `root` naudotojo. **Rekomenduočiau niekada to nedaryti**. Visada praleiskite šiek tiek laiko, kad ir paprastas naudotojo prisijungimas be jokių `sudo` galėtų pavykdyti komandas kurių reikia.
+Žurnalas su komandos išvestimis bus pildomas į `/logs/send_newsletter.2019-01-01.log` failą (pavyzdys). Taip bus išsaugoma visa su komanda susijusi istorija, data kada kas įvyko ir su `logrotate` tokius failus galima automatiškai archyvuoti.
 
-Taip pat reikia nepamiršti, kad Jums komanda gali veikti dėl to, kad Jūsų `env` turi kažkokių kintamųjų kurie reikalingi programai. Toliau - apie tai, kaip identifikuoti šias bėdas.
+Būtina tiek `stdout` tiek `stderr` išvestis nukreipti į tą patį failą su `2>&1` - kad žurnale būtų įrašas jeigu įvyko kokios problemos.
 
-**Išsiaiškinkime dėl ko programa skundžiasi**
-
-Pirmiausiai ką reikia padaryti, tai nukreipti komandos visą išvestį (standartinę išvestį ir klaidų) į sisteminį pranešimų failą (`logger` komandos dėka):
-
-```
-* * * * * /kelias/iki/komandos 2>&1 | logger
-```
-
-Nuo dabar visą išvestį rasite arba `syslog` (dažniausiai tai `/var/log/syslog`) arba `messages` (dažniausiai tai `/var/log/messages`).
-
-Pagal [Pareto dėsnį](https://lt.wikipedia.org/wiki/Pareto_principas): tai jau išspręs 80% bėdų. Tačiau ką daryti, kai pvz. `bash` komandos nutrūkimo priežastis neaiški?
-
-**Išsiaiškinkime kur nutrūko programa**
-
-Savo `bash` skripte reikėtų laikinai įjungti „debuginimo režimą“. Jį įjungsite į `bash` skripto viršų įrašę:
-
-```
-#!/bin/bash
-set -x
-```
-
-Kadangi iš praėjusio patarimo viską jau siunčiame komandai `logger`, kurį žinutes surašo į klaidų failą, tai ten reikėtų žiūrėti ir dabar. Tiesa, tai turėtų būti laikinas sprendimas, kadangi klaidų žurnale matysite **kiekvieną bash eilutę** kuri buvo pavykdyta. O tai, gali būti daug išvesties.
-
-**Du patarimai žiopliems**
-
-Tik nereikia įsižeisti! Klaidų pridaro visi, o kartais jos tokios paprastos. Reikėtų pasitikrinti ar tikrai `cron` komandos paleidžiamos apskritai. Gal sumaišėte [laikų sąlygas](https://en.wikipedia.org/wiki/Cron) ir dėl to `cron` komanda bus pavykdyta kažkada vėliau. Taigi, pastebėkite `cron` žurnalą:
-
-```
-tail -f /var/log/cron
-```
-
-Taip pat internete rasite ne vieną online įrankį, kuris gali „išversti“ į žmogišką kalbą kada komandos bus paleidžiamos. Štai [vienas iš tų įrankių](https://crontranslator.appspot.com/).
+Verta pabrėžti, kad `crontab` procento simbolis (%) atitinka naujos eilutės simbolį, todėl, kad nebūtų nukirptas failo vardas su `date '+%F'` komanda, reikia pasvirojo brūkšnelio prieš jį - `date '+\%F'`.

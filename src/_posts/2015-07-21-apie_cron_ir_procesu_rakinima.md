@@ -1,6 +1,5 @@
 ---
 title: Apie CRON ir procesų rakinimą
-permalink: /atviras-kodas/apie-cron-ir-procesu-rakinima
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip padaryti, kad CRON įrašai nepersidengtų su jau prieš tai paleistais procesais tos pačios komandos.

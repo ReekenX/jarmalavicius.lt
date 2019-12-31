@@ -1,6 +1,5 @@
 ---
 title: VIM - didinam ir mažinam skaičius
-permalink: /vim/vim-didinam-mazinam-skaicius
 category: vim
 image: i/vim_macos.png
 description: Su VIM redaktoriumi galite ne tik programuoti ir atlikti aritmetikos veiksmus, tačiau ir skaičių manipuliacijas be jokių papildomų įskiepių ar komandų kombinacijų. Paprasta, patogu ir labai naudinga kai dirbama su skaičiais ar indeksais.

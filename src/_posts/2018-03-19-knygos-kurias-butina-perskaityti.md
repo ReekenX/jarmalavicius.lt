@@ -1,6 +1,5 @@
 ---
 title: Knygos kurias būtina perskaityti
-permalink: /knygos/knygos-kurias-butina-perskaityti
 category: knygos
 image: i/butinos-knygos.png
 description: Sąrašas IT, psichologinių ir filosofinių knygų kurias rekomenduoju perskaityti kiekvienam norinčiam tobulėti.

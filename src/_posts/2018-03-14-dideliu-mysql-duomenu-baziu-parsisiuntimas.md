@@ -1,6 +1,5 @@
 ---
 title: Didelių Mysql duomenų bazių parsisiuntimas
-permalink: /atviras-kodas/dideliu-mysql-duomenu-baziu-parsisiuntimas
 category: atviras-kodas
 image: i/mysqldump.png
 description: Kaip parsisiųsti 100GB ar didesnį / mažesnį Mysql duomenų bazės dumpą.

@@ -1,6 +1,5 @@
 ---
 title: Decentralizuota versijavimo sistema. Kas tai?
-permalink: /git/decentralizuota-versijavimo-sistema
 category: git
 image: i/git/decentralizuota-versijavimo-sistema.png
 description: Ar žinai kas yra decentralizuota versijavimo sistema ir ką tai reiškia? Skaityk.

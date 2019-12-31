@@ -1,6 +1,5 @@
 ---
 title: Redis ant Docker
-permalink: /docker/redis-ant-docker
 category: docker
 image: i/redis.png
 description: Kaip įsidiegti Redis su Docker? Kaip prisijungti prie Docker konteinerio? Ar žinote, kad vienu metu galite turėti net keletą Redis sistemoje?

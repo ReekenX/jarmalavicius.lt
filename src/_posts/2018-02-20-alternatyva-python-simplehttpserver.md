@@ -1,6 +1,5 @@
 ---
 title: Alternatyva python -m SimpleHTTPServer
-permalink: /atviras-kodas/alternatyva-python-simplehttpserver
 category: atviras-kodas
 image: i/static.png
 description: NodeJs alternatyva populiariąjam Python SimpleHTTPServer moduliui. Kodėl NodeJs statinis web servisas daug geriau?

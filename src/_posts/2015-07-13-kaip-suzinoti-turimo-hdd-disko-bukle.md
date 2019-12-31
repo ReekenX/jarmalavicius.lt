@@ -1,6 +1,5 @@
 ---
 title: Kaip sužinoti turimo HDD disko būklę
-permalink: /atviras-kodas/kaip-suzinoti-turimo-hdd-disko-bukle
 category: atviras-kodas
 image: i/placeholder.jpg
 description: HDD disko buklės patikrinimas gsmartcontrol pagalba. Kaip įdiegti, kaip patikrinti ir ką galima iš to surasti.

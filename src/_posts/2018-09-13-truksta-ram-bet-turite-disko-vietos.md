@@ -1,6 +1,5 @@
 ---
 title: Trūksta RAM, bet turite disko vietos?
-permalink: /atviras-kodas/truksta-ram-bet-turite-disko-vietos
 category: atviras-kodas
 image: i/ram.jpg
 description: Įsigijote mažą serveriuką savo mikroservisui, tačiau jam karts nuo karto neužtenka RAM? Dažniausiai tai lengvai išsprendžiama, nes mikroservisams disko vietos dažniausiai būna per akis. Tuo pasinaudojus galima gauti netikros RAM atminties, kuri nors bus lėtesnė, bet vistiek labai naudinga.

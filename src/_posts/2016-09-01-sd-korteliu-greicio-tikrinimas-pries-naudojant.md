@@ -1,6 +1,5 @@
 ---
 title: SD kortelių greičio tikrinimas prieš naudojant
-permalink: /raspberry-pi/sd-korteliu-greicio-tikrinimas-pries-naudojant
 category: raspberry-pi
 image: i/sd-korteliu-greicio-tikrinimas-pries-naudojant.png
 description: Kaip sužinoti SD (ar microSD) kortelės greitį prieš ją naudojant su Rasberry Pi.

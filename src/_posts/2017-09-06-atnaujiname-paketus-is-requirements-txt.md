@@ -1,6 +1,5 @@
 ---
 title: Paketų, esančių requirements.txt, automatinis atnaujinimas
-permalink: /django/atnaujiname-paketus-is-requirements-txt
 category: django
 image: i/django/atnaujiname-paketus-is-requirements-txt.png
 description: Failo requirements.txt atnaujinimas be skausmo ir laiko gaišimo su Pur komanda. Kaip naudotis ir ką ji gali padėti Python programuotojams.

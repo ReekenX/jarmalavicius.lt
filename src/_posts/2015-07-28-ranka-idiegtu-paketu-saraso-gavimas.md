@@ -1,6 +1,5 @@
 ---
 title: Ranka įdiegtų paketų sąrašo gavimas
-permalink: /atviras-kodas/ranka-idiegtu-paketu-saraso-gavimas
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip rasti ranka įdiegtų paketų sąrašą Debian OS šeimose ir kokius kitokius pagalbinius įrankius mums duoda standartinis apt-get.

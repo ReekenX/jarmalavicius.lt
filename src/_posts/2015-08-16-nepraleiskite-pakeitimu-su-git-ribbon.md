@@ -1,6 +1,5 @@
 ---
 title: Nepraleiskite pakeitimų su GIT RIBBON
-permalink: /git/nepraleiskite-pakeitimu-su-git-ribbon
 category: git
 image: i/git_ribbon.jpg
 description: Straipsnis apie GIT RIBBON programą pakeitimas sužiūrėti po tam tikro laiko.

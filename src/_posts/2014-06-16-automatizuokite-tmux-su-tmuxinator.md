@@ -1,6 +1,5 @@
 ---
 title: Automatizuokite tmux su tmuxinator, 1 dalis
-permalink: /tmux/automatizuokite-tmux-su-tmuxinator-1-dalis
 category: tmux
 image: i/tmux/automatizuokite-tmux-su-tmuxinator-1-dalis.png
 description: Kaip automatizuoti Tmux su Tmuxinator pagalba. 1 dalis. Kas yra šie du įrankiai ir kaip jie padeda darbui terminale?

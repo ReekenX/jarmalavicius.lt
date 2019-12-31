@@ -1,37 +1,63 @@
 ---
-title: Knygos „TED Talks - The Official TED Guide to Public Speaking“ apžvalga
-permalink: /atviras-kodas/knygos-ted-talks-the-official-ted-guide-to-public-speaking-apzvalga
-category: atviras-kodas
-image: i/ted_talks_knyga.png
-description: Iš daugiau nei 200 perskaitytų knygų šią knygą išrinkau kaip geriausią knygą skirtą viešojo kalbėjimo įgūdžiams lavinti. Su šimtais praktinių pavyzdžių, daugybę istorijų ir tikra gyva patirtimi.
+title: Knygos „Automate it!“ apžvalga
+category: knygos
+image: i/automate_it.png
+description: Tik baigėte mokslus ir pradedate ieškoti darbo? Ši knyga apie IT procesų automatizavimą su Python padės rimtai pasiruošti.
 ---
 
-Nesu TED prezentacijų megėjas, tačiau ši knyga (tiek audio, tiek popieriniame variante) yra tikrai **geriausia ką galima rasti viešojo kalbėjimo tematika**.
+Nors mano tinklaraštis labiau skirtas patyrusiems programuotojams ir retai kada rašau profesijos pradedančiųjų temomis, bet šį kartą tiesiog nesusilaikiau. Jeigu tik man kas būtų parodęs šią knygą prieš 10 metų! Gaila, tada ji nebuvo išleista.
 
-Pati knyga prasideda įdomia istorija kaip TED vos "nemirė" vos tik šiam renginiui/idėjai prasidėjus.
+[Humble Book Bundle](https://www.humblebundle.com/books/devops-books?utm_source=www.jarmalavicius.lt) kartu su kitomis knygomis įsigijau - „Automate it!“ (aut. Chetan Giridhar).
 
-**Ar žinojote, kad organizatoriai ir šio renginio vedėjai padeda pasiruošti ir praktikuojasi su būsimais pranešėjais?** Kiek tekę yra dalyvauti/pranešinėti visokiuose PyCon, GIT, Ubuntu ar kitose konferencijose - dar neteko matyti nieko panašaus. Dažniausiai į prezentacijas pakviečiami pranešėjai, o jau kas bus prezentacijos pristatymo metu - tas bus.
-
-Tie patys TED organizatoriai turi sukaupę didelį žinių bagažą ir dalinasi šimtais vertingų patarimų kaip savo prezentacijas pagyvinti, padaryti įdomesnėmis ir sklandesnėmis.
-
-<p style="text-align: center; margin-bottom: 5px">
-    <img src="/i/ted_talks_knyga.png" style="max-width: 100%; max-height: 500px" />
+<p class="text-center">
+<img src="/i/automate_it.png" class="img-fluid" style="max-width: 100% !important" />
 </p>
 
-<p class="text-muted small text-center">„TED Talks: The Official TED Guide to Public Speaking“ knygos viršelis</p>
+<p class="text-muted text-center small">Knygos „Automate it!“ viršelis</p>
 
-Tarp visokių minčių galima rasti:
+## Kam skirta knyga
 
-"Yra vienas dalykas ko niekas kitas neturi pasaulyje: tai būtent Jūsų patirties/patyrimo kai kažkas vyko apie ką pasakojate".
+Mokamųjų resursų, taip vadinamųjų „tutorial“, internete rasite pilna. Tiek knygų pavidalu, tiek interaktyvių interneto svetainių, tiek mokomųjų video.
 
-"Žmonės mėgsta istorijas ir kiekvienas gali išmokti jas pasakoti".
+Bet va knygų su darbo eigomis, tikro gyvenimo pavyzdžiais ir tikra apčiuopiama nauda - surasti bus sunku.
 
-"Mažas-geras pristatymas užima labai daug laiko pasiruošti, ilgas-geras pristatymas užima daug mažiau".
+Čia - viena jų. Iš esmės užtenka vos paviršutiniškai mokėti Python programavimo kalbą (nes visos problemos sprendžiamos su ja) ir galima kapstyti gilyn!
 
-Knygoje yra ir ne vienas „planas“ ar „sistema“ kaip savo prezentaciją galima perskelti į tam tikras dalis ir šias dalis gerokai pagerinti.
+## Puiki knyga ruoštis Python darbo pokalbiui
 
-Turinio, patarimo, istorijų ir pavyzdžių šimtais. Sunku tiek „suvirškinti“, tačiau tai tikrai geriausia ką esu iki šiol skaitęs šia tema.
+Laukia pirmojo darbo paieška? Ši knyga turbūt pirmoji kuri turėtų būti atversta.
 
-Kol kas knyga tik angliškai, bet ir sunkiau angliškai skaitantiems - knyga bus tikrai lengvai skaitoma.
+Tokio pokalbio metu, neturint didelio portfolio į daug klausimų gali tekti atsakyti neiginiais: „nemoku“, „nebandžiau“, „neteko“. Perskaičius ir kiek susipažinus, galima to išvengti.
 
-Anksčiau esu rašęs apie dar vieną naudingą knygą apie viešojo kalbėjimo meną kuri gali taip pat būti naudinga - [Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga](https://www.jarmalavicius.lt/knygos/knygos-cercilio-iskalba-linkolno-tvirtybe-apzvalga).
+Žinoma, ši knyga nėra kažkoks garantas, kad Jus priims. Per darbo pokalbį būtina „save parduoti“. Todėl kuo daugiau paliesite tikro gyvenimo IT problemų, tuo didesni šansai gauti darbą. O visa kita - per 10 metų išmoksite. **Svarbiausia, kad priimtų.**
+
+## Ką galima rasti knygoje ir ko išmokti?
+
+Gerai, glausčiai ir nenuobodžiai aprašyta knyga Jus supažindins su tokiais dalykais:
+
+* Web scraping'u - duomenų iš interneto parsisiuntimu ir analizavimu.
+* Resursų iš interneto parsisiuntimu (pavyzdžiui nuotraukų iš „Google Images“).
+* REST API (pavyzdžiams naudoti tokie kaip Gihub REST API).
+* Interneto puslapių naršymas su Selenium.
+* Darbas su CSV ir Excel failais. Duomenų pildymas, formulės, skaitymas, grafikų darymas.
+* Darbas su PDF failais (kūrimas ir skaitymas).
+* SMS siuntimai ir balso pranešimai per Twilio sistemą.
+* Itin populiarių Python bibliotekų, kaip Flask ar Tornado, praktiniai panaudojimai.
+* El. laiškų siuntimas ir skaitymas iš Gmail.
+* SMTP, TXT/HTML el. laiškų formatų ir kitų dalykų / problemų paaiškinimai.
+* PowerPoint prezentacijų kūrimas (verslo ataskaitoms rengti).
+* Savo API kūrimas.
+* Jinja2 šablonų sistema.
+* Twitter aplikacijos kūrimas automatiniam žinučių rašymui.
+* Zapier pajungimas į automatizavimo procesą.
+* Bot'ų kūrimas.
+* Darbas su paveiksliukais (pvz. vandens ženklo kūrimas).
+* Veidų atpažinimas.
+* Duomenų analizė ir vizualizavimas su Pandas biblioteka.
+* Laiko juostos.
+
+Turinio tikrai daug. Per daugiau nei 10 programavimo metų su visomis išvardintomis problemomis yra tekę dirbti. Ir turbūt retas web programuotojas tokių pačių dalykų išvengė.
+
+Man patiko, kad pavyzdžiai gana šiuolaikiški ir naudojami dalykai yra tokie kuriuos tikrai panaudosi gavęs darbą rimtoje įmonėje.
+
+Taigi, 10 balų, tikrai rekomenduočiau!

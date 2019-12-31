@@ -1,6 +1,5 @@
 ---
 title: Įspūdžiai perskaičius Pro GIT knygą
-permalink: /knygos/ispudziai-perskaicius-pro-git
 category: knygos
 image: i/knygos/ispudziai-perskaicius-pro-git.png
 description: Įspūdžiai perskaičius knygą Pro GIT ir trumpa knygos apžvalga. Kokią pagalbą galite rasti knygos dalyse ir kaip ji gali Jums padėti.

@@ -1,6 +1,5 @@
 ---
 title: Instapaper pakeitimas į Google... naršyklę!
-permalink: /atviras-kodas/instapaper-pakeitimas-google-bookmarks
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip atsisakyti Instapaper ir nenaudojant papildomų paslaugų turėti tą patį.

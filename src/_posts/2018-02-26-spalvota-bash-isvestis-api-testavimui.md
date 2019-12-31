@@ -1,6 +1,5 @@
 ---
 title: Spalvota BASH išvestis API testavimui
-permalink: /atviras-kodas/spalvota-bash-isvestis-api-testavimui
 category: atviras-kodas
 image: i/json.png
 description: Kodėl kartais Bash API testavimui yra geriau nei Postman? Kaip galima turėti prodyktyvesnį API testavimą terminale ir kuom jis pranašesnis.

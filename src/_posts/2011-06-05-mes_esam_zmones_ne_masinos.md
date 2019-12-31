@@ -1,6 +1,5 @@
 ---
 title: Mes esam žmonės, ne mašinos
-permalink: /atviras-kodas/mes-esam-zmones-ne-masinos
 category: atviras-kodas
 image: i/humans_logo.png
 description: Parodyk, jog svetainę sukūrė žmonės, o ne mašinos. Šiame straipsnyje plačiau apie tai.

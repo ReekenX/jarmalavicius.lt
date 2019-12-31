@@ -1,6 +1,5 @@
 ---
 title: VIM kaip skaičiuoklė
-permalink: /vim/vim-kaip-skaiciuokle
 category: vim
 image: i/vim_calc.png
 description: VIM redaktorius gali tarnauti kaip skaičiuoklė - nereikia persijungti į atskirą terminalą, kad atliktumėte aritmetikos veiksmus. Vos keliomis komandomis ir keliais paspaudimais savo skaičiavimo operacijas galite perkelti į BC komandą.

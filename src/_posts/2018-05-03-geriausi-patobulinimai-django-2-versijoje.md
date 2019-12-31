@@ -1,6 +1,5 @@
 ---
 title: Geriausi patobulinimai Django 2 versijoje
-permalink: /django/geriausi-patobulinimai-django-2-versijoje
 category: django
 image: i/django_2.png
 description: Kas naujo ir gero Django 2 versijoje? Ką verta žinoti, atkreipti dėmesį ir kas gali būti labai naudinga. Pavyzdžiai iš praktinių patyrimų.

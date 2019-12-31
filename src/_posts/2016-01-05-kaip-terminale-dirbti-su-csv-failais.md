@@ -1,6 +1,5 @@
 ---
 title: Kaip terminale dirbti su CSV failais
-permalink: /atviras-kodas/kaip-terminale-dirbti-su-csv-failais
 category: atviras-kodas
 image: i/csv_failo_turinys.png
 description: Bash terminale galima lengvai dirbti su CSV failais programos miller pagalba. Filtruokite, rūšiuokite CSV duomenis terminale!

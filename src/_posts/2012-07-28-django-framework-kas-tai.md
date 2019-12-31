@@ -1,6 +1,5 @@
 ---
 title: Django framework - kas tai?
-permalink: /django/django-framework-kas-tai
 category: django
 image: i/django/django-framework-kas-tai.png
 description: Django karkasas pradėtas kurti 2005 metais. Dabar - tai pats populiariausias Python web frameworkas. Kas tai ir kam to reikia?

@@ -1,6 +1,5 @@
 ---
 title: 13 priežasčių pasirinkti Gimp vietoje Photoshop
-permalink: /atviras-kodas/13-priezasciu-pasirinkti-gimp-vietoje-photoshop
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Straipsnis su 13 priežasčių kodėl verčiau pasirinkti Gimp negu Photoshop programinę įrangą nuotraukoms redaguoti.

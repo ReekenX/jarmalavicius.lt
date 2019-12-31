@@ -1,6 +1,5 @@
 ---
 title: Muzikos failų tikrinimas
-permalink: /atviras-kodas/muzikos-failu-tikrinimas-aka-refactorinimas
 category: atviras-kodas
 image: i/muzikiniai_failai.jpeg
 description: Muzikos failų perklausimas ir valymas. Naudinga turėti tik klausomą muziką!

@@ -1,6 +1,5 @@
 ---
 title: Kaip pranešinėti apie programinės įrangos klaidas?
-permalink: /atviras-kodas/kaip-pranesineti-apie-programines-irangos-klaidas
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Efektyvus ir produktyvus programinės įrangos klaidų pranešinėjimas sutaupys ne tik Jums laiko, bet ir programuotojams. Kaip tai daryti, ką reikia žinoti ir prisiminti.

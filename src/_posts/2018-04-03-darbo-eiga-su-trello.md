@@ -1,6 +1,5 @@
 ---
 title: Praktiškai patogi darbo eiga su Trello
-permalink: /mano-projektai/darbo-eiga-su-trello
 category: mano-projektai
 image: i/trello.png
 description: Mano darbo eiga (angl. „workflow“) su Trello - kaip aš dėlioju prioritetus, ką darau planuodamas rytą / dieną ir kaip matau didesnį projektų vaizdą (angl. „big picture“).

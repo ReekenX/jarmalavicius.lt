@@ -1,6 +1,5 @@
 ---
 title: Django GIT CMS
-permalink: /mano-projektai/django-git-cms-kitokia-turinio-valdymo-sistema
 category: mano-projektai
 image: i/mano-projektai/django-git-cms-kitokia-turinio-valdymo-sistema.png
 description: Django GIT CMS - kitokia turinio valdymo sistema. Kaip instaliuoti, paleisti ir naudotis.

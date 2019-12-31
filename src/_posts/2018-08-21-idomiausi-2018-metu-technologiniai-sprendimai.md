@@ -1,6 +1,5 @@
 ---
 title: Įdomiausi 2018 metų technologiniai sprendimai
-permalink: /elektronika/idomiausi-2018-metu-technologiniai-sprendimai
 category: elektronika
 image: i/dronas.png
 description: Esate technologijų ar elektroninių daikčiukų mėgėjas? Tuomet šiame straipsnyje apie tai ką 2018 metais gali Jums pasiūlyti naujųjų technologijų kūrėjai.

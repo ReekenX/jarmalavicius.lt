@@ -1,6 +1,5 @@
 ---
 title: Laikinas pakeitimų ignoravimas su GIT
-permalink: /git/laikinas-pakeitimu-ignoravimas-su-git
 category: git
 image: i/gitignore.png
 description: Reikia pakeisti kažkokį failą repozitorijoje, bet nenorite netyčia jo sukomitinti? Apie tokią darbo eigą - šiame straipsnyje.

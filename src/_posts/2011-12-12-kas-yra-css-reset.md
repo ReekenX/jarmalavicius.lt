@@ -1,6 +1,5 @@
 ---
 title: Kas yra CSS reset ir kaip juo naudotis?
-permalink: /atviras-kodas/kas-yra-css-reset
 category: atviras-kodas
 image: i/kas-yra-css-reset.png
 description: Programuoti be CSS reset šiais laikais neįmanoma. Mano versija - HTML4 ir HTML5 CSS reset.

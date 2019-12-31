@@ -1,6 +1,5 @@
 ---
 title: Knyga Don't make me think
-permalink: /knygos/knyga-dont-make-me-think-steve-krug
 category: knygos
 image: i/knygos/knyga-dont-make-me-think-steve-krug.png
 description: Steve Krug knygos Dont make me thin apžvalga, komentarai kodėl ją verta skaityti ir kokią naudą gausite.

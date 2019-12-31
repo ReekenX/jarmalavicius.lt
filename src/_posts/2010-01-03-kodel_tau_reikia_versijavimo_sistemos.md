@@ -1,6 +1,5 @@
 ---
 title: Kodėl tau reikia versijavimo sistemos?
-permalink: /git/kodel-tau-reikia-versijavimo-sistemos
 category: git
 image: i/kodel-tau-reikia-versijavimo-sistemos.png
 description: Kodėl tau turi rūpėti versijavimo sistemos (GIT, Mercurial, SVN) turėjimas? Skaityk.

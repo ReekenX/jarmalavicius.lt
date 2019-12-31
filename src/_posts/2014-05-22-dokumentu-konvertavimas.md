@@ -1,6 +1,5 @@
 ---
 title: PDF, DOC, ODT, HTML ir kitų dokumentų konvertavimas
-permalink: /atviras-kodas/dokumentu-konvertavimas-doc-pdf-odt.html
 category: atviras-kodas
 image: i/doc_i_pdf.gif
 description: Dokumentų konvertavimas iš doc į pdf, iš odt į pdf, iš html į pdf. Su LibreOffice pagalba tai padaryti nesunku!

@@ -1,6 +1,5 @@
 ---
 title: Tikriname commit žinutes dėl užduoties ID
-permalink: /git/tikriname-commit-zinutes-del-uzduoties-id
 category: git
 image: i/kodo_tikrinimas.png
 description: Straipsnis apie commit žinučių tikrinimą. Remiantis straipsniu galite pasidaryti bet kokius savo commit žinučių patikrinimus lengvai ir greitai.

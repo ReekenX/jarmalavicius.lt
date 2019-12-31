@@ -1,6 +1,5 @@
 ---
 title: Spalvota cat komandos išvestis
-permalink: /atviras-kodas/spalvota-cat-komandos-isvestis/
 category: atviras-kodas
 image: i/kodas.png
 description: Kaip patobulinti savo Linux darbinę aplinką cat komandai. Ar žinojote, kad su truputį konfigūracijos galite turėti spalvotą išvestį?

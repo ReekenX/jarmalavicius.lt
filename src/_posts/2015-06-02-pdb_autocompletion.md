@@ -1,6 +1,5 @@
 ---
 title: Python debugerio PDB autocompletion
-permalink: /atviras-kodas/pdb-autocompletion
 category: atviras-kodas
 image: i/placeholder.jpg
 description: PDB autocompletion Python programavimo kalbai. Saugo brangų laiką kai nereikia rašyti daug bereikalingų komandų.

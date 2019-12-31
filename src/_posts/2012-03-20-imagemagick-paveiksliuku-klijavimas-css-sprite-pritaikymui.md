@@ -1,6 +1,5 @@
 ---
 title: ImageMagick - paveiksliukų klijavimas (CSS Sprite)
-permalink: /atviras-kodas/imagemagick-paveiksliuku-klijavimas-css-sprite-pritaikymui
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip su ImageMagick suklijuoti paveiksliukus, kad juos galima būtų pritaikyti CSS sprite atvaizdavimui.

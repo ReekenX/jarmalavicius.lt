@@ -1,6 +1,5 @@
 ---
 title: Priežiūros režimo efektyvus įjungimas svetainėse
-permalink: /atviras-kodas/aptarnavimo-prieziuros-rezimo-efektyvus-ijungimas-svetainese
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Kaip įjungti aptarnavimo („maintenance“ - angl.) režimą efektyviai ir greitai.

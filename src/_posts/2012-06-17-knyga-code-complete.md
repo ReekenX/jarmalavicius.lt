@@ -1,6 +1,5 @@
 ---
 title: Knyga „Code Complete“. Įvertinimas 10/10!
-permalink: /knygos/knyga-code-complete
 category: knygos
 image: i/knygos/knyga-code-complete.png
 description: Steve McConnell knygos „Code Complete“ apžvalga, kas labiausiai patiko ir kitokie komentarai kodėl ši knyga tokia naudinga.

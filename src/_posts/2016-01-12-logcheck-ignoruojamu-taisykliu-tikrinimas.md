@@ -1,6 +1,5 @@
 ---
 title: Logcheck ignoruojamų taisyklių tikrinimas
-permalink: /atviras-kodas/logcheck-ignoruojamu-taisykliu-tikrinimas
 category: atviras-kodas
 image: i/logcheck-ignoruojamu-taisykliu-tikrinimas.png
 description: Logcheck yra puiki programinė įranga kuri gali pranešti apie įvarias problemas serveriuose. Tačiau testuoti šio įrankio taisykles ganėtinai sunku.

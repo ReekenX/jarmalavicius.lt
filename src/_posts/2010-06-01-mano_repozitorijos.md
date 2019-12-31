@@ -1,6 +1,5 @@
 ---
 title: Mano repozitorijos
-permalink: /mano-projektai/mano-repozitorijos
 category: mano-projektai
 image: i/mano-projektai/mano-repozitorijos.png
 description: Kadangi esu atviro kodo programuotojas, todėl pateikiu informaciją kur rasti mano kodą.

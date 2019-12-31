@@ -1,6 +1,5 @@
 ---
 title: VIM autosave
-permalink: /vim/vim-autosave
 category: vim
 image: i/klaviatura.jpg
 description: Automatinis išsaugojimas berašant su VIM - puikus produktyvumo hackas programuojantiems su VIM. Automatinį išsaugojimą galite turėti ir be įskiepių!

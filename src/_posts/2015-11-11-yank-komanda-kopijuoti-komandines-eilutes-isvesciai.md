@@ -1,6 +1,5 @@
 ---
 title: Yank komanda terminalo išvesčiai kopijuoti
-permalink: /atviras-kodas/yank-komanda-kopijuoti-komandines-eilutes-isvesciai
 category: atviras-kodas
 image: i/copy_paste.jpg
 description: Ar kada norėjote komandos išvestį persikopijuoti tiesiog be pelės? Yank komanda leidžia tai gana nesunkiai pasidaryti.

@@ -1,6 +1,5 @@
 ---
 title: Kompiuterių administravimas su Ansible
-permalink: /mano-projektai/kompiuteriu-administravimas-su-ansible
 category: mano-projektai
 image: i/ansible.png
 description: Kaip automatizuoti savo kompiuterių ir serverių priežiūrą nesunkiai su Ansible. Su daugybe Ansible panaudojimo pavyzdžių.

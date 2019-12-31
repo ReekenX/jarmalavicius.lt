@@ -1,6 +1,5 @@
 ---
 title: Atsarginių kopijų darymas su komanda - dd
-permalink: /atviras-kodas/atsarginiu-kopiju-darymas-su-dd-komanda
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Straipsnis apie atsarginių kopijų daryma terminalo pagalba su Linux/Unix komanda dd.

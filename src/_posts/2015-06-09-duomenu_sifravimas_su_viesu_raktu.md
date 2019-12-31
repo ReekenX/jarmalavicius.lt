@@ -1,6 +1,5 @@
 ---
 title: Duomenų šifravimas su ssh viešu raktu
-permalink: /atviras-kodas/duomenu-sifravimas-su-ssh-viesu-raktu
 category: atviras-kodas
 image: i/sifravimas.jpeg
 description: Privačių duomenų šifravimas su ssh viešu raktu. Naudinga, kada nenori per daug rūpintis GPG šifravimo reikalais.

@@ -1,6 +1,5 @@
 ---
 title: Knyga „97 things every programmer should know“
-permalink: /knygos/knyga-97-things-every-programmer-should-know
 category: knygos
 image: i/97-things-every-programmer-should-know.jpg
 description: Mano nuomonė apie knygą programuotojams „97 things every programmer should know“

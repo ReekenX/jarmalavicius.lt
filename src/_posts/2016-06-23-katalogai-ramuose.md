@@ -1,6 +1,5 @@
 ---
 title: Kaip pagreitinti HDD disko darbą
-permalink: /atviras-kodas/katalogai-ramuose
 category: atviras-kodas
 image: i/hdd_ssd.jpg
 description: Kaip gauti laikinos disko vietos arba kaip pagreitinti skaitymą iš HDD disko.

@@ -1,6 +1,5 @@
 ---
 title: Kodo formatavimo įrankiai internete
-permalink: /atviras-kodas/kodo-formatavimo-irankiai-internete
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Nemokami kodo formatavimo įrankiai kuriuos galite rasti internete. Formatuokite HTML, SQL, CSS, PHP ir Python kodą paprastai.

@@ -1,6 +1,5 @@
 ---
 title: Linksmi bash aliasai
-permalink: /atviras-kodas/linksmi-bash-aliasai
 category: atviras-kodas
 image: i/placeholder.jpg
 description: Armino idėja apie tai kaip galima bash komandas padaryti ne tokias rimtas.

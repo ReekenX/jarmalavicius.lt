@@ -35,4 +35,6 @@ defaults:
     values:
       layout: 'post'
 
+permalink: /:categories/:title:output_ext
+
 lang: 'lt'

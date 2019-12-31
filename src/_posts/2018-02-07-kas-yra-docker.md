@@ -1,6 +1,5 @@
 ---
 title: Kas yra Docker?
-permalink: /docker/kas-yra-docker
 category: docker
 image: i/docker.png
 description: Apie Docker konteinerizavimo sistemą produkcinėse sistemose ir programuotojų kompiuteriuose. Kuo tai skiriasi nuo Vagrant ar Virtualbox?

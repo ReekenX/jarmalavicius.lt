@@ -1,6 +1,5 @@
 ---
 title: GIT HOOK'as įrašantis užduoties ID automatiškai
-permalink: /git/git-hookas-irasantis-uzduoties-id-automatiskai-i-commit-zinute
 category: git
 image: i/uzduoties_id.jpg
 description: GIT gali automatiškai Jums nustatyti ir prirašyti prie commit žinutės Jūsų užduoties ID prie kurios dirbate iš branch pavadinimo.

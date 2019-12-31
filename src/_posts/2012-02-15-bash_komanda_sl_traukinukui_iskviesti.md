@@ -1,6 +1,5 @@
 ---
 title: BASH - Linksmasis traukinukas
-permalink: /atviras-kodas/bash-sl-komanda-traukinukui-iskviesti
 category: atviras-kodas
 image: i/atviras-kodas/bash-sl-komanda-traukinukui-iskviesti.png
 description: Trumpas straipsnis apie linksmąjį bash traukinuką. Iš pradžių prajuokins, bet vėliau praktikoje - suerzins.

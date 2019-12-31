@@ -1,6 +1,5 @@
 ---
 title: Atnaujiname NodeJs versiją
-permalink: /atviras-kodas/atnaujiname-nodejs-versija
 category: atviras-kodas
 image: i/nodejs.png
 description: Node atnaujinimas neturi būti skausmingas. Kaip atsinaujinti vos keliomis komandomis.

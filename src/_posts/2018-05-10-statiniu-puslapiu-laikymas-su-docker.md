@@ -1,6 +1,5 @@
 ---
 title: Statiniai puslapiai su Docker
-permalink: /docker/statiniu-puslapiu-laikymas-su-docker
 category: docker
 image: i/statinis_saitas.png
 description: Kaip statines svetaines ar failus konteinerizuoti su Docker pagalba. Keli patarimai ta tema ir kam to gali reikėti.

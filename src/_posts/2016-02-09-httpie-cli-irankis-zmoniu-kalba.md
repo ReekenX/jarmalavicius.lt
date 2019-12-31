@@ -1,6 +1,5 @@
 ---
 title: HTTPie - CLI įrankis žmonių kalba
-permalink: /atviras-kodas/httpie-cli-irankis-zmoniu-kalba
 category: atviras-kodas
 image: i/httpie_logo.png
 description: Straipsnis apie HTTPIe įrankį lengvai atlikti sudėtingas CURL komandas.

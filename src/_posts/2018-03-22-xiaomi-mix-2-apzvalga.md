@@ -1,6 +1,5 @@
 ---
 title: Xiaomi Mi Mix 2 telefono apžvalga
-permalink: /elektronika/xiaomi-mix-2-telefono-apzvalga
 category: elektronika
 image: i/xiaomi_mix_2.png
 description: Xiaomi Mi Mix 2 techninė specifikacija, apžvalga ir nuoširdus verdiktas ar pirkti ar ne iš praktinės patirties.

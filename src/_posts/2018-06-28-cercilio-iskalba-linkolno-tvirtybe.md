@@ -1,6 +1,5 @@
 ---
 title: Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga
-permalink: /knygos/cercilio-iskalba-linkolno-tvirtybe-knygos-apzvalga
 category: knygos
 image: i/cercilio_iskalba_linkolno_tvirtybe.png
 description: Apie kalbėjimus viešai su šimtais pavyzdžių knygoje - Čerčilio išškalba, Linkolno tvirtybė. Apie didžiausių pasaulio oratorių sėkmę ir patarimus kaip ką daryti atsistojus prieš minią.

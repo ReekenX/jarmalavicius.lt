@@ -1,6 +1,5 @@
 ---
 title: GIT PUSH komanda projektui atnaujinti
-permalink: /git/git-push-komanda-projektui-atnaujinti
 category: git
 image: i/git_push_komanda.png
 description: Automatinis projektų atnaujinimas po git push. Kaip naujinti produkcines sistemas vien tik git push pagalba (reikia ssh priėjimo).

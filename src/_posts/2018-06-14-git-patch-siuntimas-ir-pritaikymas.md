@@ -1,6 +1,5 @@
 ---
 title: GIT patch'ų siuntimas ir jų pritaikymas
-permalink: /git/git-patchu-siuntimas-ir-pritaikymas
 category: git
 image: i/git_patch.png
 description: GIT patchų generavimas retenybė? Retenybė, tačiau kartais tenka. Trumpa atmintinė kaip generuoti GIT patchus ir kaip juos pritaikyti kodui.

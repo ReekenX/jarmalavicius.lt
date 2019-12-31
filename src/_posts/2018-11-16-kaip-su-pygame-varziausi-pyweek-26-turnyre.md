@@ -1,55 +1,67 @@
 ---
-title: Pyweek turnyras - kas tai?
-permalink: /atviras-kodas/pyweek-turnyras-kas-tai
+title: Kaip su Pygame varžiausi Pyweek #26 turnyre
 category: atviras-kodas
-image: i/pyweek_logotipas.png
-description: Pyweek turnyras Python žaidimų kūrėjams. Pyweek turnyro eiga; ko reikia, kad galėtum dalyvauti; vertinimo kriterijai ir prizai!
+image: i/pyweek_26_zaidimas.png
+description: Kokį žaidimą kūriau Pyweek #26 turnyrui; kaip sekėsi kūryba ir kas buvo sunkiausia; kokią vietą laimėjau Pyweek 26 turnyre ir kaip galite Jūs varžytis žaidimų kūrime.
 ---
 
-Du kartus per metus Python žaidimų kūrėjai renkasi [Pyweek turnyre](https://pyweek.org/) kurti ir varžytis su savo žaidimais.
+2018 spalį vyko jau 26 Pyweek turnyras. Tai trečiasis turnyras kuriame spėjau sudalyvauti.
 
-**Turnyro esmė** - per vieną savaitę sukurti žaidmą atitinkantį nurodytą temą.
+Turnyro **tema buvo „tekmė“ (angl. flow)**. Žinoma, šį žodį galima versti į kokius tik nori sinonimus.
 
-Tuomet vyksta „varžybos“ - balsavimas - ir išrenkamas geriausiai padarytas žaidimas.
+Gaila, kad po truputį blėsta žaidimų kūrėjų gretos kasmet šiame turnyre - kiekvienais metais žaidimus pabaigia vis mažiau kūrėjų.
 
-## Pyweek turnyro eiga
+Jeigu įdomu kas tai per turnyras - galite pasiskaityti daugiau praėjusiame straipsnyje: [Pyweek turnyras - kas tai?](/zaidimu-kurimas/pyweek-turnyras-kas-tai)
 
-Turnyras vyksta du kartus per metus - kas pusmetį. Bet **reikia nuolat tikrintis tikslesnę datą**.
+## Su kokiu žaidimu startavau aš
 
-Prieš pat turnyrą žmonės balsuoja kokia bus tema. Balsuojama iš maždaug 5-7 pasiūlytų temų. Už temą ir patys balsuoti galite.
+Su Pygame varikliu kūriau piratų mūšio žaidimą:
 
-Sulaukus starto dienos - paskelbiama nubalsuota tema.
+<p class="text-center">
+<img src="https://github.com/ReekenX/pyweek-pirate-flow/raw/master/data/screenshots/gameplay.png?raw=true">
+</p>
+<p class="text-center text-muted small">Pyweek #26 žaidimo "Pirate Flow" ekrano vaizdas</p>
 
-Žaidimai turi būti kuriami su Python programavimo kalba, tačiau aplink ją **galima naudoti bet kokius formatus ar resursus** (ikonas, audio failus, 3D maketų failus). Žaidimui kurti taip pat galima naudoti bet kokį žaidimų variklį: **Pyglet, Pygame Zero, Pygame, Pandas3D, Cocos2d** ir pan.
+**Per 19 valandų** pavyko sukurti žaidimą kuriame galima šaudyti priešus (laivai ir patrankas), plaukioti po didžiulį pasaulį, rinkti taškus, gyvybes ir atlikti kelias misijas.
 
-Anksčiau stipriai dominavo Pygame variklis - jį galima buvo rasti turbūt 60-80% žaidimų. Dabar **Pygame Zero skinasi kelią** ir drąsiai paima 30-40% kuriamų žaidimų. Jeigu pasidomėsite Pygame Zero greičiausiai greitai suprasite kodėl jis taip populiarėja - jis skirtas žaidimus pradedantiems kūrėjams: čia gausu pagalbinių priemonių startuoti žaidimų kūrimą ypatingai greitai.
+Deja, nors ir skyriau tikrai daug valandų - tai ką buvau sumąstęs savaitės pradžioje - nepavyko padaryti. Bet dėl to neverta nusiminti.
 
-## Ko tau reikia, kad galėtum dalyvauti
+Tai buvo gal jau penktas mano Pygame žaidimas (ir trečiasis kurį dariau Pyweek turnyrui) ir aš vis dar stebiuosi, kad nepamėginau kitos platformos / framework'o. Bet gal kada nors.
 
-Iš esmės tik Python bazinių žinių (kaip rašyti ciklus, deklaruoti kintamuosius, aprašinėti logines sąlygas). **Bazinių žinių užteks norint kažką sukurti - todėl pradedantieji turnyre tikrai laukiami**.
+Kaip visada sunkiausiai sekėsi ne sugalvoti kas atitiktų temą, bet padaryti patį žaidimą smagų. Tai iššūkis kuriam tikrai reikia labai daug praktikos.
 
-Jeigu žaidimą kuriate pirmą kartą, tuomet rinkitės Pygame Zero arba Pygame framework'ą. Su Pygame Zero žaidimų kūrimas bus išties paprastas.
+## Kurią vietą laimėjau
 
-Sudėtingesni žaidimai dažniausiai kuriami su Pandas3D, Cocos2D ar pan. framework'ais.
+Su šiuo žaidimu **laimėjau 14 vietą**.
 
-## Kaip vyksta vertinimas
+Praėjęs mano žaidimas laimėjo 19 vietą, o pats pirmasis Pyweek žaidimas - 32.
 
-Turnyrui pasibaigus (tiksliau - programavimo savaitei pasibaigus) galėsite parsisiųsti kiekvieną sukurtą žaidimą (jo išeities kodą) ir pasileisti jį.
+## Išeities kodas
 
-Paleidimo instrukcijos dažniausiai būna Readme faile.
+Parsisiųsti ir pažaisti žaidimą galima iš Github repozitorijos: [Pirate Flow žaidimo išeities kodas](https://github.com/ReekenX/pyweek-pirate-flow).
 
-## Vertinimo kriterijai
+Pasileidimo instrukcijos yra Readme faile ir neturėtų užimti daugiau nei kelių minučių.
 
-Pirmiausiai - **ar žaidimas pasileidžia?** Tikrai labai dažnai būna taip, kad žaidimas nepasileidžia / neveikia. Mano rekomendacija - pamėginti patiems pataisyti vieną kitą klaidą kitų kurtame žaidime - galbūt nesunkiai pataisysiste paprasčiausias bėdas.
+## Kokia prasmė dalyvauti
 
-Tikrai kiekvieno Pyweek turnyro balsavimo metu tenka taisyti kitų žaidimus. Tarp klaidų būna - nepaminėti moduliai kuriuos reikia įdiegti (pvz. žaidimas sukurtas su Pygame, bet kode dar naudojamas Pyglet kuris nepaminėtas); visokios UTF8 bėdos arba paprasčiausi įhardcodinti failo keliai iki žaidimo. **Pasitaisykite, bus smagu pataisytą žaidimą paleisti.**
+Kai kam svarbiausia bus azartas konkuruoti arba azartas užbaigti žaidimą per savaitę.
 
-Žaidimus taiso ir kiti. Daug komentarų ir pats esu gavęs, kad mano žaidimai neveikė Windows platformoje, todėl žmonės tą arba aną pataisydavo. Smagu, nes **tik veikiantys žaidimai gali būti vertinami**.
+Nors man azartas buvo svarbus, bet daugiausiai **motyvavo galimybė ir vėl ko nors naujo išmokti**. Taip ir buvo!
 
-Jeigu žaidimas pasileido, tada balsuojama ar žaidimas yra smagus, ar sukurtas kaip nors įmantriai/įdomiai, ar atitinka temą.
+## Ar galima ko išmokti iš kitų kūrėjų?
 
-## Prizai
+Pasibaigus Pyweekui būtinai pažaidžiu ir kitų kurtus žaidimus. Ir bandau atspėti kas kelintą vietą užims. Dažniausiai būnu arba visiškai teisus arba labai arti tiesos.
 
-Jokių piniginių ar kitų materialių prizų šiame turnyre nėra. Bet laimėtojų laukia šlovė ir pasaulis pripažinimas! :)
+Ir visus visus žaidimus apžiūriu kaip jie suprogramuoti. Kadangi Pyweek'e gauni kiekvieno žaidimo išeities kodą (kurį ir paleidinėji, o ne kokius binarinius nesaugius failus) - pažiūrėti į žaidimus iš jų pačių „virtuvės“ nebus sunku. Būna įdomu pažiūrėti ir palyginti su savo žaidimo logiką: lengva rasti optimizacijų, geresnių praktikų arba tiesiog kaip geriau daryti žaidimo architektūrą.
 
-Sudalyvaukite, tikrai verta!
+## Patarimai iš patirties
+
+**Niekada nekūrėte žaidimų?** Tai Pyweek kaip tik Jums! Čia pirmieji startuoliai labai laukiami.
+
+**Bijote, kad nesugebėsite?** Tai nesvarbu. Padarykite kažką kas bent jau judėtų ar reaguotų ir viešinkite. Vėliau tikrai rasite noro ir jėgų patobulinti.
+
+**Neturite laiko tokiems dalykams, bet patinka žaidimų kūrimas?** Tai Pyweek kaip tik Jums! Tik viena savaitė ir viskas. Kiek spėsite - tiek spėsite. Greičiausiai tiek turėsite daug motyvacijos, kad negalėsite atsiplėšti ir sedėsite vakarais / naktimis.
+
+Atsimenu pirmasis-antrasis Pyweek'as man buvo šiek tiek su stresu, kadangi norėjosi tarsi nesusimauti. **Susimauti - čia nėra kur**. Kolektyvas kuris kuria ir vertina žaidimus priims labai nuoširdžiai ką Jūs padarėte ir negausite piktų žinučių vertinimo metu.
+
+Todėl tikrai siūlau pamėginti!

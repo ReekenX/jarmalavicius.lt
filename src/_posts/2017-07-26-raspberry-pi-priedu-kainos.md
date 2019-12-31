@@ -1,6 +1,5 @@
 ---
 title: Kiek kainuoja Raspberry Pi priedai?
-permalink: /raspberry-pi/raspberry-pi-priedu-kainos
 category: raspberry-pi
 image: i/raspberry_pi_1_ir_3 (1).png
 description: Raspberry Pi priedų - pakrovėjo, apsauginės dėžutės, ventiliatoriaus, GPIO - kainos iš Aliexpress / Ebay parduotuvių.

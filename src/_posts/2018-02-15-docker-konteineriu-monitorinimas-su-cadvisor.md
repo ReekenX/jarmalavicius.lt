@@ -1,6 +1,5 @@
 ---
 title: Docker konteinerių monitorinimas su CAdvisor
-permalink: /docker/konteineriu-monitorinimas-su-cadvisor
 category: docker
 image: i/cadvisor.png
 description: Kaip monitorinti Docker konteinerius su docker stats ir CAdvisor. Kokią informaciją galime gauti iš šių?

@@ -1,29 +1,30 @@
 ---
-title: Weechat - puiki alternatyva irssi, 2 dalis
-permalink: /weechat/weechat-puiki-alternatyva-irssiu-2-dalis
+title: Weechat - puiki alternatyva irssi, 1 dalis
 category: weechat
 image: i/placeholder.jpg
-layout: post
-description: Weechat labai puiki alternatyva irssi IRC klientui. 2 dalis straipsnio.
+description: Weechat labai puiki alternatyva irssi IRC klientui. Ką gali Weechat, ko negali Irssi? Ir kodėl reikia keisti IRC klientą?
 ---
 
-[Praėjusiame straipsnyje](/weechat/weechat-puiki-alternatyva-irssi-1-dalis) paminėjau, kad irssi IRC klientą naudojau ne vienerius metus kol nusprendžiau jį pakeisti. Pratęsiant praėjusį straipsnį papasakosiu apie
-weechat.
+Irssi naudojau ne vienerius metus, bet vien tik todėl, kad anksčiau nesugebėjau surasti geresnių, terminale veikiančių, alternatyvų. Trumpai apie tai ką gali/turi atviro kodo IRC klientas `irssi`:
 
-Nors irssi įdiegus gausite nemažai privalumų ir trūkumų (apie juos skaitykite praėjusiame straipsnyje), weechat „ateina“ su pataisymų krūva. Didžiausi privalumai:
+-   Automatinį prisijungimą prie kanalų.
+-   Automatines komandas po prisijungimo (naudinga norint prisijungti prie registruotų kanalų).
+-   Žinučių ir kitokių tekstų formatavimus.
+-   Perl skriptų palaikymą.
+-   Langų skaldymą.
 
-- Galimybė rašyti skriptus/įskiepius daugybe programavimo kalbų.
-- Palaiko ne vien tik IRC protokolą.
-- Gerai dokumentuota (kaip irssi).
+Irssi turi didžiulę [išvaizdų bazę](http://www.irssi.org/themes). Vienas pavyzdžių, demonstruojantis `irssi` galimybes formatuoti išvestį:
 
-Tačiau didžiausi privalumai buvo tokie, kad dokumentacijoje susiradęs freenode konfigūraciją iškart galėjau viskuo naudotis. Be jokių įskiepių jau turėjau spalvotus vardus, šoniniame meniu mačiau žmonių kurie prisijungę prie chat'o. Labai patogi apatinė informacinė juosta (angl. „status bar“), kurioje pagaliau galima suprasti kiek yra JOIN/QUIT žinučių, o kiek tikrų. Apačioje matėsi kanalo, kur esu prisijungęs, pavadinimas.
+![TZU tema kurią sukūrė Tzunamii](/i/tzu.png)
 
-Taip pat ir laikrodis buvo apatinėje juostoje. Sakysite - jis niekam nereikalingas? Jeigu naudosite irssi ar weechat per ssh, pamatysite, kad dažnai po tam tikro laiko pasibaigia sesija ir būsite atjungtas. Taip yra todėl, kad ssh pamačiusi, jog nėra jokio tarpininkavimo protokole, atjungia jį. Laikrodis būtinas, kad ssh „manytų“, jog komunikacija vyksta.
+Galimybių tikrai daug. Ypač gerai, kad [irssi](http://www.irssi.org/) turi labai didelį [įskiepių sąrašą](http://scripts.irssi.org/). Kam tada ieškoti kitos alternatyvos?
 
-Viena maloni smulkmena - sulygiuoti vardai. Aišku, visi aprašyti privalumai gali būti pasiekti ir irssi, bet tik per papildomus įskiepius. Realiai weechat gaunate „out of the box“ klientą kuris iškart bus patogus naudoti.
+Praleidę ne vienus metus prie `irssi` pastebėsite, kad įskiepius nors rašyti nesunku, bet testuoti juos ar padaryti minimalias korekcijas kartais būna per didelis vargas. API visai nėra tokia lengvai perprantama ir naudojama, kaip dokumentacijose galima perskaityti.
 
-![Weechat galimybių demonstravimas (iš oficialios svetainės)](/i/weechat.png)
+Vienos problemos kurios nesugebėjau niekada sutvarkyti: prisijungimas prie kanalų eilės tvarka. Nors ir nurodydavau eilės tvarką, net sudėjau pauzes, bet vistiek: `irssi` kanalus rasdavau išmėtytus atsitiktine tvarka.
 
-Nuotoliniams pranešimams yra ne vienas sprendimas. Pats asmeniškai naudoju tobulintą kažkieno parašytą versiją, kurią galite rasti [Github paskyroje](http://github.com/ReekenX/weechat-rnotify).
+Irssi konfigūracijų - reikia ieškoti. Jeigu galvojat, kad po įdiegimo rasite kažkokius failus, kurie padėtų susikonfigūruoti prisijungimą prie populiariausių IRC serverių (pavyzdžiui freenode), tai deja - teks naudoti Google, teks eksperimentuoti. O jeigu reikės susikonfigūruoti SSL prisijungimus (juk būtina!), tai... Sėkmės! :)
 
-Oficialioje [weechat](http://weechat.org/) svetainėje galite rasti labai puikią [dokumentaciją](http://weechat.org/doc/), o nuotraukas kaip gali atrodyti Jūsų weechat galite rasti kūrėjų [nuotraukų puslapyje](http://weechat.org/about/screenshots/).
+Ir pats baisiausias dalykas yra nuotoliniai pranešimai. Mėgstu IRC pasileisti serveryje ir laikyti, tam, kad visada galėčiau pasiskaityti kas įvyko. Taip pat, gerai, kai darbo metu ekrane iššoka pranešimas, kai kas pamini mano vardą. Išbandžiau tikrai ne vieną populiarų sprendimą, bet nei vieno neradau tokio, kuris po 4-6 dienų veikimo dar veiktų.
+
+Kol kas tiek gero ir blogo apie irssi. Kitame straipsnyje papasakosiu apie `weechat` ir kodėl jis gali būti geresnis/produktyvesnis IRC klientas.

@@ -1,6 +1,5 @@
 ---
 title: Knyga Laisvieji informaciniai sprendimai
-permalink: /knygos/knyga-laisvieji-informaciniai-sprendimai
 category: knygos
 image: i/knygos/knyga-laisvieji-informaciniai-sprendimai.png
 description: Mano komentarai apie perskaitytą knygą Laisvieji informaciniai sprendimai.

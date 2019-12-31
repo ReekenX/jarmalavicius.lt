@@ -1,6 +1,5 @@
 ---
 title: VDS tiekėjas negali atstatyti tavo serverio?
-permalink: /atviras-kodas/vds-tiekjas-negali-atstatyti-tavo-serverio
 category: atviras-kodas
 image: i/atviras-kodas/vds-tiekjas-negali-atstatyti-tavo-serverio.png
 description: Kaip serveriai.lt / dedikuoti.lt nededa pastangų užtikrinti savo klientų VDS'ų paslaugų. Kaip „deda pastangą“ iškomunikuoti ir sureaguoti į kritines problemas.

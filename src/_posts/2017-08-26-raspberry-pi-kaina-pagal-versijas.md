@@ -1,6 +1,5 @@
 ---
 title: Kiek kainuoja Raspberry Pi?
-permalink: /raspberry-pi/raspberry-pi-kaina-pagal-versijas
 category: raspberry-pi
 image: i/raspberry-pi/raspberry-pi-kaina-pagal-versijas.png
 description: Kokios yra Raspberry Pi Zero, antros ir trečios versijų kainos el. parduotuvėse ebay / aliexpress.

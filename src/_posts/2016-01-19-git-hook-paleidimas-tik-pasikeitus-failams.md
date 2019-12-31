@@ -1,6 +1,5 @@
 ---
 title: GIT Hook'o paleidimas pasikeitus failams
-permalink: /git/git-hook-paleidimas-tik-pasikeitus-failams
 category: git
 image: i/pakeisti_failai.png
 description: GIT Hooko paleidimas tik pasikeitus tam tikriems failams - labai naudinga kai pasiimate pakeitimus kurie reikalauja atsinaujinti savo paketų programinę įrangą.

@@ -1,9 +1,8 @@
 ---
 title: Kas naujo Raspberry Pi 3 B+ modelyje?
-permalink: /raspberry-pi/kas-naujo-raspberry-pi-model-3-plius-modelyje.html
-image: i/raspberry_3_b_plius.png
-description: "Mokinatės programuoti ar užsiimate namų automatizavimu? Tuomet Raspberry Pi yra dalykas kaip tik Jums. Straipsnyje rasite palyginimą su Arduino."
 category: raspberry-pi
+image: i/raspberry_3_b_plius.png
+description: Mokinatės programuoti ar užsiimate namų automatizavimu? Tuomet Raspberry Pi yra dalykas kaip tik Jums. Straipsnyje rasite palyginimą su Arduino.
 ---
 
 Nedidelę mano namų elektronikos dalį sudaro Raspberry Pi (2 ir 3 modelio) elektronika surišta su keliais davikliais ir rėlėmis, aukštos įtampos reikalaujantiems įrenginiams kontroliuoti. Todėl labai nudžiugau neseniai pamatęs, kad kūrėjai išleido dar vieną versiją - Raspberry Pi 3 B+.
@@ -20,12 +19,10 @@ Kadangi Raspberry Pi dažniausiai būna prijungtas prie interneto (nes kokia pra
 
 Pažiūrėkime kaip atrodo naujasis modelis su pliuso ženklu:
 
-<div style="margin-bottom: 10px; text-align: center;">
-  <p style="text-align: center; margin-bottom: 5px">
-    <img src="/i/images/raspberry_3_b_plius.png" style="max-width: 100%; max-height: 500px" />
-  </p>
-  <small class="text-muted">Raspberry Pi 3 B+</small>
-</div>
+<p class="text-center">
+<img src="/i/raspberry_3_b_plius.png" />
+</p>
+<p class="text-center text-muted small">Raspberry Pi 3 B+</p>
 
 Jeigu turite senesnį modelį, tai iškart į akis kris metalinis logotipas ir šiek tiek pasikeitęs procesoriaus čipas. Kas domisi įranga, tai yra Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz čipas.
 
@@ -46,12 +43,10 @@ Dėl vos vos pasikeitusio procesoriaus greičio (nuo 1.2GHz iki 1.4GHz) turėtum
 
 Naujame Raspberry Pi rasime ir tokią jungtį:
 
-<div style="margin-bottom: 10px; text-align: center;">
-  <p style="text-align: center; margin-bottom: 5px">
-    <img src="/i/images/raspberry_poe.png" style="max-width: 100%; max-height: 500px" />
-  </p>
-  <small class="text-muted">Raspberry Pi 3 PoE</small>
-</div>
+<p class="text-center">
+<img src="/i/raspberry_poe.png" />
+</p>
+<p class="text-center text-muted small">Raspberry Pi 3 PoE</p>
 
 
 Kai kurie routeriai vaizdo kameroms elektros srovę perduoda LAN kabeliu ir tai vadinama Power over Ethernet. Iš to laimima, kad įrenginiui nereikia dar kažkokio lizdo maitinimui, kurį dėtumėte į elektros lizdą.

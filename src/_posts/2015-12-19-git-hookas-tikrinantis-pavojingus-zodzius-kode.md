@@ -1,6 +1,5 @@
 ---
 title: GIT HOOK'as tikrinantis pavojingus žodžius kode
-permalink: /git/git-hookas-tikrinantis-pavojingus-zodzius-kode
 category: git
 image: i/pavojingi_zodziai.jpg
 description: Straipsnis apie automatinį pavojingų žodžių tikrinimą prieš komitinant.

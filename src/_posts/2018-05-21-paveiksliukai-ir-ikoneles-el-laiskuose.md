@@ -1,6 +1,5 @@
 ---
 title: Paveiksliukai ir ikonėlės el. laiškuose
-permalink: /atviras-kodas/paveiksliukai-ir-ikoneles-el-laiskuose
 category: atviras-kodas
 image: i/base64.png
 description: Jeigu el. laiškuose naudojate paveiksliukus - tai juos gana nepatogu pridedinėti kaip el. laiško priedus. O ir online base64 generatoriai paveiksliukams - nepatogūs.

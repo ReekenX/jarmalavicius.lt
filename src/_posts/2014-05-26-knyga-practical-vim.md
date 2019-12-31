@@ -1,6 +1,5 @@
 ---
 title: Knyga „Practical VIM“ - 10 balų!
-permalink: /knygos/knyga-practical-vim
 category: knygos
 image: i/knygos/knyga-practical-vim.png
 description: Knygos „Practical VIM“ trumpa apžvalga. Įvertinau 10 balų daugiau nei 400 puslapių knygą. Būtinai perskaitykite jeigu naudojate VIM!

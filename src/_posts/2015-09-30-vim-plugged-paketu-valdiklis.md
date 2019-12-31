@@ -1,6 +1,5 @@
 ---
 title: VIM Plugged paketų valdiklis
-permalink: /vim/vim-plugged-paketu-valdiklis
 category: vim
 image: i/vim_plug.png
 description: VIM Plugged gali padėti nuimti nuo galvos skausmą diegiant VIM įskiepius. Straipsnyje apie tai kaip susikonfigūruoti, naudotis ir išgauti geriausius dalykus ką siūlo VIM PLUG. Bei kokie jo privalumai lyginant su kitais paketų valdikliais.

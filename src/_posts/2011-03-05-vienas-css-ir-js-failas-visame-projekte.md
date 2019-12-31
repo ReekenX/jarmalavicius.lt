@@ -1,6 +1,5 @@
 ---
 title: Vienas CSS ir JS failas visame projekte
-permalink: /django/vienas-css-ir-js-failas-visame-projekte
 category: django
 image: i/django/vienas-css-ir-js-failas-visame-projekte.png
 description: Vienas CSS ir JS visame projekte (tinklapyje). Kaip tai padaryta plačiau šiame straipsnyje.

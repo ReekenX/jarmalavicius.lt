@@ -1,6 +1,5 @@
 ---
 title: PyCon LT 2012 konferencija
-permalink: /mano-projektai/pycon-lt-2012-konferencija
 category: mano-projektai
 image: i/mano-projektai/pycon-lt-2012-konferencija.png
 description: Kaip išmokti Python? Ką su juo galima daryti? Sutikite mus Python konferencijoje PyCon LT 2012.

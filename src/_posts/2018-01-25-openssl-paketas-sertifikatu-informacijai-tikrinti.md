@@ -1,6 +1,5 @@
 ---
 title: OpenSSL paketas sertifikatų informacijai tikrinti
-permalink: /atviras-kodas/openssl-paketas-sertifikatu-informacijai-tikrinti
 category: atviras-kodas
 image: i/https.png
 description: Kaip su Bash patikrinti HTTPS paketų informaciją, galiiojimo laiką ir klaidas.

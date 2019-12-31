@@ -1,72 +1,49 @@
 ---
-title: Pomodoro technika - patirtis po 6+ metų naudojimo
-permalink: /atviras-kodas/pomodoro-technika-patirtis-po-6-metu-naudojimo
-category: atviras-kodas
-image: i/pomodoro_laikmatis.jpg
-description: Pomodoro atradau 2012 metais, nuo tada praktiškai nepertraukiamai naudojau kiekieną darbo dieną. Mano įspūdžiai, patirtis ir kodėl vis dar šios technikos laikausi.
+title: Pomodoro BASH skriptas
+category: mano-projektai
+image: i/pomodoro-bash-skriptas-ir-pomodoro-technika.png
+description: Pomodoro BASH skriptas. Laiko sekimas su Pomodoro. Pomodoro laiko sekimas.
 ---
 
-2012 metais pirmą kartą perskaičiau apie Pomodoro. Kadangi esu megėjas visokių straipsnių / knygų / seminarų apie produktyvumą - nekantravau išbandyti.
+Kadangi dirbu prie rimtų internetinių projektų, už kuriuos vėliau net gaunu pinigus, svarbu labai rimtai sekti savo laiką. Toks laiko žurnalo turėjimas yra naudingas dėl kelių priežasčių:
 
-Tai labai paprasta technika:
+-   Dažnai klientai moka už sugaištą laiką po atlikto darbo.
+-   Galiu įvertinti ar mano laiko planavimas tikslus.
+-   Pats žinau kiek praleidžiu laiko dirbdamas. Pavyzdžiui ar išdirbau savaitėje standartines 60 valandų.
+-   Taip pat žinau kiek dirbu prie savo projektų, todėl galiu skaičiuoti savikainą.
 
-1) Nusistatai laikmatį. Standartiškai 25 min.
-2) Dirbi ir stengiesi neturėti per tą laiką trikdžių.
-3) Pailsi 5-15 min.
-4) Kartoji 2-3 punktus kol griūni apspangęs nuo produktyvumo.
+Esu išnagrinėjęs daugybę tokių programų: Hamster, KTimeTracker, tomato.es ir pan. Pastarosios sistemos net [rekordininkas esu](http://tomato.es/rankings?time_period=all_time). Nors išvardinta programinė įranga tikrai gera ir skųstis nėra ko, bet po ilgo laiko nusprendžiau persimesti prie labai primityvios sistemos. T.y. kad laiką sektų paprasta BASH programėlė, kuri savyje turėtų sleep 60 ir kas minutę išvestų į ekraną apie praėjusį laiką, o surinkus tam tikrą sumą, ją išsaugotų ataskaitos faile, kad nepasimestų.
 
-Ketvirtas punktas nebūtinas.
+## Kas yra Pomodoro technika?
 
-Bene standartiškai yra siūloma po kiekvienos sesijos padaryti 5 min. pertrauką, o po ketvirtosios - ilgesnę - 15 min. pertrauką.
+Tai tokia darbo metodika, kad yra susikoncentruojama tam tikro laiko tarpą į darbą ir daroma tik tai. Vėliau praėjus šiam laikui daroma mažytė pertrauka. Toks ciklas kartojamas kelis kartus, daroma ilgesnė pertrauka. Ir vėl viskas iš pradžių. Žinoma, toks apibūdinimas yra mano žodžiais (internete galima rasti geresnių ir tikslesnių).
 
-Trikdžių atsikratymas čia dirba svarbią rolę ir tam turbūt reikėtų atskiro straipsnio.
+Dažniausiai minint Pomodoro yra naudojami tokie laiko tarpai: 25 minutes susikoncentruojama į darbą, 5 minutės pertrauka. Toks ciklas daromas 4 kartus. Tuomet pertrauka 20-25 minutes. Ir vėl viskas iš pradžių.
 
-<p class="text-center">
-<img src="/i/tomatoes.png" />
-</p>
-<p class="text-center text-muted small">Iškarpa iš mano Tomato.es profilio - tiek kasdien Pomodoro padarau</p>
+Pati Pomodoro technika tikrai veikia man, veikia milijonams žmonių pasaulyje, išmėginkite ir Jūs!
 
-## Tinka beveik visiems
+## Pomodoro programa
 
-Tokios technikos puikiai tinka prie kompiuterio sėdintiems darbuotojams - ypač programuotojams, dizaineriams, marketingistams ir pan.
+Skriptą rasite [Github gist'e](https://gist.github.com/ReekenX/9614738). Veikimas tikrai paprastas: rašote komandos vardą ir darbo aprašymą. Darbo aprašymui pats naudoju projekto pavadinimą, ar milestone (nežinau, kaip šis terminas lietuviškai) pavadinimą. Pavyzdžiui:
 
-Arba tobula technika studentams - žmonėms kuriems dažniausiai reikia prisiversti prisėsti prie studijų.
+    pomodoro "blog entry writing"
 
-Greičiausiai netinka fabriko darbuotojams arba žmonėms kurie turi daug pasikartojančio darbo. Tokia technika tik išsekintų smegenis.
+Taip pat matysite kiekvieną minutę progresą šios komandos, pavyzdžiui:
 
-## Atidėliojimo problema
+    Working on blog entry writing
 
-Iš patirties atradau, kad tai labai gerai išsprendžia atidėliojimo problemą.
+    Today:
 
-Visi turime darbų kuriuos anksčiau ar vėliau atidedame ir dėl to, žinoma, gailimės. Aš su šia bėda jau gana anksti pradėjau kovoti taip: kiekvieną dieną skirdamas vieną ar kelias Pomodoro sesijas (viena sesija, tipiškai būna 25 min).
+          1 blog entry writing
 
-Ir taip, 1-2 Pomodoro kasdien yra ženkliai geriau nei žadėjimas sau, kad RYTOJ kelioms valandoms prisėsite prie to ko reikia.
+    Progress:
 
-Tai ypač tinka programuotojams kurie be savo standartinio darbo dar nori kažką padaryti savo, bet sunkiai sekasi tą padaryti po darbo. Turiu omeny, kad pats sunkumas yra ne tiek, kad rasti laiko, o rasti jėgų ir noro. Pomodoro čia labai gerai veikia.
+            [XX                       ] 2/25
 
-## Kitoks laiko nustatymas
+Pirma eilutė - priminimas prie ko dirbama. Antra dalis (rodoma „surinkus“ bent vieną Pomodoro) - šios dienos Pomodoro skaičiai prie kiekvienos užduoties (susumuoti). Ir paskutinės eilutės - dabartinės užduoties progresas.
 
-Nors keletą kartų eksperimentavau su laiko nustatymais (mėgindamas didesnius nei 25 min. ruožus) - visgi pats geriausias pasirodė standartiškai rekomenduojamos 25 minutės.
+Paleidus programą savo kompiuterio lango krašte pamatysite užrašą, kad Pomodoro darbo sesija sėkmingai pradėta (tekstas bus tik kelias sekundes). O pasibaigus sesijai, bus atspausdintas dar vienas pranešimas.
 
-Bet su pertraukomis taip gerai nesielgiu.
+Na, jeigu sumąstysite šiuo pagalbininku pasinaudoti, tai tikrai sugebėsite pasikoreguoti laikus ir tekstus pagal save :)
 
-Dažniausiai padirbu 2 pomodoro iš eilės (viso 50 min.) ir tada einu trumpai pailsėti: 10-15 min.
-
-Turėjau ir viešą profilį su [Pomodoro sekimu - Tomato.es](http://www.tomato.es/users/5073f55fd43b8100020001f4). Jame galima pažiūrėti kaip maždaug atrodė mano tipinės dienos.
-
-Arba dienos - rekordininkės - 31 pomodoro per dieną.
-
-## Pomodoro įrankiai
-
-Tas pats [Tomato.es](http://www.tomato.es) yra visiškai nemokamas ir atviro kodo. Man yra tekę jį parsisiųsti ir modifikuoti pagal savo norus - kodo bazė nesudėtinga, todėl galima prasiplėsti įrankį.
-
-Esu naudojęs [Gnome Pomodoro](http://gnomepomodoro.org/) - super įrankis, jeigu naudojate Linux.
-
-<p class="text-center">
-<img src="/i/toggl.png" />
-</p>
-<p class="text-center text-muted small">Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams</p>
-
-Turbūt populiariausias laiko apskaitos įrankis internete yra [Toggl](https://toggl.com/). Jis duoda šią galimybę per tokius įrankius (nemokamus) kaip Chrome Extension. Nors ir veikia ne 100%, bet aš pats naudoju jau virš 4 metų ir iš esmės galima susitaikyti su nedidelėmis klaidomis.
-
-Visiškams geek'ams galėtų pamatyti [Pomodoro BASH skriptas](https://www.jarmalavicius.lt/mano-projektai/pomodoro-bash-skriptas) - irgi naudojau ilgiau nei metus.
+Man visada smalsu ką kiti naudoja laiko sekimui. Šiuo metu pasaulyje programų yra sukurta tūkstančiai, pasiūla tikrai didelė. Be to, būtų keista išgirsti iš programuotojo sakant, kad jis neseka savo laiko :)
