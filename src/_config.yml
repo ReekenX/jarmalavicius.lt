@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+
+exclude:
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - purgecss.config.js
+  - yarn.lock
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - webpack.config.js
+  - js
+  - _i18n
+
+feed:
+  path: rss.xml
+
+responsive_image:
+  template: _includes/srcset.html
+  sizes:
+   - width: 480
+     quality: 90
+   - width: 800
+     quality: 90
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+lang: 'lt'

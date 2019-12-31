@@ -1,0 +1,7 @@
+/src/_site
+/src/.sass-cache
+/src/.jekyll-cache
+/src/.jekyll-metadata
+/src/dist
+/src/main.css
+/src/assets

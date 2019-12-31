@@ -1,0 +1,27 @@
+<div class="bg-white rounded-lg border border-gray-300 p-4 mb-4">
+  <img src="/i/remigijus-jarmalavicius.jpeg" alt="Programuotojas Remigijus Jarmalavičius" title="Remigijaus Jarmalavičiaus nuotrauka" class="max-w-full" />
+  Remigijus Jarmalavičius
+  <hr/>
+  Ruby / Python / PHP programuotojas.
+  Sistemų administratorius.
+  „Full stack“ verslo sistemų kūrėjas.
+  APIE MANE   •   KONTAKTAI
+  <a href="https://twitter.com/ReekenX" target="_blank"><img src="/i/twitter.png" alt="Sekite mane Twitter" /></a>
+  <a href="/rss.xml" target="_blank"><img src="/i/rss.png" alt="RSS srautas" title="Prenumeruokite RSS srautą" /></a>
+</div>
+
+<div class="bg-white rounded-lg border border-gray-300 p-4 mb-4">
+  Draugai
+  <hr/>
+  <a href="http://cybersig.blogspot.com/" target="_blank">Cybersig</a>
+</div>
+
+<div class="bg-white rounded-lg border border-gray-300 p-4">
+  Kategorijos
+  <hr/>
+  {% for category in site.data.categories %}
+    <div>
+      <a href="{{ category.url }}">{{ category.title }}</a>
+    </div>
+  {% endfor %}
+</div>

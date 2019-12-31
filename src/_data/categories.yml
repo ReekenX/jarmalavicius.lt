@@ -1,0 +1,48 @@
+- Atviras kodas:
+  slug: atviras-kodas
+  url: /atviras-kodas/
+  title: Atviras kodas
+- Docker:
+  slug: docker
+  url: /docker/
+  title: Docker
+- Raspberry Pi:
+  slug: raspberry-pi
+  url: /raspberry-pi/
+  title: Raspberry Pi
+- Django:
+  slug: django
+  url: /django/
+  title: Django
+- GIT:
+  slug: git
+  url: /git/
+  title: GIT
+- Tmux ir Tmuxinator:
+  slug: tmux
+  url: /tmux/
+  title: Tmux ir Tmuxinator
+- Lygiagretus darbas:
+  slug: lygiagretus-darbas
+  url: /lygiagretus-darbas/
+  title: Lygiagretus darbas
+- Knygos:
+  slug: knygos
+  url: /knygos/
+  title: Knygos
+- VIM:
+  slug: vim
+  url: /vim/
+  title: VIM
+- Weechat:
+  slug: weechat
+  url: /weechat/
+  title: Weechat
+- Elektronika:
+  slug: elektronika
+  url: /elektronika/
+  title: Elektronika
+- Asmeniniai projektai:
+  slug: mano-projektai
+  url: /mano-projektai/
+  title: Asmeniniai projektai
