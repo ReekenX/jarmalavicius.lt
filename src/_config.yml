@@ -15,8 +15,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - webpack.config.js
-  - js
   - _i18n
+  - js
 
 feed:
   path: rss.xml

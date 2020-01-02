@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld'
+import CollapseMenu from './components/CollapseMenu'
 
-Vue.component('helloWorld', HelloWorld)
+Vue.component('collapseMenu', CollapseMenu)
 
 const app = new Vue({
   el: '#app',
