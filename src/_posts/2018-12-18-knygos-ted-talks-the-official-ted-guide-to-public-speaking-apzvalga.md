@@ -1,6 +1,6 @@
 ---
 title: Knygos „TED Talks - The Official TED Guide to Public Speaking“ apžvalga
-category: atviras-kodas
+category: knygos
 image: i/ted_talks_knyga.png
 description: Iš daugiau nei 200 perskaitytų knygų šią knygą išrinkau kaip geriausią knygą skirtą viešojo kalbėjimo įgūdžiams lavinti. Su šimtais praktinių pavyzdžių, daugybę istorijų ir tikra gyva patirtimi.
 ---

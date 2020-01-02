@@ -2,36 +2,14 @@
 layout: default
 ---
 
-<div class="bg-white rounded-lg border border-gray-300 p-8">
-  <h1 class="font-bold text-2xl mb-4 text-gray-700">
+<div class="custom-page-box">
+  <h1 class="custom-page-title">
     {% trans Recent Articles %}
   </h1>
 
-  {% for post in site.posts limit: 10 %}
-    <div class="mb-4 py-4 flex justify-between">
-      <div class="w-3/12 custom-image-size">
-        {% if post.image %}
-          {% responsive_image_block %}
-            path: {{ post.image }}
-            width: 400
-          {% endresponsive_image_block %}
-        {% endif %}
-      </div>
-      <div class="flex-1 pl-4">
-        <h3 class="font-semibold mb-2 text-xl">
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-        {% include post_subline.html post=post %}
-        <p>
-          {{ post.description }}
-        </p>
-      </div>
-    </div>
+  <hr class="mb-4"/>
 
-    {% if forloop.last == false %}
-      <hr class="my-4"/>
-    {% endif %}
+  {% for post in site.posts limit: 10 %}
+    {% include post_row.html post=post forloop_last=forloop.last %}
   {% endfor %}
 </div>
