@@ -1,6 +1,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <title>{{ page.title }}</title>
   {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/main.css">
   {% else %}
@@ -8,13 +9,13 @@
   {% endif %}
 </head>
 <html>
-  <body class="custom-gray-200">
+  <body class="custom-body-bg text-gray-800">
     {% include top_menu.html %}
 
     <div id="app">
       <div class="container mx-auto">
         <div class="flex justify-between">
-          <div class="w-9/12">
+          <div class="w-8/12">
             {{ content }}
           </div>
           <div class="pl-4 flex-1">
@@ -23,11 +24,7 @@
         </div>
       </div>
 
-      <footer class="p-8 mt-4 bg-white border-t border-gray-300">
-        <div class="container mx-auto text-center text-sm">
-          &copy; 2009-2020 Remigijus Jarmalavičius
-        </div>
-      </footer>
+      {% include footer.html %}
     </div>
 
     <script src="/main.js"></script>

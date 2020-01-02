@@ -1,27 +1,70 @@
-<div class="bg-white rounded-lg border border-gray-300 p-4 mb-4">
+<div class="bg-white rounded-lg border border-gray-300 px-8 py-6 mb-4">
   <img src="/i/remigijus-jarmalavicius.jpeg" alt="Programuotojas Remigijus Jarmalavičius" title="Remigijaus Jarmalavičiaus nuotrauka" class="max-w-full" />
-  Remigijus Jarmalavičius
-  <hr/>
-  Ruby / Python / PHP programuotojas.
-  Sistemų administratorius.
-  „Full stack“ verslo sistemų kūrėjas.
-  APIE MANE   •   KONTAKTAI
-  <a href="https://twitter.com/ReekenX" target="_blank"><img src="/i/twitter.png" alt="Sekite mane Twitter" /></a>
-  <a href="/rss.xml" target="_blank"><img src="/i/rss.png" alt="RSS srautas" title="Prenumeruokite RSS srautą" /></a>
+
+  <div class="mt-4 text-center text-xl text-gray-700 font-normal">
+    Remigijus Jarmalavičius
+  </div>
+
+  <hr class="my-4"/>
+
+  <div class="text-gray-600 font-light text-center mb-2">
+    Ruby / Python / PHP programuotojas.
+  </div>
+
+  <div class="text-gray-600 font-light text-center mb-2">
+    Sistemų administratorius.
+  </div>
+
+  <div class="text-gray-600 font-light text-center">
+    „Full stack“ verslo sistemų kūrėjas.
+  </div>
+
+  <hr class="my-4"/>
+
+  <div class="flex items-center justify-center font-light text-sm">
+    <a href="/remigijus-jarmalavicius">APIE MANE</a>
+    <div class="mx-4 text-gray-400">•</div>
+    <a href="/kontaktai">KONTAKTAI</a>
+  </div>
+
+  <hr class="my-4"/>
+
+  <div class="flex items-center justify-center mt-2">
+    <a href="https://twitter.com/ReekenX" target="_blank" class="mx-2"><img src="/i/twitter.png" alt="Sekite mane Twitter" /></a>
+    <a href="/rss.xml" target="_blank" class="mx-2"><img src="/i/rss.png" alt="RSS srautas" title="Prenumeruokite RSS srautą" /></a>
+  </div>
 </div>
 
-<div class="bg-white rounded-lg border border-gray-300 p-4 mb-4">
-  Draugai
-  <hr/>
+<div class="bg-white rounded-lg border border-gray-300 p-8 mb-4">
+  <h3 class="text-lg font-semibold">
+    Draugai
+  </h3>
+
+  <hr class="my-4"/>
+
   <a href="http://cybersig.blogspot.com/" target="_blank">Cybersig</a>
 </div>
 
-<div class="bg-white rounded-lg border border-gray-300 p-4">
-  Kategorijos
-  <hr/>
+<div class="bg-white rounded-lg border border-gray-300 p-8">
+  <h3 class="text-lg font-semibold">
+    Kategorijos
+  </h3>
+
+  <hr class="my-4"/>
+
   {% for category in site.data.categories %}
     <div>
       <a href="{{ category.url }}">{{ category.title }}</a>
+      <div class="text-gray-500 text-xs">
+        {% if site.categories[category.slug].size > 9 %}
+          {{ site.categories[category.slug].size | divided_by : 10 }}0+ straipsnių
+        {% else %}
+          iki 10 straipsnių
+        {% endif %}
+      </div>
+      {% if forloop.last == false %}
+        <hr class="my-4"/>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

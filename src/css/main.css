@@ -8,15 +8,20 @@
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
-.custom-link-styles a {
-  @apply font-semibold;
-  @apply ml-8;
-}
-
-.custom-gray-200 {
+.custom-body-bg {
   background-color: #f4f4f4;
 }
 
+.custom-image-size {
+  max-height: 150px;
+  overflow: hidden;
+}
+
 a {
-  @apply text-blue-500;
+  @apply text-blue-700;
+}
+
+p {
+  @apply mt-3;
+  @apply mb-3;
 }
