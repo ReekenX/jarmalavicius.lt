@@ -1,0 +1,20 @@
+{{ include.date | date: "%Y" }}
+
+{% assign month = include.date | date: '%m' %}
+{% case month %}
+  {% when '01' %} {% assign name = "sausio" %}
+  {% when '02' %} {% assign name = "vasario" %}
+  {% when '03' %} {% assign name = "kovo" %}
+  {% when '04' %} {% assign name = "balandžio" %}
+  {% when '05' %} {% assign name = "gegužės" %}
+  {% when '06' %} {% assign name = "birželio" %}
+  {% when '07' %} {% assign name = "liepos" %}
+  {% when '08' %} {% assign name = "rugpjūčio" %}
+  {% when '09' %} {% assign name = "rugsėjio" %}
+  {% when '10' %} {% assign name = "spalio" %}
+  {% when '11' %} {% assign name = "lapkričio" %}
+  {% when '12' %} {% assign name = "gruodžio" %}
+{% endcase %}
+{{ name }}
+
+{{ include.date | date: "%d" }} d.

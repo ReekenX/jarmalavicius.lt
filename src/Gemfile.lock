@@ -40,6 +40,7 @@ GEM
     jekyll-browsersync (1.0.0)
       jekyll (>= 3.0.0, < 5.0)
       tty-which (~> 0.4.1)
+    jekyll-email-protect (1.1.0)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-minifier (0.1.10)
@@ -115,6 +116,7 @@ DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-admin
   jekyll-browsersync
+  jekyll-email-protect
   jekyll-feed
   jekyll-minifier
   jekyll-paginate-v2

@@ -21,14 +21,7 @@ nuolat ieškau būdų tobulėti savo srityje</strong>.
 
 Humoristinis paveikslėlis apibūdinantis <strong>tipinį programuotojo gyvenimą</strong>:
 
-<div class="text-center">
-  <p>
-    <img src="/assets/images/i_am_programmer.jpg" class="img-fluid" alt="Programuotojas - tai žmogus be gyvenimo ir pinigų" />
-  </p>
-  <p class="text-muted">
-    Stereotipiškas programuotojo įvaizdis ^
-  </p>
-</div>
+{% include post_image.html image="/i/i_am_programmer.jpg" text="Stereotipiškas programuotojo įvaizdis ^" %}
 
 #### Viešas kalbėjimas
 
@@ -65,13 +58,7 @@ Todoist ir Gitlab analizės. Na, o tada - laiškai.
 
 Savanoriškai padedu [Vaikų linijai](http://www.vaikulinija.lt) su jos internetiniais projektais, serveriais ir kitokiais IT reikalais.
 
-<div class="text-center">
-  <p>
-    <img src="/assets/vaiku_linija.png" class="img-fluid" />
-  </p>
-  <small class="text-muted">Savanoriška veikla Vaikų linijoje</small>
-</div>
-<br/>
+{% include post_image.html image="/i/vaiku_linija.png" text="Savanoriška veikla Vaikų linijoje" %}
 
 Daugiau nei 5 metus (neatlygintinai) dirbau ten programuotoju ir kaip tik galėjau padėjau su visokiais
 techniniais sprendimais. Dabar tam turiu kelių žmonių-programuotojų komandą. Pats daugiausiai atlieku priežiūros

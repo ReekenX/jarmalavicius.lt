@@ -1,5 +1,5 @@
 <div class="text-gray-500 text-xs -mt-2 mb-2">
-  {{ include.post.date | date : "%Y-%m-%d" }}
+  {% include post_date.html date=include.post.date %}
 
   <span class="mx-1 text-gray-400">&bullet;</span>
 
