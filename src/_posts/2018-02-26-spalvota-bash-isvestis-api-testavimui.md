@@ -54,7 +54,7 @@ Ir tada prie `python -m json.tool` pridurkime `pygmentize -l json`.
 
 Pavyzdys kaip tai atrodo mano terminale:
 
-  {% include post_image.html image="/i/spalvotas_json.png" text="curl API | python -m json.tool | pygmentize -l json" %}
+{% include post_image.html image="/i/spalvotas_json.png" text="curl API | python -m json.tool | pygmentize -l json" %}
 
 ## Aliasas pagalbai
 

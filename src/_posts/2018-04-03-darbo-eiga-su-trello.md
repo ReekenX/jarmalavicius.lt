@@ -11,7 +11,7 @@ Per tą laiką spėjau išbandyti kokį šimtą darbo eigų kurias galima rasti 
 
 Šiai dienai esu išsigryninęs sistemą kuri yra be galo patogi, nereikalauja daug laiko ir svarbiausiai - galiu matyti visus projektus iš šalies (populiarus angliškas terminas „big picture“).
 
-    {% include post_image.html image="/i/trello_remigijus.png" text="Trello spalvų paletė" %}
+{% include post_image.html image="/i/trello_remigijus.png" text="Trello spalvų paletė" %}
 
 ## Kiek tai kainuoja?
 
@@ -27,7 +27,7 @@ Galėčiau pasakyti, kad toks išdėstymas Trello yra vos ne vienintelis norint 
 
 Kiekviena užduoties kortelė turi spalvą:
 
-    {% include post_image.html image="/i/trello_spalvos.png" text="Trello spalvų paletė" %}
+{% include post_image.html image="/i/trello_spalvos.png" text="Trello spalvų paletė" %}
 
 Prioritetus peržiūriu dažnai - bent kartą dienoje. Klaida pažymėta kortelė - visada auksčiausias prioritetas, nesvarbu didelė ta klaida ar ne.
 

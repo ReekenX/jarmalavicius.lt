@@ -11,8 +11,6 @@ Skiriu jai straipsnio įrašą, nes šių dienų verdančiame gyvenime knyga gal
 
 {% include post_image.html image="/i/essentialism_knyga.png" text="„Essentialism“ knygos viršelis" %}
 
-„Essentialism“ knygos viršelis
-
 Kalbant ypatingai apie programuotojus, natūralu, kad diena yra pilna streso, mėginimo padaryti kiek įmanoma daugiau ir gauti kaip įmanoma daugiau. Taip pat atrodo beveik natūralu nespėti į terminus, daryti ne visai prioritetinius darbus arba vienu metu daryti ne vieną užduotį.
 
 **Ši knyga tai tokio gyvenimo filosofijos priešingybė: koncentruotis tik ties svarbiais dalykais atsikratant nesvarbių.**

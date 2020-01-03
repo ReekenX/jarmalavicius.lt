@@ -79,6 +79,6 @@ Reikia įrankių programavimui? Priklausomai nuo to kokia kalba dirbate:
 
 Kai Nagios'as praneša, kad vienas ar kitas serveris turi programinės įrangos atnaujinimų, kuriuose ištaisytos saugumo problemos, atnaujinu juos su Ansible:
 
-    {% include post_image.html image="/i/ansible_serveriu_atnaujinimui.gif" text="Serverių atnaujinimas su Ansible" %}
+{% include post_image.html image="/i/ansible_serveriu_atnaujinimui.gif" text="Serverių atnaujinimas su Ansible" %}
 
 Jeigu svarstote automatizuoti savo kompiuterių ir serverių priežiūrą - Ansible tikrai rekomenduoju.

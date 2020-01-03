@@ -13,9 +13,7 @@ Pati knyga prasideda įdomia istorija kaip TED vos "nemirė" vos tik šiam rengi
 
 Tie patys TED organizatoriai turi sukaupę didelį žinių bagažą ir dalinasi šimtais vertingų patarimų kaip savo prezentacijas pagyvinti, padaryti įdomesnėmis ir sklandesnėmis.
 
-    {% include post_image.html image="/i/ted_talks_knyga.png" text="„TED Talks: The Official TED Guide to Public Speaking“ knygos viršelis" %}
-
-„TED Talks: The Official TED Guide to Public Speaking“ knygos viršelis
+{% include post_image.html image="/i/ted_talks_knyga.png" text="„TED Talks: The Official TED Guide to Public Speaking“ knygos viršelis" %}
 
 Tarp visokių minčių galima rasti:
 

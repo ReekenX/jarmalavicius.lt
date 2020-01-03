@@ -40,7 +40,7 @@ IOError: [Errno 32] Broken pipe
 
 Štai kaip tai atrodo su kodo gabalu:
 
-    {% include post_image.html image="/i/cat_kodas.png" text="Spalvotas cat komandos turinys" %}
+{% include post_image.html image="/i/cat_kodas.png" text="Spalvotas cat komandos turinys" %}
 
 Nuotraukoje gal ne pats geriausias pavyzdys, nes su visokiais nestandartiniais formatais kaip JSX ar pan. Pygments biblioteką galima apkvailinti. Bet daugeliui įprastinių formatų - veikia tikrai neblogai.
 
