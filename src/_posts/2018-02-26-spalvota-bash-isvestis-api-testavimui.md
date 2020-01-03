@@ -32,7 +32,6 @@ $ curl -qs -X POST 'https://example.com/api/v1/users/token' | python -m json.too
 
 Verta pastebėti, kad pridėjau `-qs` parametrus kurie paslėps nereikalingą `curl` progresijos informaciją.
 
-
 ## Kiti įrankiai, be Python
 
 Žinoma, yra visokių įrankių, kaip [JQ](https://stedolan.github.io/jq/), kurie gali suformatuoti `json` išvestį, tačiau Python'as tam turi standartinę biblioteką. O Python'ą galima rasti praktiškai visur.
@@ -55,11 +54,7 @@ Ir tada prie `python -m json.tool` pridurkime `pygmentize -l json`.
 
 Pavyzdys kaip tai atrodo mano terminale:
 
-<p class="text-center">
-  <img src="/i/spalvotas_json.png" class="img-fluid" />
-</p>
-
-<p class="text-muted small text-center">curl API | python -m json.tool | pygmentize -l json</p>
+  {% include post_image.html image="/i/spalvotas_json.png" text="curl API | python -m json.tool | pygmentize -l json" %}
 
 ## Aliasas pagalbai
 

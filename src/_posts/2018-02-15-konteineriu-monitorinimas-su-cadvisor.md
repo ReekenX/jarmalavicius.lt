@@ -54,9 +54,7 @@ Informacijos bus pateikta daug. Pastebėsite, kad daug jos gausite iš standarti
 
 Dar matysite ir grafikus ir kaip naudojami Jūsų sistemos resursai:
 
-<img src="/i/cadvisor_grafikai.png" class="img-fluid" />
-
-<p class="text-center small text-muted">CAdvisor grafinė aplinka</p>
+{% include post_image.html image="/i/cadvisor_grafikai.png" text="CAdvisor grafinė aplinka" %}
 
 ## Kaip išbandyti?
 

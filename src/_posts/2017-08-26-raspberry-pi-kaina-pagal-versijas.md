@@ -7,7 +7,7 @@ description: Kokios yra Raspberry Pi Zero, antros ir trečios versijų kainos el
 
 ## Planuojate įsigyti?
 
-<img src="/i/raspberry_pi_1_ir_3.png" align="right" title="Raspberry Pi 2 ir 3" alt="Raspberry Pi 2 ir 3" style="margin: 0 15px 15px 15px; max-width: 50%" class="text-center text-md-right" />
+{% include post_image.html image="/i/raspberry_pi_1_ir_3.png" text="" %}
 
 Galvojant įsigyti Raspberry Pi, vienas iš pirmųjų klausimų bus apie jo kainą. Kiek šiais laikais kainuoja Raspberry Pi ir skirtingos jo versijos?
 
@@ -27,7 +27,7 @@ Raspberry Pi 2 parduotuvėje Ebay kainuoja apie 35€.
 
 Raspberry Pi 3 parduotuvėje Ebay kainuoja apie 40€.
 
-Visos kainos yra įskaičiuojant pristatymo kainą bei muito mokesčius. Muitas šiprekėms taikomas itin retai.</p>
+Visos kainos yra įskaičiuojant pristatymo kainą bei muito mokesčius. Muitas šiprekėms taikomas itin retai.
 
 ## Kainos Aliexpress parduotuvėje
 
@@ -35,7 +35,7 @@ Visi šie įrenginiai vidutiniškai ten kainuoja 1-3€ pigiau nei Ebay parduotu
 
 Aliexpress siuntimas dažniausiai būna bent savaite greitesnis.
 
-Perkant šioje parduotuvėje rekomenduočiau atkreipti dėmesį į kiek šių įrengipardavė pardavėjas iš kurio ruošiatės pirkti ir kokį reitingą jis turi. Šioje parduotuvėje apgavysčių yra kiek daugiau nei Ebay.</p>
+Perkant šioje parduotuvėje rekomenduočiau atkreipti dėmesį į kiek šių įrengipardavė pardavėjas iš kurio ruošiatės pirkti ir kokį reitingą jis turi. Šioje parduotuvėje apgavysčių yra kiek daugiau nei Ebay.
 
 ## Kokios yra Raspberry Pi priedų kainos?
 

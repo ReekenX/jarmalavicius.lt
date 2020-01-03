@@ -2,7 +2,7 @@
 title: CRON komandų žurnalai
 category: atviras-kodas
 image: i/crontab.png
-description: Cron automatizavimui yra praktiškai neišvengiamas įrankis. Bet tas pats pagalbinis įrankis gali tapti didele kančia surasti kas įvyko, jeigu neteisingai naudojama. Kaip sekti ir analizuoti Cron komandas.
+description: Cron automatizavimui yra praktiškai neišvengiamas įrankis. Bet tas pats pagalbinis įrankis gali tapti didelė kančia surasti kas įvyko, jeigu neteisingai naudojama. Kaip sekti ir analizuoti Cron komandas.
 ---
 
 Cron'as yra viena populiariausių automatizavimo programų. Nors automatizavimo komandas rašo tie patys programuotojai ir jiems spręsti kaip ir kas veiks - didelę bėdą Cron'as atneša, kada reikia aiškintis kas įvyko ir kada.

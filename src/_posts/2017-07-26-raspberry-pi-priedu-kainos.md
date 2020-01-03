@@ -7,7 +7,7 @@ description: Raspberry Pi priedų - pakrovėjo, apsauginės dėžutės, ventilia
 
 ## Planuojate įsigyti?
 
-<img src="/i/raspberry_pi_1_ir_3.png" align="right" title="Raspberry Pi 2 ir 3" alt="Raspberry Pi 2 ir 3" style="margin: 0 15px 15px 15px; max-width: 40%" class="text-center text-md-right" />
+{% include post_image.html image="/i/raspberry_pi_1_ir_3.png" text="" %}
 
 Jeigu galvojate įsigyti Raspberry Pi ir smalsu kiek jis gali kainuoti - tuomet pravers kitas straipsnis apie [Raspberry Pi kainą](/raspberry-pi/kiek-kainuoja-raspberry-pi).
 
@@ -56,7 +56,6 @@ Jeigu norite Raspberry Pi pirkti, bet 100% dar nenusprendę kam jis Jums reikali
 Dažnai jie su savimi turi Raspberry Pi įrenginį, bet - ne visada. Todėl būtinai pasitikrinkite ką perkate.
 
 Šie „starter kit'ai“ yra puiki pramoga ir dovana vaikams. Prietaisas gana saugus daryti eksperimentus net esant megėjui. Blogiausiai kas galėtų atsitikti - sugadinsite vieną ar kitą dalyką nepridarydami per daug žalos. Pavyzdžiui koks atstumo matuoklis kainuoja vos 2€ - sugadinus tiesiog nusipirktumėte kitą.
-
 
 ## Daugiau Raspberry Pi straipsnių?
 

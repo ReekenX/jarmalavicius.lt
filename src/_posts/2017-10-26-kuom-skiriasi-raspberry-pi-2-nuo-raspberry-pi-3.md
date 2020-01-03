@@ -7,7 +7,7 @@ description: Oficialūs, praktiški ir kitokie skirtumai tarp Raspberry Pi 2 ir 
 
 ## Planuojate įsigyti?
 
-<img src="/i/raspberry_pi_1_ir_3.png" align="right" title="Raspberry Pi 2 ir 3" alt="Raspberry Pi 2 ir 3" style="margin: 0 15px 15px 15px; max-width: 50%" class="text-center text-md-right" />
+{% include post_image.html image="/i/raspberry_pi_1_ir_3.png" text="" %}
 
 Jeigu dar tik galvojate įsigyti Raspberry Pi ir jau žinote [kiek toks įrenginys kainuoja](/raspberry-pi/kiek-kainuoja-raspberry-pi) - tuomet pravers žinoti kuo viena versija nuo kitos skiriasi.
 

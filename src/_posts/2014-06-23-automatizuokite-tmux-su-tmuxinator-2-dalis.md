@@ -1,13 +1,53 @@
 ---
-title: Automatizuokite tmux su tmuxinator, 3 dalis
+title: Automatizuokite tmux su tmuxinator, 2 dalis
 category: tmux
-image: i/automatizuokite-tmux-su-tmuxinator-3-dalis.png
-description: Kaip automatizuoti tmux su tmuxinator pagalba. 3 dalis. Langų išdėstymo dydžiai Tmuxinator / Tmux programoje.
+image: i/tmux/automatizuokite-tmux-su-tmuxinator-2-dalis.png
+description: Kaip automatizuoti Tmux su Tmuxinator pagalba. 2 dalis. Apie tmuxinator komandas ir Tmuxinator failo formatą.
 ---
 
-Jeigu šiek tiek primiršote ar neskaitėte praėjusių straipsnių, tai trumpai paminėsiu, kad pasakojau apie tmux programą, kuri iš esmės yra geresnė screen alternatyvą - automatizavimą. Kodėl geresnė nei screen? Siūlau pasiskaityti [pirmame straipsnyje](/tmux/automatizuokite-tmux-su-tmuxinator-1-dalis). O [antrame straipsnyje](/tmux/automatizuokite-tmux-su-tmuxinator-2-dalis) pasakojau, kad tmuxinator gali atlikti ne vieną komandą kažkuriam langui, bet kelias. Kas dar gerai, kad iš esmės į langus siunčiamos ne komandos, o klavišų paspaudimai. Taigi, dabar magijos gali būti dar daugiau!
+[Praėjusiame straipsnyje](/tmux/automatizuokite-tmux-su-tmuxinator-1-dalis) trumpai pristačiau tmuxinator ir parodžiau kaip susikurti mažą projektą. Šiandien aprašysiu galimas tmuxinator komandas ir parodysiu kaip vienas langas gali pavykdyti ne vieną bash komandą.
 
-Šiame straipsnyje papasakosiu apie labai naudingą dalyką - automatinį langų skaldymą. Standartiškai tokia konfigūracijos sintaksė:
+Pirmiausiai dirbant su tmuxinator pilnai užteks dviejų komandų kurias aprašiau anksčiau: new ir start. Nes visa kita susiję su redaguojamu failu, kurį galite tiesiog valdyti per savo teksto redaktorių. Programa tmuxinator visas konfigūracijas išsaugo ~/.tmuxinator/ kataloge.
+
+Trumpai apie tmuxinator komandas:
+
+    $ tmuxinator copy SENAS-PROJEKTAS NAUJAS-PROJEKTAS
+    Nukopijuoja projekto failą į kitą vardą. Tą galite
+    padaryti tiesiog ~/.tmuxinator kataloge.
+
+    $ tmuxinator debug PROJEKTAS
+    Kai kuriate langus su sudėtingomis komandomis tai naudinga
+    pažiūrėti ką ir kaip tmuxinator vykdo. Pavyzdžiui labai
+    naudinga gali būti, kada bandote vieną langą suskaldyti
+    į kelias dalis.
+
+    $ tmuxinator doctor
+    Tiesiog patikrina Jūsų konfigūracijų sintaksę.
+
+    $ tmuxinator help KOMANDA
+    Duoda daugiau informacijos apie aukščiau aprašytas komandas.
+
+    $ tmuxinator implode
+    Ištrina projektus. Nenaudokit geriau ;)
+
+    $ tmuxinator list
+    Išveda į ekraną visą sąrašą projektų kuriuos galite paleisti.
+
+    $ tmuxinator new PROJEKTAS
+    Sukuria naują projektą. Realiai tai YAML failas ~/.tmuxinator
+    kataloge.
+
+    $ tmuxinator start PROJEKTAS
+    Paleidžia projektą. Atsidarys tmux su jame užregistruotomis
+    sesijomis ir langais.
+
+    $ tmuxinator version
+    Leidžia pažiūrėti kokią versiją naudojate. Rašant straipsnį
+    buvo 0.6.6 (įvertinčiau kaip stabilią).
+
+Taigi, jau turėtų būti aišku, kad tmuxinator realiai sukuria kažkokį YAML failą, kurį laiko \~/.tmuxinator kataloge, ir pagal kurį kuria sesijas ir jose langus. Tai sutaupo daug laiko kai reikia sukurti ne vieną sesiją ir/ar ne vieną langą. Ypatingai programuotojams dirbantiems visą laiką ne prie vieno projekto - labai naudinga ir produktyvu.
+
+O dabar trumpai apie kelių komandų paleidimą viename lange. Naudokite tokią YAML sintaksę:
 
     windows:
         - lango-vardas:
@@ -20,40 +60,10 @@ Jeigu šiek tiek primiršote ar neskaitėte praėjusių straipsnių, tai trumpai
                     - komanda 1
                     - komanda 2
 
-Suskaldo langą į dvi lygias dalis. Pagal nutylėjimą skaldymas įvyks per lango aukštį. Dar vienas skydelis įrašytas žemiau suskaldytų langą į tris dalis. Tai tikrai patogu, jeigu patinka toks išdėstymas.
+Kaip minėjau, langus dažnai perskeliu į kelis skydelius. Didžiausias skydelis būna redaktoriaus VIM, tuomet apačioje vienas langas web-servisui ir dar vienas nedidelis langas visokioms su projektu susijusioms bash komandoms vykdyti.
 
-Dirbdamas su Django langą dalinu taip: 80% lango VIM redaktoriui, o apačioje du langai python manage.py runserver ir dar vienas langas kokiems nors sass ar TODO sąrašui skaityti. Išbandykit, tikrai patogu!
+![ Tmux langas suskaldytas su tmuxinator](/i/tmux_langas_suskeltas_i_tris_dalis.png)
 
-![ Ekranas suskaldytas su tmuxinator](/i/suskaldytas_tmux_langas_su_tmuxinator.png)
+Šiuo atveju tmuxinator suskaldys langą proporcingai (du langus po 50%, jeigu langai trys, tai po 33% ir t.t.). Klaviatūros pagalba galima lengvai perstumdyti langų dydžius. Bet pala! Mes juk siekiame automatizuoto proceso!
 
-Deja, bet tmuxinator nėra labai draugiškas langų skaldymui. Ši galimybė realiai egzistuoja tik neapsikentusių naudotojų dėka (kaip supratot - per „hack'us“).
-
-Pirmiausiai teks atsidaryti tuščią tmux langą ir susiskaldyti į taip kaip Jūs norite. Sukurti skydeliai gali būti tušti, mums aktualus tik skydelių dydis. Lango skydelių dydį galite sužinoti komandos pagalba:
-
-    $ tmux list-windows
-
-Gausite kažką panašaus į:
-
-    0: blog* (3 panes) [175x53] [layout 6535,175x53,0,0[175x43,0,0,8,175x9,0,44&#123;65x9,0,44,14,109x9,66,44,15&#125;]] @6 (active)
-
-Iš šio painaus užrašo mums reikalinga tik layout dalis. Ją nukopijuosime į savo lango konfigūracijos YAML dalį:
-
-    windows:
-        - lango-vardas:
-            layout: 6535,175x53,0,0[175x43,0,0,8,175x9,0,44&#123;65x9,0,44,14,109x9,66,44,15&#125;]
-            panes:
-                - skydelio-pavadinimas: komanda
-                - kitas-skydelis: komanda
-                - trecias-skydelis: komanda
-
-Viską sukonfigūravus galime leisti savo automatizuotą kūrimą:
-
-    $ tuxinator start projekto-vardas
-
-Iš patirties galiu pasakyti, kad sugaištas laikas su tmuxinator atsiperka labai greitai, jeigu dažnai programuojate tą patį. Ypatingai kai kalbame apie programavimą, tai laiko sutaupyti galima labai daug:
-
--   Galima pasiruošti greitai sluoksnius su kuriais patogu dirbti prie vienų projektų, kitus prie kitų.
--   Galima paleisti projektui startuoti reikalingas komandas.
--   Galima atsinaujinti projektą prieš pradedant su juo dirbti.
-
-Na, o jeigu yra kažkokių klausimų, galbūt padėčiau atsakyti. Tai paskutinis straipsnis apie tmuxinator. Projekto kodą galima rasti [Github](https://github.com/tmuxinator/tmuxinator), o dokumentacijos dar teks palaukti ;)
+Tai taip, su tmuxinator galima ir tai. Galima nustatyti langų išsidėstymą, jų dydžius ir aukščius. Būtent taip ir esu pasidaręs priklausomai nuo to ko reikia konkrečiam langui. Bet apie tai - kitame straipsnyje.

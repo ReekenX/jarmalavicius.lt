@@ -11,7 +11,6 @@ description: Kaip su Bash patikrinti HTTPS paketų informaciją, galiiojimo laik
 
 Let's Encrypt sertifikatai galioja tik 90 dienų. Juos reikia atnaujinti prieš galiojimo pabaigą, kitaip svetainės lankytojai negalės patektį į Jūsų svetainę.
 
-
 Laimei pats Let's Encrypt atsiųs Jums laišką-įspėjimą (laiškas siunčiamas į pašto dėžutę su kuria registruotas sertifikatas):
 
 ```

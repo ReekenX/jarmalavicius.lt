@@ -20,10 +20,7 @@ Bene standartiškai yra siūloma po kiekvienos sesijos padaryti 5 min. pertrauk�
 
 Trikdžių atsikratymas čia dirba svarbią rolę ir tam turbūt reikėtų atskiro straipsnio.
 
-<p class="text-center">
-<img src="/i/tomatoes.png" />
-</p>
-<p class="text-center text-muted small">Iškarpa iš mano Tomato.es profilio - tiek kasdien Pomodoro padarau</p>
+{% include post_image.html image="/i/tomatoes.png" text="Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams" %}
 
 ## Tinka beveik visiems
 
@@ -61,10 +58,7 @@ Tas pats [Tomato.es](http://www.tomato.es) yra visiškai nemokamas ir atviro kod
 
 Esu naudojęs [Gnome Pomodoro](http://gnomepomodoro.org/) - super įrankis, jeigu naudojate Linux.
 
-<p class="text-center">
-<img src="/i/toggl.png" />
-</p>
-<p class="text-center text-muted small">Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams</p>
+{% include post_image.html image="/i/toggl.png" text="Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams" %}
 
 Turbūt populiariausias laiko apskaitos įrankis internete yra [Toggl](https://toggl.com/). Jis duoda šią galimybę per tokius įrankius (nemokamus) kaip Chrome Extension. Nors ir veikia ne 100%, bet aš pats naudoju jau virš 4 metų ir iš esmės galima susitaikyti su nedidelėmis klaidomis.
 

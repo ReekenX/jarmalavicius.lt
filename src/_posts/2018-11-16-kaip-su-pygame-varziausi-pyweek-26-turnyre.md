@@ -17,10 +17,7 @@ Jeigu įdomu kas tai per turnyras - galite pasiskaityti daugiau praėjusiame str
 
 Su Pygame varikliu kūriau piratų mūšio žaidimą:
 
-<p class="text-center">
-<img src="https://github.com/ReekenX/pyweek-pirate-flow/raw/master/data/screenshots/gameplay.png?raw=true">
-</p>
-<p class="text-center text-muted small">Pyweek #26 žaidimo "Pirate Flow" ekrano vaizdas</p>
+{% include post_image.html image="https://github.com/ReekenX/pyweek-pirate-flow/raw/master/data/screenshots/gameplay.png?raw=true" text="Pyweek #26 žaidimo 'Pirate Flow' ekrano vaizdas" %}
 
 **Per 19 valandų** pavyko sukurti žaidimą kuriame galima šaudyti priešus (laivai ir patrankas), plaukioti po didžiulį pasaulį, rinkti taškus, gyvybes ir atlikti kelias misijas.
 

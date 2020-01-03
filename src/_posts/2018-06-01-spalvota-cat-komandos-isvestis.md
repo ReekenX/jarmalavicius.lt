@@ -40,11 +40,7 @@ IOError: [Errno 32] Broken pipe
 
 Štai kaip tai atrodo su kodo gabalu:
 
-<p class="text-center">
-    <img src="/i/cat_kodas.png" class="img-fluid" style="max-width: 100% !important" />
-</p>
-
-<p class="text-muted small text-center">Spalvotas cat komandos turinys</p>
+    {% include post_image.html image="/i/cat_kodas.png" text="Spalvotas cat komandos turinys" %}
 
 Nuotraukoje gal ne pats geriausias pavyzdys, nes su visokiais nestandartiniais formatais kaip JSX ar pan. Pygments biblioteką galima apkvailinti. Bet daugeliui įprastinių formatų - veikia tikrai neblogai.
 

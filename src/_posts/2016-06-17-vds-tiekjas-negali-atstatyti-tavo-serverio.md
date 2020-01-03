@@ -9,10 +9,7 @@ Istorijos apie tai, kad kartais, Virtualių Dedikuotų Serverių (toliau - „VD
 
 Taip nutiko ir man, deja, su vienu populiariausiu Lietuvoje tokių paslaugų tiekėju Interneto Vizija (labiau žinomas adresais [serveriai.lt](https://serveriai.lt) ar [dedikuoti.lt](https://www.dedikuoti.lt)).
 
-<p class="text-center">
-<img src="/i/serveriai.lt-irgi-susimauna.png"/>
-</p>
-<p class="text-center text-muted small">Serveriai.lt hostingo logotipas</p>
+{% include post_image.html image="/i/serveriai.lt-irgi-susimauna.png" text="Sisteminė klientams.iv.lt klaida - serveris perkrautas?" %}
 
 Tai ši istorija apie tai, kaip reaguoti į tokias situacijas, kaip tvarkytis su jomis ir jų problemų sprendimo būdus.
 
@@ -22,10 +19,7 @@ Kiekvienas, be išimties, serveris ar paslauga privalo turėti monitorinimą. Ne
 
 Taip, tokį monitorinimą pats turiu - [Nagios3](https://www.nagios.org/). Jis tikrina kelis serverius, daugybę projektų jose, el. paštą, kai kurių svetainių SEO ir kitas tarnybas.
 
-<p class="text-center">
-<img src="/i/nagios3.png"/>
-</p>
-<p class="text-center text-muted small">Nagios logotipas</p>
+{% include post_image.html image="/i/nagios3.png" text="Sisteminė klientams.iv.lt klaida - serveris perkrautas?" %}
 
 Taigi, 05:45 vienas iš serverių nustoja veikti. Gaunu daug el. laiškų apie neveikiančias paslaugas. 49 interneto projektai neveikia, el. paštas ir kai kurios kitos smulkios paslaugos. Pirma mintis kurį šauna į galvą, po to, kai nepavyksta prisijungti prie ssh tarnybos - perkrauti serverį. Aiškintis kodėl taip atsitiko - vėliau.
 
@@ -35,10 +29,7 @@ Jungiamės prie [klientams.iv.lt](https://klientams.iv.lt) ir perkrauname server
 
 Kadangi Nagios nepraneša apie sėkmingai veikiantį projektą, tikrinam [klientams.iv.lt](https://klientams.iv.lt) statusą ir gauname maždaug tokią žinutę:
 
-<p class="text-center">
-<img src="/i/serveriai.lt-klaida.png" />
-</p>
-<p class="text-center text-muted small">Sisteminė klientams.iv.lt klaida - serveris perkrautas?</p>
+{% include post_image.html image="/i/serveriai.lt-klaida.png" text="Sisteminė klientams.iv.lt klaida - serveris perkrautas?" %}
 
 Taigi, kadangi jų vidinė sistema neveikia ir problemos sutvarkyti negalima, belieka kreiptis pas paslaugų tiekėją tiesiogiai - rašyti el. laišką.
 
@@ -78,7 +69,6 @@ Tuo metu, pasiruošiame atsargines kopijas (failų ir duomenų bazių) dėl viso
 
 Ir gauname pagaliau laišką iš paslaugų tiekėjo:
 
-<pre>
 <b>deja, tačiau serverio paleisti nėra įmanoma</b>. Šiuo atveju branduolio (angl. kernel)
 atnaujinimo metu buvo perkrauti visi mūsų klientų serveriai, tačiau po perkrovimo
 Jūsų serveris visiškai neatsako į paleidimo komandą. Administratoriams peržiūrėjus
@@ -97,7 +87,6 @@ End-Date: 2016-06-17  09:49:27
 
 Šiuo atveju galėtume Jums pasiūlyti <b>perrašyti serverio operacinę sistemą</b>
 ir <b>atstatyti serverio duomenų kopiją į serveryje esančią direktoriją</b>.
-</pre>
 
 Kad serverio paleisti nepavyks - viskas aišku. **Kritinė situacija**. Dabar ją reikia spręsti.
 

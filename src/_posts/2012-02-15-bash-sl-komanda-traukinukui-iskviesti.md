@@ -21,8 +21,6 @@ Ir rezultatą galite išvysti savo ekrane iškvietę `sl` komandą su kažkuriuo
 
 Kaip gyvai atrodo, galite pamatyti Youtube filmuke:
 
-<p align="center">
     <iframe width="480" height="360" src="http://www.youtube.com/embed/BPMd2dsSVR0" frameborder="0" allowfullscreen></iframe>
-</p>
 
 Tikriausiai kiekvienas su BASH dirbantis žmogus ne kartą buvo vietoje komandos `ls` parašę `sl`. Kitą kartą taip suklydus šyptelėsite pamatę traukinuką, o ne failų sąrašą.

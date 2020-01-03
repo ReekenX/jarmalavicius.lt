@@ -9,7 +9,7 @@ Pradėsiu ilgą ir nebūtinai nuobodžią straipsnių seriją apie Django framew
 
 Django web framework yra atviro kodo Web 2.0 aplikacijų framework'as parašytas su Python programavimo kalba. O jos programavimas buvo pradėtas kuriant naujienų svetaines. Tiesa, kurį laiką ši sistema dar buvo uždaro kodo, bet 2005 metų liepos mėnesį ji buvo išleista BSD licencija. Pavadinta Django vardu gitaristo Django Reinhardt garbei.
 
-<img src="/i/django_logo.png" class="img-fluid" />
+{% include post_image.html image="/i/django_logo.png" text="" %}
 
 Ir jau po trijų metų, 2008 metais pasauliui buvo pranešta kad naujai susikūrusi organizacija Django Software Foundation nuo šiol programuos Django.
 

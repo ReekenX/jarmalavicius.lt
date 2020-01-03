@@ -11,9 +11,7 @@ Taip retai, kad toks siuntimas tampa galvos skausmu - reikia prisiminti kaip tą
 
 Taip nutiko ir man, kai beveik dienai užlūžo Gitlab'as ir reikėjo kažkur pasidėti pakeitimus nes dirbu per kelis kompiuterius.
 
-<img src="/i/gitlab_down.png" style="max-width: 100%; max-height: 500px" />
-
-<p class="text-muted text-center">Gitlab paslaugos neveikimo langas</p>
+{% include post_image.html image="/i/gitlab_down.png" text="Gitlab paslaugos neveikimo langas" %}
 
 Kur pasidėti - labai paprasta - Dropbox. Bet kaip juos sugeneruoti ir kaip juos vėliau applyint'i - teko prisiminti. Toliau - trumpa atmintinė visiems (ir sau).
 

@@ -7,12 +7,9 @@ description: Apie kalbėjimus viešai su šimtais pavyzdžių knygoje - Čerčil
 
 Nors pačią Jameso C. Humes knygą „Čerčilio iškalba, Linkolno tvirtybė“ įvertinčiau kokiais gal 4 iš 5 balų, bet vistiek nusprendžiau jai skirti straipsnį, kadangi geresnių knygų apie viešą kalbėjimą kol kas mano arsenale nėra.
 
-<p style="text-align: center; margin-bottom: 5px">
-    <img src="/i/cercilio_iskalba_linkolno_tvirtybe.png" style="max-width: 100%; max-height: 500px" />
-</p>
+    {% include post_image.html image="/i/cercilio_iskalba_linkolno_tvirtybe.png" text="„Čerčilio iškalba, Linkolno tvirtybė“ knygos viršelis" %}
 
-<p class="text-muted small text-center">„Čerčilio iškalba, Linkolno tvirtybė“ knygos viršelis</p>
-
+„Čerčilio iškalba, Linkolno tvirtybė“ knygos viršelis
 
 ## Kam skirta knyga
 

@@ -37,9 +37,6 @@ docker exec -it redis-serveris redis-cli
 
 Praktinis išbandymas Redis su Docker:
 
-<p class="text-center">
-<img src="/i/redis_su_docker.gif" />
-</p>
-<p class="text-center small text-muted">Redis išbandymas su Docker</p>
+{% include post_image.html image="/i/redis_su_docker.gif" text="Redis išbandymas su Docker" %}
 
 Produkcinėje sistemoje vienas iš Redis privalumų ant Dockerio būtų tai, kad skirtingiems projektams (arba mikro projektams) galima turėti skirtingus Redis konteinerius. Taip ne tik duomenys nesusimaišytų, bet ir saugiau būtų.

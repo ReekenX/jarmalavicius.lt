@@ -23,9 +23,7 @@ Išties gera naujovė. Kiek matau iš operacinių sistemų priklausomybių ir at
 
 Šio pakeitimo labai laukiau ne vienerius metus. Yra tekę ne vieną kartą dėti ant Django administracijos temą, kuri paverčia administraciją draugiška mobiliems įrenginiams. Dabar to daryti nereikės, viskas - standartiniais būdais.
 
-<img src="/i/django_2_mob.png" class="img-fluid" />
-
-<p class="text-muted text-center">Django 2.0 su mobilios versijos palaikymu</p>
+{% include post_image.html image="/i/django_2_mob.png" text="Django 2.0 su mobilios versijos palaikymu" %}
 
 ## Draugiškas adresų rašymas
 
@@ -67,7 +65,6 @@ Turbūt dažniausiai naudojama mano operacija programuojant.
 Anksčiau tokius dalykus darydavau rankiniu būdu: žinodamas kiek yra puslapių patikrindavau ar norimas puslapis nėra už jo ribų ar prieš (dabartinis puslapis didesnis už 0, bet mažesnis arba lygus viso puslapių skaičiui).
 
 Dabar `Paginator.get_page()` gali „išmesti“ klaidą `EmptyPage` ir informuoti kada tai įvyksta.
-
 
 ## Pavardė gali būti 150 simbolių
 

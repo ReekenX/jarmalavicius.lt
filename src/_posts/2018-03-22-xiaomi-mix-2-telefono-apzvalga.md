@@ -54,20 +54,15 @@ Išsamią specifikaciją galima rasti [internete](https://www.gsmarena.com/xiaom
 
 Ir atrodo stilingai:
 
-<p style="text-align: center; margin-bottom: 5px">
-<img src="/i/xiaomi_mix_2.png" class="img-fluid" />
-</p>
-<small class="text-muted">Xiaomi Mi Mix 2 - protingesnis net už savininką!</small>
+{% include post_image.html image="/i/xiaomi_mix_2.png" text="" %}
 
+<small class="text-muted">Xiaomi Mi Mix 2 - protingesnis net už savininką!</small>
 
 Visa komplektacija su dėžute atrodo taip:
 
-<p style="text-align: center; margin-bottom: 5px">
-    <img src="/i/xiamo_mix_2_dezute.jpg" class="img-fluid" />
-</p>
+    {% include post_image.html image="/i/xiamo_mix_2_dezute.jpg" text="" %}
 
 <small class="text-muted">Xiaomi Mi Mix 2 dėžutė ir priedai</small>
-
 
 ## Kamera
 

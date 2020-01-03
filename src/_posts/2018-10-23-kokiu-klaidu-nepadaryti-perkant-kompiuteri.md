@@ -55,4 +55,3 @@ Susižavėjus kompiuterio techniniais parametrais, dažnai pamirštama atkreipti
 
 Taigi galima teigti, jog renkantis kompiuterį, svarbu žinoti, kokios jo galimybės ir kaip jas galėsite pritaikyti praktikoje. Išvengę visų šių klaidų, kur kas paprasčiau išsirinksite visus poreikius atitinkantį įrenginį! 
 
-

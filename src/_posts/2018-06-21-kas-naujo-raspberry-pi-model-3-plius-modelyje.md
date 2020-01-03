@@ -19,10 +19,7 @@ Kadangi Raspberry Pi dažniausiai būna prijungtas prie interneto (nes kokia pra
 
 Pažiūrėkime kaip atrodo naujasis modelis su pliuso ženklu:
 
-<p class="text-center">
-<img src="/i/raspberry_3_b_plius.png" />
-</p>
-<p class="text-center text-muted small">Raspberry Pi 3 B+</p>
+{% include post_image.html image="/i/raspberry_3_b_plius.png" text="Raspberry Pi 3 PoE" %}
 
 Jeigu turite senesnį modelį, tai iškart į akis kris metalinis logotipas ir šiek tiek pasikeitęs procesoriaus čipas. Kas domisi įranga, tai yra Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz čipas.
 
@@ -43,11 +40,7 @@ Dėl vos vos pasikeitusio procesoriaus greičio (nuo 1.2GHz iki 1.4GHz) turėtum
 
 Naujame Raspberry Pi rasime ir tokią jungtį:
 
-<p class="text-center">
-<img src="/i/raspberry_poe.png" />
-</p>
-<p class="text-center text-muted small">Raspberry Pi 3 PoE</p>
-
+{% include post_image.html image="/i/raspberry_poe.png" text="Raspberry Pi 3 PoE" %}
 
 Kai kurie routeriai vaizdo kameroms elektros srovę perduoda LAN kabeliu ir tai vadinama Power over Ethernet. Iš to laimima, kad įrenginiui nereikia dar kažkokio lizdo maitinimui, kurį dėtumėte į elektros lizdą.
 

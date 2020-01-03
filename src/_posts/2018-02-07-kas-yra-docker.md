@@ -19,9 +19,7 @@ Kaip pavyzdys, jeigu norėtume paleisti web servisą nuo nulio - apache/nginx - 
 
 Svarbu pabrėžti, kad Docker'is šiuo metu yra populiariausia konteinerių (taip vadinami operacinių sistemų / programinės įrangos atvaizdai) sistema. Todėl jeigu esate programuotojas, išmokti anksčiau ar vėliau tikrai bus verta.
 
-<img src="/i/docker-susidomejimas.png" class="img-fluid" />
-
-<p class="text-center small">Susidomėjimas Docker sistema pagal Google Trends</p>
+{% include post_image.html image="/i/docker-susidomejimas.png" text="Susidomėjimas Docker sistema pagal Google Trends" %}
 
 Nuotraukoje viršuje matyti kaip stipriai Docker susidomėjimaas augo nuo 2013 metų.
 

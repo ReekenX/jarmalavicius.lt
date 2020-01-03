@@ -1,64 +1,52 @@
 ---
-title: Komandų progresijos sekimas su pv komanda, I dalis
-category: pv
-image: i/pv/komandu-progresijos-sekimas-su-pv-i-dalis.png
-description: Straipsnis apie pv komandą. Kaip ja naudotis ir kokie jos privalumai, I dalis.
+title: Komandų lygiagretus paleidimas su GNU Parallel
+category: lygiagretus-darbas
+image: i/lygiagretus-darbas/komandu-lygiagretus-paleidimas-su-gnu-parallel.png
+description: Komandų lygiagretus paleidimas su GNU Parallel. Taupykite operacijų laiką išmokę naudotis. Su praktiniais pavyzdžiais.
 ---
 
-Tikriausiai ne vienam yra ne kartą tekę susidurti, kai vykdoma ilgos trukmės komanda ir sunku nuspėti apie jos vykdymo trukmę. Laimei, atviras kodas ir čia nepagailėjo įrankių. Vienas iš jų - `pv` komanda.
+Ypatingai dažnai tenka susidurti su komandų gausa kurios trunka ilgai, tačiau nėra galimybių išnaudoti kelių procesorių vienu metu.
 
-Jos dėka savo vykdomose komandose galite stebėti tokią informaciją:
+Į pagalbą kviečiam [GNU Parallel](http://www.gnu.org/software/parallel/) kuris komandas padės paleisti lygiagrečiai. Nors oficialioje dokumentacijoje rasite gausybę panaudojimo pavyzdžių - praktikoje užteks greičiausiai žinoti tik kelis panaudojimo būdus.
 
-* Kiek laiko praėjo.
-* Kiek procentų komandos jau įvykdyta.
-* Komandos įvesties/išvesties greičius.
-* Viso duomenų perduotų kiekis.
-* Kiek laiko liko iki apytikslės pabaigos.
+Pirmiausiai įdiekime `GNU Parallel` (Debian paremtose sistemose):
 
-Tiesa, ne visais atvejais visa informacija rodoma, bet ją galima atskirai išjungti / įjungti.
+    apt-get install parallel
 
-Pradžiai įsidiegiame (Debian sistemose):
+Viena iš vykdymo sintaksių `GNU Parallel` yra gana neįprasta palyginus ką tenka matyti kitose komandose:
 
-```
-    sudo apt-get install pv
-```
+    parallel komanda ::: [argumentas1] [argumentas2] [..]
 
-Įdiegimo komanda Centos ir Fedora sistemose:
+Išsibandykime:
 
-```
-    yum install pv
-```
+    parallel sleep ::: 3 2 4
 
-Trumpai apie komandų užrašymo formatą. Jis dažniausiai toks:
+Toks aprašas reikštų, kad vykdysime tokias komandas:
 
-```
-    pv [argumentai] duomenu_failas | kita-komanda
-```
+    sleep 3
+    sleep 2
+    sleep 4
 
-Pavyzdžiui norime į serverį įkelti nemažą tekstinį failą. Šią užduotį naudosime kaip pavyzdį, nes tokius reikalus tikriausiai norėsime tvarkyti su `rsync` arba `scp`:
+Visas vykdymo laikas nuosekliai truktų 3 + 2 + 4 = 9 sekundes. Su `GNU Parallel` komandos būtų pavykdytos lygiagrečiai, taigi, užtruktų šiek tiek ilgiau nei 4 sekundes.
 
-```
-    pv /mano/didelis/failas | ssh example.org 'cat - > /dev/null'
-```
+`GNU Parallel` leidžia komandas apsirašyti ir ne su vienu argumentu. Tokiu atveju sintaksė būtų tokia:
 
-Ir matysime kažką panašaus:
+    parallel komanda ::: argumentas1-1 argumentas1-2 ::: argumentas2-1 argumentas 2-2 [..]
 
-```
-    335mB 0:00:11 [ 329kB/s] [================================>] 100%
-```
+Pavyzdžiui:
 
-Bet toks komandos panaudojimas yra gana paprastas. Prisiminkime komandą `tar` kuri mums neduoda jokių parinkčių numatomam vykdymo laikui stebėti.
+    parallel echo ::: 0 1 ::: 0 1
 
-Pamėginkime išarchyvuoti didelį failą:
+Galima tikėtis, kad bus pavykdytos tokios komandos:
 
-```
-    pv archyvas.tar.gz | tar xzf - -C /tmp
-```
+    echo 0 1
+    echo 0 1
 
-Gausime išvestį:
+Tačiau iš tikrųjų, `GNU Parallel` pavykdys komandas su argumentų kombinacijomis, taigi, išvesties rezultatas gausis toks:
 
-```
-    12.5MB 0:00:00 [13.8MB/s] [===============================>] 100%
-```
+    0 0
+    0 1
+    1 0
+    1 1
 
-Gali susidaryti įspūdis, kad `pv` komanda veiks tik tada, kai jai galime paduoti failinį duomenų srautą. Tačiau tai netiesa. Kitame straipsnyje parodysiu įdomesnių panaudojimo atvejų, ne tik su darbu su failais.
+Kitame straipsnyje parodysiu kaip vykdyti komandas iš tekstinio failo ir daugiau pavyzdžių iš tikro gyvenimo (prie kompiuterio) situacijų.

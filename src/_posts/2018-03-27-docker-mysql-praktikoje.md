@@ -9,11 +9,7 @@ description: Docker praktinis panaudojimas su Mysql duomenų baze. Ar žinojote,
 
 Visas šias problemas turėtų išspręsti Docker. Štai kaip galima turėti vieną populiariausių duomenų bazių sistemų kompiuteryje be jokio vargo: vos vienos eilutės dėka.
 
-
-<p class="text-center">
-<img src="/i/mysql_logo.jpg" class="img-fluid" />
-</p>
-<p class="text-center small text-muted">Docker su Mysql - tik viena eilutė!</p>
+{% include post_image.html image="/i/mysql_logo.jpg" text="Docker su Mysql - tik viena eilutė!" %}
 
 ## Docker Mysql diegimas
 

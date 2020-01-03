@@ -9,11 +9,7 @@ Nors mano tinklaraštis labiau skirtas patyrusiems programuotojams ir retai kada
 
 [Humble Book Bundle](https://www.humblebundle.com/books/devops-books?utm_source=www.jarmalavicius.lt) kartu su kitomis knygomis įsigijau - „Automate it!“ (aut. Chetan Giridhar).
 
-<p class="text-center">
-<img src="/i/automate_it.png" class="img-fluid" style="max-width: 100% !important" />
-</p>
-
-<p class="text-muted text-center small">Knygos „Automate it!“ viršelis</p>
+{% include post_image.html image="/i/automate_it.png" text="Knygos „Automate it!“ viršelis" %}
 
 ## Kam skirta knyga
 

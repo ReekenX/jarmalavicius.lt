@@ -27,10 +27,7 @@ Macbook'ą nes reikia PixelMator ir jokia kita programinė įrango jo formato ne
 
 Turiu stacionarų kompiuterį ir keturis ekranus prie jo. Jame - naujausias Ubuntu.
 
-<p class="text-center">
-    <img src="/i/ubuntu.png" class="img-fluid" style="max-width: 100%" />
-</p>
-<p class="text-muted text-center small">Kaip ir daugeliuose mano buvusių kompiuterių - Ubuntu OS</p>
+    {% include post_image.html image="/i/ubuntu.png" text="VIM iškeičiau į Sublime" %}
 
 Turiu žaidimų kompiuterį su Windows 10. Tik žaidimams skirtą.
 
@@ -74,10 +71,7 @@ Kartais tenka dokumentus tvarkyti / patobulinti per mobilų įrenginį. O čia G
 
 Google Drive laikau sutartis, finansų apskaitą, visokius planus, ataskaitas, dokumentacijas.
 
-<p class="text-center">
-    <img src="/i/drive_katalogai.png" class="img-fluid" style="max-width: 100%" />
-</p>
-<p class="text-muted text-center small">Mano Google Drive katalogai (yra ir daugiau)</p>
+    {% include post_image.html image="/i/drive_katalogai.png" text="VIM iškeičiau į Sublime" %}
 
 Vienas labiausiai atsipirkusių dokumentų - pavadinimu „Rekvizitai“. Labai patogu į vieną dokumentą surašyti savo banko sąskaitos numerį, individualios veiklos pažymėjimo numerį, adresus su pašto kodais ir pan. Praktiškai kas savaitę tenka atsidaryti šį dokumentą, kad kažkam tuos duomenis duoti.
 
@@ -87,10 +81,7 @@ Terminalas - antra labiausiai naudojama programinė įranga. Apple Terminal arba
 
 Reikia paskaityti naujienas? Surenku `curl delfi.lt:80 | less` ir... Ne ne, juokauju.
 
-<p class="text-center">
-    <img src="/i/terminalas.png" class="img-fluid" style="max-width: 100%" />
-</p>
-<p class="text-muted text-center small">Terminalas ir VIM</p>
+    {% include post_image.html image="/i/terminalas.png" text="VIM iškeičiau į Sublime" %}
 
 O terminale jau sukasi Tmux, Tmuxinator, Docker ([su ElasticSearch, Redis, Memcached, Mysql ir Postgres](https://github.com/ReekenX/docker-for-webdevs)), Zsh, VIM.
 
@@ -100,10 +91,7 @@ Po 7 metų programavimo su VIM iškeičiau šį į kiek modernesnį - Sublime.
 
 VIM yra super redaktorius! Ir tikrai jį naudoju gana stipriai serveriuose.
 
-<p class="text-center">
-    <img src="/i/sublime.png" class="img-fluid" style="max-width: 100%" />
-</p>
-<p class="text-muted text-center small">VIM iškeičiau į Sublime</p>
+    {% include post_image.html image="/i/sublime.png" text="VIM iškeičiau į Sublime" %}
 
 Man patinka, kad Sublime laikosi Ruby appsų principo - naudingas ir be nieko (angl. „useful by default“).
 
