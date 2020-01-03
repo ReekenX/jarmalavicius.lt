@@ -11,7 +11,7 @@ Dauguma kalbų, tokių kaip Ruby ar Python, leidžia sukompiliuoti savo skriptus
 
 Jeigu nesinori perduoti plik,o ir visiem perskaitomo BASH skripto, įdiekime `shc`:
 
-```
+```bash
 apt-get install shc
 yum install shc
 brew install shc
@@ -21,7 +21,7 @@ brew install shc
 
 Kompiliavimas vyksta labai paprastai:
 
-```
+```bash
 shc -f bash_skriptas.sh -o sukompiliuotas_skriptas
 ```
 
@@ -31,7 +31,7 @@ Vėliau, savo skriptą galima paleisti su komanda: `./sukompiliuotas_skriptas`.
 
 Patikrinti ar tai tikrai sukompiliuotas failas galima keliomis komandomis:
 
-```
+```bash
 $ file sukompiliuotas_skriptas
 sukompiliuotas_skriptas: Mach-O 64-bit executable x86_64
 ```
