@@ -5,7 +5,17 @@ image: i/butinos-knygos.png
 description: Sąrašas IT, psichologinių ir filosofinių knygų kurias rekomenduoju perskaityti kiekvienam norinčiam tobulėti.
 ---
 
-Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) per gyvenimą. Perskaičius penktadalį, virš 200 knygų, skubu pasidalinti geriausiomis. Tokiomis, kurios mano manimu prentenduotų į „būtina perskaityti“.## Ką reiškia „būtina“?Skaitau tik asmeninio tobulėjimo knygas. Todėl sakydamas „būtina“ turiu omeny, kad perskaitytos knygos atnešą vertę gyvenimui, mąstymui ar praktinę naudą. Perskaitęs tokią knygą kažkuom tampi pranašesnis. Ir aišku, labai smagu, kai nupirkta knyga yra naudinga, o ne šiaip - laiko praleidimas.## Knygų sąrašas kurias būtina perskaitytiRekomenduočiau perskaityti tokias:<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
+Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) per gyvenimą. Perskaičius penktadalį, virš 200 knygų, skubu pasidalinti geriausiomis. Tokiomis, kurios mano manimu prentenduotų į „būtina perskaityti“.
+
+## Ką reiškia „būtina“?
+
+Skaitau tik asmeninio tobulėjimo knygas. Todėl sakydamas „būtina“ turiu omeny, kad perskaitytos knygos atnešą vertę gyvenimui, mąstymui ar praktinę naudą. Perskaitęs tokią knygą kažkuom tampi pranašesnis. Ir aišku, labai smagu, kai nupirkta knyga yra naudinga, o ne šiaip - laiko praleidimas.
+
+## Knygų sąrašas kurias būtina perskaityti
+
+Rekomenduočiau perskaityti tokias:
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
 <thead>
   <tr>
     <th style="width: 100%">Pavadinimas, Autorius</th>
@@ -87,7 +97,15 @@ Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) p
   <tr><td><strong>How to Win Friends & Influence People</strong><br/>Dale Carnegie</td><td>288</td></tr>
   <tr><td><strong>Ką turi žinoti kiekvienas išsilavinęs žmogus</strong><br/>Dietrich Schwanitz</td><td>546</td></tr>
 </tbody>
-</table>Net 83 „būtina perskaityti“ knygų sąraše iš 200? Sakyčiau neblogai.## Knygos kurias privalo perskaityti kiekvienas programuotojasKalbėdamas su programuotojais išskirčiau tris knygas kurias kiekvienas turėtų mintimai žinoti:<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
+</table>
+
+Net 83 „būtina perskaityti“ knygų sąraše iš 200? Sakyčiau neblogai.
+
+## Knygos kurias privalo perskaityti kiekvienas programuotojas
+
+Kalbėdamas su programuotojais išskirčiau tris knygas kurias kiekvienas turėtų mintimai žinoti:
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
 <thead>
   <tr>
     <th style="width: 100%">Pavadinimas, Autorius</th>
@@ -99,7 +117,13 @@ Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) p
   <tr><td><strong>97 Things Every Programmer Should Know: Collective Wisdom From the Experts</strong><br/>Henney, Kevlin</td><td>257</td></tr>
   <tr><td><strong>Clean Code: A Handbook of Agile Software Craftsmanship</strong><br/>Martin, Robert C.</td><td>462</td></tr>
 </tbody>
-</table>## Įdomiausios knygosNebuvo naudingos, tačiau buvo labai įdomu skaityti:<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
+</table>
+
+## Įdomiausios knygos
+
+Nebuvo naudingos, tačiau buvo labai įdomu skaityti:
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
 <thead>
   <tr>
     <th style="width: 100%">Pavadinimas, Autorius</th>
@@ -111,7 +135,13 @@ Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) p
   <tr><td><strong>Vyrai kilę iš Marso, Moterys - iš Veneros</strong><br/>Gray, John</td><td>178</td></tr>
   <tr><td><strong>Alchemikas</strong><br/>Coelho, Paulo</td><td>118</td></tr>
 </tbody>
-</table>## Geriausios populiariosios psichologijos knygosMėgstu psichologiją / filosofiją, todėl ir šioje kategorijoje radau įdomių knygų:<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
+</table>
+
+## Geriausios populiariosios psichologijos knygos
+
+Mėgstu psichologiją / filosofiją, todėl ir šioje kategorijoje radau įdomių knygų:
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
 <thead>
   <tr>
     <th style="width: 100%">Pavadinimas, Autorius</th>
