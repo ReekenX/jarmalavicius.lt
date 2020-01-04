@@ -122,6 +122,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./js/components/MobileMenu.vue":
+/*!**************************************!*\
+  !*** ./js/components/MobileMenu.vue ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MobileMenu.vue?vue&type=template&id=3c03b5bc& */ \"./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc&\");\n/* harmony import */ var _MobileMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MobileMenu.vue?vue&type=script&lang=js& */ \"./js/components/MobileMenu.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _MobileMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"js/components/MobileMenu.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./js/components/MobileMenu.vue?");
+
+/***/ }),
+
+/***/ "./js/components/MobileMenu.vue?vue&type=script&lang=js&":
+/*!***************************************************************!*\
+  !*** ./js/components/MobileMenu.vue?vue&type=script&lang=js& ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_MobileMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib??vue-loader-options!./MobileMenu.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./js/components/MobileMenu.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_MobileMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./js/components/MobileMenu.vue?");
+
+/***/ }),
+
+/***/ "./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc&":
+/*!*********************************************************************!*\
+  !*** ./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc& ***!
+  \*********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./MobileMenu.vue?vue&type=template&id=3c03b5bc& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MobileMenu_vue_vue_type_template_id_3c03b5bc___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./js/components/MobileMenu.vue?");
+
+/***/ }),
+
 /***/ "./js/main.js":
 /*!********************!*\
   !*** ./js/main.js ***!
@@ -130,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n/* harmony import */ var _components_CollapseMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/CollapseMenu */ \"./js/components/CollapseMenu.vue\");\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].component('collapseMenu', _components_CollapseMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n\nconst app = new vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  el: '#app',\n})\n\n\n//# sourceURL=webpack:///./js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n/* harmony import */ var _components_CollapseMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/CollapseMenu */ \"./js/components/CollapseMenu.vue\");\n/* harmony import */ var _components_MobileMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/MobileMenu */ \"./js/components/MobileMenu.vue\");\n\n\n\n\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].component('collapseMenu', _components_CollapseMenu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\nvue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].component('mobileMenu', _components_MobileMenu__WEBPACK_IMPORTED_MODULE_2__[\"default\"])\n\nconst app = new vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  el: '#app',\n})\n\n\n//# sourceURL=webpack:///./js/main.js?");
 
 /***/ }),
 
@@ -175,7 +211,19 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'CollapseMenu',\n\n  props: { title: {\n      type: String,\n      required: true,\n    },\n  },\n\n  data: function() {\n    return {\n      collapsed: false,\n    };\n  },\n\n  methods: {\n    onClick() {\n      this.collapsed = !this.collapsed;\n    },\n  },\n});\n\n\n//# sourceURL=webpack:///./js/components/CollapseMenu.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'CollapseMenu',\n\n  props: {\n    title: {\n      type: String,\n      required: true,\n    },\n  },\n\n  data: function() {\n    return {\n      collapsed: false,\n    };\n  },\n\n  methods: {\n    onClick() {\n      this.collapsed = !this.collapsed;\n    },\n  },\n});\n\n\n//# sourceURL=webpack:///./js/components/CollapseMenu.vue?./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/index.js?!./js/components/MobileMenu.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./js/components/MobileMenu.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'MobileMenu',\n\n  data: function() {\n    return {\n      collapsed: false,\n    };\n  },\n\n  methods: {\n    onClick() {\n      this.collapsed = !this.collapsed;\n\n      // Toggle scrolling of body\n      if (this.collapsed) {\n        window.document.body.classList.add('fixed');\n      } else {\n        window.document.body.classList.remove('fixed');\n      }\n    },\n  },\n});\n\n\n//# sourceURL=webpack:///./js/components/MobileMenu.vue?./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -188,6 +236,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    { staticClass: \"relative\" },\n    [\n      _c(\n        \"a\",\n        {\n          staticClass: \"ml-8 relative\",\n          attrs: { href: \"javascript:void(0)\" },\n          on: { click: _vm.onClick }\n        },\n        [\n          _vm._v(\"\\n    \" + _vm._s(_vm.title) + \"\\n    \"),\n          !_vm.collapsed\n            ? _c(\n                \"svg\",\n                {\n                  staticClass: \"inline-block\",\n                  staticStyle: {\n                    \"-ms-transform\": \"rotate(360deg)\",\n                    \"-webkit-transform\": \"rotate(360deg)\",\n                    transform: \"rotate(360deg)\"\n                  },\n                  attrs: {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    \"xmlns:xlink\": \"http://www.w3.org/1999/xlink\",\n                    \"aria-hidden\": \"true\",\n                    focusable: \"false\",\n                    width: \"1em\",\n                    height: \"1em\",\n                    preserveAspectRatio: \"xMidYMid meet\",\n                    viewBox: \"0 0 24 24\"\n                  }\n                },\n                [\n                  _c(\"path\", {\n                    attrs: {\n                      d:\n                        \"M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z\",\n                      fill: \"#626262\"\n                    }\n                  })\n                ]\n              )\n            : _c(\n                \"svg\",\n                {\n                  staticClass: \"inline-block\",\n                  staticStyle: {\n                    \"-ms-transform\": \"rotate(180deg)\",\n                    \"-webkit-transform\": \"rotate(180deg)\",\n                    transform: \"rotate(180deg)\"\n                  },\n                  attrs: {\n                    xmlns: \"http://www.w3.org/2000/svg\",\n                    \"xmlns:xlink\": \"http://www.w3.org/1999/xlink\",\n                    \"aria-hidden\": \"true\",\n                    focusable: \"false\",\n                    width: \"1em\",\n                    height: \"1em\",\n                    preserveAspectRatio: \"xMidYMid meet\",\n                    viewBox: \"0 0 24 24\"\n                  }\n                },\n                [\n                  _c(\"path\", {\n                    attrs: {\n                      d:\n                        \"M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z\",\n                      fill: \"#626262\"\n                    }\n                  })\n                ]\n              )\n        ]\n      ),\n      _vm._v(\" \"),\n      _vm.collapsed ? _vm._t(\"body\") : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./js/components/CollapseMenu.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./js/components/MobileMenu.vue?vue&type=template&id=3c03b5bc& ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _c(\n        \"svg\",\n        {\n          staticClass: \"sm:hidden\",\n          attrs: {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            \"xmlns:xlink\": \"http://www.w3.org/1999/xlink\",\n            \"aria-hidden\": \"true\",\n            focusable: \"false\",\n            width: \"2em\",\n            height: \"2em\",\n            preserveAspectRatio: \"xMidYMid meet\",\n            viewBox: \"0 0 20 20\"\n          }\n        },\n        [\n          _c(\"path\", {\n            attrs: {\n              d: \"M3 11h14V9H3v2zm0 5h14v-2H3v2zM3 4v2h14V4H3z\",\n              fill: \"#626262\"\n            },\n            on: { click: _vm.onClick }\n          })\n        ]\n      ),\n      _vm._v(\" \"),\n      _vm.collapsed ? _vm._t(\"body\") : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./js/components/MobileMenu.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 

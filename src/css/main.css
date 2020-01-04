@@ -18,7 +18,7 @@
 }
 
 .custom-page-box {
-  @apply bg-white rounded-lg border border-gray-300 p-8;
+  @apply bg-white border border-gray-300;
 }
 
 .custom-page-title {
@@ -38,6 +38,14 @@
   left: 0;
   width: 250px;
   @apply bg-white rounded-lg border border-gray-300 p-4;
+}
+
+.custom-mobile-menu {
+  top: 86px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @apply p-4;
 }
 
 a {

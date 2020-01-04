@@ -1,5 +1,5 @@
 <div class="bg-white mb-4 custom-bottom-shadow">
-  <div class="container mx-auto pt-4 pb-4">
+  <div class="container mx-auto pt-4 pb-4 px-4">
     <div class="flex items-center justify-between">
       <div>
         <a href="/" class="font-semibold text-3xl text-gray-700 tracking-wide">
@@ -7,7 +7,34 @@
         </a>
       </div>
 
-      <ul class="flex justify-end tracking-wide">
+      <mobile-menu>
+        <template slot="body">
+          <ul class="absolute bg-white custom-mobile-menu">
+            <li>
+              <a href="/">Titulinis</a>
+              <hr class="my-2" />
+            </li>
+            <li class="relative">
+            {% for category in site.data.categories %}
+              <li>
+                <a href="{{ category.url }}">
+                  {{ category.title }}
+                </a>
+                <hr class="my-2" />
+              </li>
+            {% endfor %}
+            <li>
+              <a href="/remigijus-jarmalavicius">Autorius</a>
+              <hr class="my-2" />
+            </li>
+            <li>
+              <a href="/kontaktai">Kontaktai</a>
+            </li>
+          </ul>
+        </template>
+      </mobile-menu>
+
+      <ul class="hidden sm:flex justify-end tracking-wide">
         <li><a href="/">Titulinis</a></li>
         <li class="relative">
           <collapse-menu title="Kategorijos">

@@ -13,7 +13,8 @@
 export default {
   name: 'CollapseMenu',
 
-  props: { title: {
+  props: {
+    title: {
       type: String,
       required: true,
     },
