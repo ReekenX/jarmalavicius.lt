@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  jekyll-hosting:
-    container_name: jekyll-hosting
+  jarmalavicius.lt-web:
+    container_name: jarmalavicius.lt-web
     image: jekyll/jekyll
     command: jekyll browsersync -- --no-notify
     ports:

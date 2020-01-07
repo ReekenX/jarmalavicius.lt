@@ -55,6 +55,7 @@ a {
 p {
   @apply mt-3;
   @apply mb-3;
+  line-height: 2;
 }
 
 code.highlighter-rouge { @apply bg-gray-300 p-1; }
