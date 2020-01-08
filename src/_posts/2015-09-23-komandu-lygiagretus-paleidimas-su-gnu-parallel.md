@@ -1,6 +1,6 @@
 ---
 title: Komandų lygiagretus paleidimas su GNU Parallel
-category: lygiagretus-darbas
+category: atviras-kodas
 image: i/lygiagretus-darbas/komandu-lygiagretus-paleidimas-su-gnu-parallel.png
 description: Komandų lygiagretus paleidimas su GNU Parallel. Taupykite operacijų laiką išmokę naudotis. Su praktiniais pavyzdžiais.
 ---

@@ -9,7 +9,7 @@ layout: default
 
   <hr class="mb-4"/>
 
-  {% for post in site.posts limit: 10 %}
+  {% for post in site.posts limit: 7 %}
     {% include post_row.html post=post forloop_last=forloop.last %}
   {% endfor %}
 </div>
