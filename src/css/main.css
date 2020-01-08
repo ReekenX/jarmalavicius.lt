@@ -9,8 +9,8 @@ body {
   letter-spacing: .4px;
 }
 
-b, strong {
-  @apply font-semibold;
+h1, h2, h3, h4, b, strong {
+  @apply font-medium;
 }
 
 .custom-bottom-shadow {
