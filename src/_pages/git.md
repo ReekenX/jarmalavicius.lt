@@ -8,5 +8,6 @@ pagination:
   enabled: true
   category: git
   permalink: /puslapis-:num.html
+  sort_reverse: false
 ---
 
