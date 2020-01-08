@@ -4,6 +4,15 @@
 @import "tailwindcss/components";
 @tailwind utilities;
 
+body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .4px;
+}
+
+b, strong {
+  @apply font-semibold;
+}
+
 .custom-bottom-shadow {
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
