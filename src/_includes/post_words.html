@@ -1,0 +1,11 @@
+{% capture words %}
+  {{ include.content | number_of_words }}
+{% endcapture %}
+
+{% if jekyll.environment == 'production' %}
+  {{ words | plus: 180 | divided_by: 180 }}
+  {% trans minutes to read %}
+{% else %}
+  {{ words | divided_by: 10 }}0+
+  {% trans words %}
+{% endif %}

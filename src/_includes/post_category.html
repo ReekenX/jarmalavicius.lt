@@ -1,0 +1,7 @@
+{% for category in site.data.categories %}
+  {% if category.slug == include.category %}
+    <a href="{{ category.url }}">
+      {{ category.title }}
+    </a>
+  {% endif %}
+{% endfor %}
