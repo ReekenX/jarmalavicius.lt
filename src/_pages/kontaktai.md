@@ -5,7 +5,7 @@ layout: page
 description: Ruby / Python / PHP programuotojo Remigijaus Jarmalavičiaus kontaktai.
 ---
 
-<a href="mailto:{{ site.email | append: 'jarmalavicius.lt' | encode_email }}" title="Susisiekite su manimi">Parašykite man laišką</a> ir aš Jums atsakysiu vienos arba dviejų dienų bėgyje.
+<a href="mailto:{{ site.email | encode_email }}" title="Susisiekite su manimi">Parašykite man laišką</a> ir aš Jums atsakysiu vienos arba dviejų dienų bėgyje.
 
 Darbo pasiūlymai tikrai nedomina. Bet darbiniais reikalais visada galite pasiekti mane per [LinkedIn](https://www.linkedin.com/in/remigijusjarmalavicius) sistemą.
 

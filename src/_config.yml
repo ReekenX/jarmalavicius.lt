@@ -1,8 +1,12 @@
 # Welcome to Jekyll!
 
+title: Devops straipsniai apie Docker, Ansible, GIT, Django, VIM ir kt.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-email: remigijus@
+author:
+  name : Remigijus Jarmalavičius
+  email: remigijus@jarmalavicius.lt
+  url: https://www.jarmalavicius.lt
 
 include: ['_pages']
 exclude:
@@ -20,6 +24,7 @@ exclude:
 
 feed:
   path: rss.xml
+  excerpt_only: true
 
 responsive_image:
   template: _includes/srcset.html
