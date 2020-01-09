@@ -12,6 +12,8 @@
 
   <link type="application/atom+xml" rel="alternate" href="/atom.xml" />
   <link type="application/rss+xml" rel="alternate" href="/rss.xml" />
+
+  <script src="/turbolinks.js"></script>
 </head>
 <html>
   <body class="custom-body-bg text-gray-800 max-w-full">
@@ -22,9 +24,11 @@
       <div class="container mx-auto">
         <div class="sm:flex justify-between">
           <div class="sm:w-8/12 mb-4 overflow-hidden">
-            {{ content }}
+            <div class="animated">
+              {{ content }}
+            </div>
           </div>
-          <div class="sm:pl-4 flex-1">
+          <div class="sm:pl-4 flex-1" id="turbolinks-sidebar" data-turbolinks-permanent>
             {% include sidebar.html %}
           </div>
         </div>
