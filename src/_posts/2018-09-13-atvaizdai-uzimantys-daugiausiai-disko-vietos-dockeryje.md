@@ -57,4 +57,4 @@ Trumpas `sort -rh` komandos paaiškinimas:
 
 ## Kaip pašalinti atvaizdus ir gauti daugiau disko vietos
 
-[Kaip atsilaisvinti disko vietos su Docker](https://www.jarmalavicius.lt/docker/vietos-atlaisvinimas-po-darbo-su-docker) jau rašiau praėjusiame straipsnyje.
+[Kaip atsilaisvinti disko vietos su Docker](/docker/vietos-atlaisvinimas-po-darbo-su-docker) jau rašiau praėjusiame straipsnyje.

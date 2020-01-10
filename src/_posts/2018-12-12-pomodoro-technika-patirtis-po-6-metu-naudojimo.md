@@ -62,4 +62,4 @@ Esu naudojęs [Gnome Pomodoro](http://gnomepomodoro.org/) - super įrankis, jeig
 
 Turbūt populiariausias laiko apskaitos įrankis internete yra [Toggl](https://toggl.com/). Jis duoda šią galimybę per tokius įrankius (nemokamus) kaip Chrome Extension. Nors ir veikia ne 100%, bet aš pats naudoju jau virš 4 metų ir iš esmės galima susitaikyti su nedidelėmis klaidomis.
 
-Visiškams geek'ams galėtų pamatyti [Pomodoro BASH skriptas](https://www.jarmalavicius.lt/mano-projektai/pomodoro-bash-skriptas) - irgi naudojau ilgiau nei metus.
+Visiškams geek'ams galėtų pamatyti [Pomodoro BASH skriptas](/mano-projektai/pomodoro-bash-skriptas) - irgi naudojau ilgiau nei metus.

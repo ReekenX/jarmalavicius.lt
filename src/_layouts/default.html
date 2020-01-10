@@ -1,5 +1,4 @@
 <head>
-
   {% include head.html %}
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500&subset=latin-ext" rel="stylesheet">
@@ -13,7 +12,13 @@
   <link type="application/atom+xml" rel="alternate" href="/atom.xml" />
   <link type="application/rss+xml" rel="alternate" href="/rss.xml" />
 
-  <script src="/turbolinks.js"></script>
+  {% if jekyll.environment == 'production' %}
+    <script src="/turbolinks.js"></script>
+  {% endif %}
+
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
 <html>
   <body class="custom-body-bg text-gray-800 max-w-full">
@@ -38,9 +43,5 @@
     </div>
 
     <script src="/main.js"></script>
-
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
   </body>
 </html>

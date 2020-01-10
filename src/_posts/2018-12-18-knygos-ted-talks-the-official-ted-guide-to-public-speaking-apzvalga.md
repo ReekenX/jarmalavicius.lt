@@ -29,4 +29,4 @@ Turinio, patarimo, istorijų ir pavyzdžių šimtais. Sunku tiek „suvirškinti
 
 Kol kas knyga tik angliškai, bet ir sunkiau angliškai skaitantiems - knyga bus tikrai lengvai skaitoma.
 
-Anksčiau esu rašęs apie dar vieną naudingą knygą apie viešojo kalbėjimo meną kuri gali taip pat būti naudinga - [Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga](https://www.jarmalavicius.lt/knygos/knygos-cercilio-iskalba-linkolno-tvirtybe-apzvalga).
+Anksčiau esu rašęs apie dar vieną naudingą knygą apie viešojo kalbėjimo meną kuri gali taip pat būti naudinga - [Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga](/knygos/cercilio-iskalba-linkolno-tvirtybe-knygos-apzvalga).

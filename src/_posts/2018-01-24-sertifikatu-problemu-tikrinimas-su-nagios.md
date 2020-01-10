@@ -36,7 +36,7 @@ define service{
 
 Ir pačiame Nagios'e gausime HTTPS sertifikato tikrinimui skirtą taisyklę:
 
-{% include post_image.html image="https://www.jarmalavicius.lt/i/nagios_jarmalavicius.png" text="" %}
+{% include post_image.html image="/i/nagios_jarmalavicius.png" text="Nuotrauka iš asmeninio Nagios puslapio" %}
 
 Nurodytų failų reikėtų ieškoti `/etc/nagios/conf.d/` kataloge. Tačiau priklausomai nuo sistemų, galima rasti ir `/usr/local/nagios`.
 
