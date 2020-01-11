@@ -1,0 +1,32 @@
+<ul class="hidden sm:flex justify-end tracking-wide">
+  <li><a href="/">Titulinis</a></li>
+  <li class="relative">
+    <div>
+      <a href="javascript:void(0)" class="ml-8 relative" onclick="for (elem of document.getElementsByClassName('categories-menu')) { elem.classList.toggle('hidden') }">
+        Kategorijos
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" class="inline-block categories-menu" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" fill="#626262"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" class="inline-block categories-menu hidden" style="-ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" fill="#626262"/></svg>
+      </a>
+      <div class="categories-menu hidden">
+        <ul class="bg-white absolute custom-menu ml-4 p-2">
+          {% for category in site.data.categories %}
+            <li>
+              <a href="{{ category.url }}">
+                {{ category.title }}
+              </a>
+              {% if forloop.last == false %}
+                <hr class="my-2" />
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </li>
+  <li>
+    <a href="/remigijus-jarmalavicius" class="ml-8">Autorius</a>
+  </li>
+  <li>
+    <a href="/kontaktai" class="ml-8">Kontaktai</a>
+  </li>
+</ul>
