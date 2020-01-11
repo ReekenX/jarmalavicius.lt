@@ -32,7 +32,7 @@ Aiškinti šiame hook'e nelabai yra ką. Komanda `git symbolic-ref HEAD` yra vie
 
 Taigi, jeigu Jūsų branch'o vardas turi savyje skaičius, jie bus panaudoti kaip užduoties ID ir prirašyti `commit` žinutėje kai atidaromas redaktorius (taigi, `git commit -m` čia netiks - šiai komandai kada nors vėliau parodysiu kitą skriptą).
 
-Pavyzdžiui esant branche `feature/6544-allow-login-using-fb` po pakeitimų parašius `git comit` bus matoma redaktoriuje:
+Pavyzdžiui esant branche `feature/6544-allow-login-using-fb` po pakeitimų parašius `git commit` bus matoma redaktoriuje:
 
     #6544
 

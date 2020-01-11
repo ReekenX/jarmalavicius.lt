@@ -1,4 +1,4 @@
-[[---]]
+---
 title: Decentralizuota versijavimo sistema. Kas tai?
 category: git
 image: i/git/decentralizuota-versijavimo-sistema.png
