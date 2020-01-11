@@ -1,6 +1,6 @@
 ---
 title: FTP su Docker
-category: atviras-kodas
+category: docker
 image: i/FTP-icon.jpg
 description: Reikia laikino FTP demono serveryje? Arba visai ne laikino, bet konfigūruojamo FTP serviso Jūsų klientams? Su Docker pagalba tai tik kelios sekundės.
 ---
