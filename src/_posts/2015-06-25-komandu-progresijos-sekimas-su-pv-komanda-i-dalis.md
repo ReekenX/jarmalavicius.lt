@@ -1,6 +1,6 @@
 ---
 title: Komandų progresijos sekimas su pv komanda, I dalis
-category: pv
+category: atviras-kodas
 image: i/pv/komandu-progresijos-sekimas-su-pv-i-dalis.png
 description: Straipsnis apie pv komandą. Kaip ja naudotis ir kokie jos privalumai, I dalis.
 ---

@@ -1,6 +1,6 @@
 ---
 title: Atvaizdai užimantys daugiausiai disko vietos Dockeryje
-category: atviras-kodas
+category: docker
 image: i/docker_apsivalymas.png
 description: Trūksta disko vietos Jūsų mikroserveryje? Greičiausiai dėl Docker kaltės - ją kaupti itin lengva. Disko vietą gali užimti ne tik media katalogas Jūsų projekte, bet ir Docker konteineriai, atvaizdai, skirsniai.
 ---
