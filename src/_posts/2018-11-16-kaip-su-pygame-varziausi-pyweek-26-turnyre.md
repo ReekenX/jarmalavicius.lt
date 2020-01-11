@@ -1,6 +1,6 @@
 ---
 title: Kaip su Pygame varžiausi Pyweek #26 turnyre
-category: atviras-kodas
+category: zaidimu-kurimas
 image: i/pyweek_26_zaidimas.png
 description: Kokį žaidimą kūriau Pyweek #26 turnyrui; kaip sekėsi kūryba ir kas buvo sunkiausia; kokią vietą laimėjau Pyweek 26 turnyre ir kaip galite Jūs varžytis žaidimų kūrime.
 ---

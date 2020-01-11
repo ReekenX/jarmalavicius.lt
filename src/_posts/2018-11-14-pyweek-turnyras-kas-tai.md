@@ -1,6 +1,6 @@
 ---
 title: Pyweek turnyras - kas tai?
-category: atviras-kodas
+category: zaidimu-kurimas
 image: i/pyweek_logotipas.png
 description: Pyweek turnyras Python žaidimų kūrėjams. Pyweek turnyro eiga; ko reikia, kad galėtum dalyvauti; vertinimo kriterijai ir prizai!
 ---
