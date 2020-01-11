@@ -7,32 +7,7 @@
         </a>
       </div>
 
-      <mobile-menu>
-        <template slot="body">
-          <ul class="absolute bg-white custom-mobile-menu z-10">
-            <li>
-              <a href="/">Titulinis</a>
-              <hr class="my-2" />
-            </li>
-            <li class="relative">
-            {% for category in site.data.categories %}
-              <li>
-                <a href="{{ category.url }}">
-                  {{ category.title }}
-                </a>
-                <hr class="my-2" />
-              </li>
-            {% endfor %}
-            <li>
-              <a href="/remigijus-jarmalavicius">Autorius</a>
-              <hr class="my-2" />
-            </li>
-            <li>
-              <a href="/kontaktai">Kontaktai</a>
-            </li>
-          </ul>
-        </template>
-      </mobile-menu>
+      {% include mobile_menu.html %}
 
       <ul class="hidden sm:flex justify-end tracking-wide">
         <li><a href="/">Titulinis</a></li>
