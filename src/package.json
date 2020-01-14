@@ -2,6 +2,8 @@
   "scripts": {
     "webpack:build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "webpack:watch": "cross-env NODE_ENV=development webpack --watch",
+    "serve": "jekyll browsersync -- --no-notify",
+    "server": "npm run serve",
     "build": "npm run build:js && npm run build:css && npm run build:html",
     "build:js": "npm run webpack:build && cp js/turbolinks.js turbolinks.js",
     "build:css": "cp css/main.css main.css",
