@@ -2,7 +2,10 @@
   "scripts": {
     "webpack:build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "webpack:watch": "cross-env NODE_ENV=development webpack --watch",
-    "build": "npm run webpack:build && cp css/main.css main.css && cp js/turbolinks.js turbolinks.js && JEKYLL_ENV=production jekyll build && rm -rf _site/css _site/js"
+    "build": "npm run build:js && npm run build:css && npm run build:html",
+    "build:js": "npm run webpack:build && cp js/turbolinks.js turbolinks.js",
+    "build:css": "cp css/main.css main.css",
+    "build:html": "JEKYLL_ENV=production jekyll build && rm -rf _site/css _site/js"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
