@@ -1,0 +1,23 @@
+<div class="bg-white sm:rounded-lg border border-gray-300 p-4 sm:p-8 mb-4">
+  <h3 class="text-lg">
+    Kategorijos
+  </h3>
+
+  <hr class="my-4"/>
+
+  {% for category in site.data.categories %}
+    <div>
+      <a href="{{ category.url }}">{{ category.title }}</a>
+      <div class="text-gray-500 text-xs">
+        {% if site.categories[category.slug].size > 9 %}
+          {{ site.categories[category.slug].size | divided_by : 10 }}0+ straipsnių
+        {% else %}
+          iki 10 straipsnių
+        {% endif %}
+      </div>
+      {% if forloop.last == false %}
+        <hr class="my-4"/>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
