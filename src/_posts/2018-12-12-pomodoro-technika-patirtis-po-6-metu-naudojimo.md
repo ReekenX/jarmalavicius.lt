@@ -1,17 +1,29 @@
 ---
-title: Pomodoro technika - patirtis po 6+ metų naudojimo
+title: Pomodoro technika - patirtis po 7+ metų naudojimo
 category: mano-projektai
 image: i/pomodoro_laikmatis.jpg
 description: Pomodoro atradau 2012 metais, nuo tada praktiškai nepertraukiamai naudojau kiekieną darbo dieną. Mano įspūdžiai, patirtis ir kodėl vis dar šios technikos laikausi.
 ---
 
-2012 metais pirmą kartą perskaičiau apie Pomodoro. Kadangi esu megėjas visokių straipsnių / knygų / seminarų apie produktyvumą - nekantravau išbandyti.
+2012 metais pirmą kartą perskaičiau apie Pomodoro techniką. Tais laikais, lyginant su dabar,
+2020, technika tikrai nebuvo populiari. Ir žmonių rašančių apie tai buvo vienetai.
 
-Tai labai paprasta technika:
+Kadangi esu megėjas visokių tokių straipsnių / knygų / seminarų apie produktyvumą -
+nekantravau išbandyti. Dabar, panaudojus 7+ metus dažnai norisi su kitais pasidalinti,
+kad tai yra bene pats geriausias produktyvumo įprotis kurį išsiugdžiau.
+
+{% include post_image.html image="/i/2020/toggl_menuo.png" text="Ekranas iš mano Toggl paskyros kur laiką seku pagal Pomodoro techniką" %}
+
+## Pomodoro technikos schema
+
+Tai labai paprasta technika. Nereikės nei daug mokytis nei daug apie ją skaityti. Dažniausiai vieno internetinio straipsnio pilnai pakanka.
 
 1) Nusistatai laikmatį. Standartiškai 25 min.
+
 2) Dirbi ir stengiesi neturėti per tą laiką trikdžių.
+
 3) Pailsi 5-15 min.
+
 4) Kartoji 2-3 punktus kol griūni apspangęs nuo produktyvumo.
 
 Ketvirtas punktas nebūtinas.
@@ -19,8 +31,6 @@ Ketvirtas punktas nebūtinas.
 Bene standartiškai yra siūloma po kiekvienos sesijos padaryti 5 min. pertrauką, o po ketvirtosios - ilgesnę - 15 min. pertrauką.
 
 Trikdžių atsikratymas čia dirba svarbią rolę ir tam turbūt reikėtų atskiro straipsnio.
-
-{% include post_image.html image="/i/tomatoes.png" text="Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams" %}
 
 ## Tinka beveik visiems
 
@@ -57,8 +67,6 @@ Arba dienos - rekordininkės - 31 pomodoro per dieną.
 Tas pats [Tomato.es](http://www.tomato.es) yra visiškai nemokamas ir atviro kodo. Man yra tekę jį parsisiųsti ir modifikuoti pagal savo norus - kodo bazė nesudėtinga, todėl galima prasiplėsti įrankį.
 
 Esu naudojęs [Gnome Pomodoro](http://gnomepomodoro.org/) - super įrankis, jeigu naudojate Linux.
-
-{% include post_image.html image="/i/toggl.png" text="Iškarpa iš mano Toggl profilio - atfiltruotas laikas savo asmeniniams projektams" %}
 
 Turbūt populiariausias laiko apskaitos įrankis internete yra [Toggl](https://toggl.com/). Jis duoda šią galimybę per tokius įrankius (nemokamus) kaip Chrome Extension. Nors ir veikia ne 100%, bet aš pats naudoju jau virš 4 metų ir iš esmės galima susitaikyti su nedidelėmis klaidomis.
 
