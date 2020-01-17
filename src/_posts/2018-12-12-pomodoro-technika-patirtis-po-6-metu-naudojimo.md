@@ -12,33 +12,105 @@ Kadangi esu megėjas visokių tokių straipsnių / knygų / seminarų apie produ
 nekantravau išbandyti. Dabar, panaudojus 7+ metus dažnai norisi su kitais pasidalinti,
 kad tai yra bene pats geriausias produktyvumo įprotis kurį išsiugdžiau.
 
+Prie kompiuterio praleidžiu tikrai daug laiko. Kaip atrodo mano tipinis darbo mėnuo galima
+pamatyti nuotraukoje žemiau.
+
 {% include post_image.html image="/i/2020/toggl_menuo.png" text="Ekranas iš mano Toggl paskyros kur laiką seku pagal Pomodoro techniką" %}
 
-## Pomodoro technikos schema
+Laiko apskaitą su [Toggl įrankiu](https://toggl.com/?utm_source=https%3A%2F%2Fwww.jarmalavicius.lt&utm_medium=blog&utm_campaign=pomodoro-technika)
+seku nuo tada kai pradėjau patį Pomodoro.
 
-Tai labai paprasta technika. Nereikės nei daug mokytis nei daug apie ją skaityti. Dažniausiai vieno internetinio straipsnio pilnai pakanka.
+## Pomodoro technikos paaiškinimas
 
-1) Nusistatai laikmatį. Standartiškai 25 min.
+Tai labai paprasta technika. Nereikės nei daug mokytis nei daug apie ją skaityti. Dažniausiai
+vieno internetinio straipsnio pilnai pakanka. Arba Wikipedia.
 
-2) Dirbi ir stengiesi neturėti per tą laiką trikdžių.
+Technika sukurta 1980 metais ir neturi nieko daugiau, kaip tik laiko paskirstymą intervalais.
+Tradiciškai 25 minutės darbo susikaupus su trumpom, tarkime 5 minučių, pertraukėlėmis.
 
-3) Pailsi 5-15 min.
+Taip pat tradiciškai, 4 pomodoro (tos minėtos 25 min.) užbaigiamos ilgesne pertrauka - 15 min.
+arba panašiai.
 
-4) Kartoji 2-3 punktus kol griūni apspangęs nuo produktyvumo.
+Ir pabaigai - ši technika dar turi „pomodoro ciklo“ sąvoką. Tai yra 4 pomodoro baigimo ciklas,
+iliustruotas žemiau:
 
-Ketvirtas punktas nebūtinas.
+{% include post_image.html image="/i/2020/pomodoro_ciklas.png" text="Pomodoro ciklas" %}
 
-Bene standartiškai yra siūloma po kiekvienos sesijos padaryti 5 min. pertrauką, o po ketvirtosios - ilgesnę - 15 min. pertrauką.
+## Darbo biure problemos
 
-Trikdžių atsikratymas čia dirba svarbią rolę ir tam turbūt reikėtų atskiro straipsnio.
+Yra labai daug studijų apie „darbą“ darbe ir dar daugiau (nebūtinai pagrįstų) komentarų ar
+straipsnių, kad tradiciškai darbuotojas per 8 val. dirba tik daugiausiai 6 valandas. Visos
+kitos valandos „išmetamos į balą“: kavų pertraukėlėms, pasišnekėjimams, susirinkimams, darant
+ne su darbu susijusią veiklą (kalbėjimas telefonu, naršymas Facebook).
 
-## Tinka beveik visiems
+Ir tokiem daluma Pomodoro technika vistiek greičiausiai netinka. Trumpai tariant, gi mokama už
+buvimą darbe. Skamba labai žiauriai, bet tai yra tiesa, jeigu darbo įvertinimas nepriklauso
+nuo kažkokių rezultatų.
 
-Tokios technikos puikiai tinka prie kompiuterio sėdintiems darbuotojams - ypač programuotojams, dizaineriams, marketingistams ir pan.
+Tačiau kai darbas yra priklausantis nuo rezultatų - labai svarbu dirbti susikaupus. Todėl viena
+iš būtinybių - dirbti tokioje aplinkoje, kur gautumėte tą ramybę.
 
-Arba tobula technika studentams - žmonėms kuriems dažniausiai reikia prisiversti prisėsti prie studijų.
+Triukšminguose biuruose tai šiais laikais nesunkiai ištaisoma - ausinėmis arba ausinukais. Aišku,
+jeigu leidžia galimybės. Ne visuose darbo vietose užsidėti ausines yra mažų mažiausiai mandagu.
 
-Greičiausiai netinka fabriko darbuotojams arba žmonėms kurie turi daug pasikartojančio darbo. Tokia technika tik išsekintų smegenis.
+Kitas trikdis gali būti reiklūs kolegos ar vadovai. Tai viena bėdų labai aktyviose IT įmonėse.
+Man yra tekę dirbti tokiose, ir projektų vadovų priėjimai kas 5 minutes būtų prieš Pomodoro.
+
+## Universali technika
+
+Apskritai, kalbant apie IT, tai Pomodoro yra pirmas dalykas ką rekomenduočiau freelanceriams.
+Jų darbas 100% priklauso nuo rezultatų, ne sedėjimo. Tokia technika man pačiam gerokai atsipirko.
+
+Taigi ši technika puikiai veikia prie kompiuterio sėdintiems darbuotojams - ypač programuotojams,
+dizaineriams, marketingistams, pardavimų vadybininkams ir pan.
+
+Arba tobula technika studentams - žmonėms kuriems dažniausiai reikia **prisiversti prisėsti prie
+studijų**. Dabar žiūrint į praeitį labai gaila, kad tada apie tai nieko nežinojau.
+
+Net ir prasčiausiai besimokantiems studentams skirti vieną Pomodoro kartą į dieną greičiausiai
+duotų naudos. Tiesiog atsisėsti ir studijuoti būna sunku. O nusibrėžus labai aiškią ribą kiek
+ir ko daryti - tarkime 25 minutes - pasiekti galima nesunkiai. Man po 7+ metų naudojimo šios
+technikos tos 25 minutės pralekia dažnai kaip kokios 5.
+
+Greičiausiai ši technika netinka fabriko darbuotojams arba žmonėms kurie turi daug
+pasikartojančio darbo. Tokia technika tik išsekintų smegenis. Kaip minėjau, čia labiau tinka
+nuo rezultatų priklausantiems darbų profiliams.
+
+## Originali technika
+
+Minėjau, kad šis „laiko valdymo“ metodas / technika buvo sugalvota 1980 metais. Ją „sukūrė“
+Francesco Cirillo. Jo originalų metodą sudaro 6 žingsniai.
+
+1) Reikia tiksliai žinoti ką norima padaryti. Arba ką per būsimą Pomodoro laiką norima
+padaryti. Todėl greičiausiai reiks su savimi turėti kažkokią užrašų knygutą ar tiktų koks
+elektroninis darbų sąrašas (angl. „todo list“).
+
+2) Laiko intervalo nustatymas darbui. 25 minutės - kaip minėjau yra tradicinis laikas. Internete
+galima rasti ne vieną variaciją: 30 minučių, 60 minučių, 90 minučių. Nesu matęs, kad kas nors
+darytų ilgesnius intervalus nei pusantros valandos.
+
+3) Darbas arba bandymas atliktį užduotį. Originalioje technikoje mano minėto „susikaupimo“
+nėra. Sakyčiau tai nauja tradicija. Juk 1980 metais nebuvo tokių laiko švaistytojų kaip
+telefonai su pranešimais, el. pašto dėžutės ir pan.
+
+4) Atliktų Pomodoro pasižymėjimas. Programinė įranga čia tiktų geriausia. Be minėtų Toggl yra
+daugybė kitų (ir nemokamų) įrankių tiek kompiuteryje, tiek mobiliame telefone. Daug kas šiais
+laikais turi išmaniuosius laikrodžius. Ir ten tai būtų pasiekiama.
+
+Labai gerai, kad internete yra ne vienas nemokamas įrankis kurio net diegti į kompiuterį
+nereikia. Ar registruotis. Vienas tokių būtų [Tomato.es](http://www.tomato.es/?utm_source=https%3A%2F%2Fwww.jarmalavicius.lt&utm_medium=blog&utm_campaign=pomodoro-technika).
+
+6) Po ciklo (4 pomodoro) daroma ilgesnė, 15-30 minučių pertrauka. Originalioje technikoje čia
+žymėjimo ciklas (4 punktas) pradedamas nuo 0.
+
+
+
+
+
+
+
+
+
 
 ## Atidėliojimo problema
 
