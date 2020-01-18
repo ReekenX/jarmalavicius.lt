@@ -17,8 +17,8 @@ pamatyti nuotraukoje žemiau.
 
 {% include post_image.html image="/i/2020/toggl_menuo.png" text="Ekranas iš mano Toggl paskyros kur laiką seku pagal Pomodoro techniką" %}
 
-Laiko apskaitą su [Toggl įrankiu](https://toggl.com/?utm_source=https%3A%2F%2Fwww.jarmalavicius.lt&utm_medium=blog&utm_campaign=pomodoro-technika)
-seku nuo tada kai pradėjau patį Pomodoro.
+Laiko apskaitą su {% include external_link.html url="https://toggl.com" text="Toggl įrankiu" %} seku
+nuo tada kai pradėjau patį Pomodoro.
 
 ## Pomodoro technikos paaiškinimas
 
@@ -98,7 +98,8 @@ daugybė kitų (ir nemokamų) įrankių tiek kompiuteryje, tiek mobiliame telefo
 laikais turi išmaniuosius laikrodžius. Ir ten tai būtų pasiekiama.
 
 Labai gerai, kad internete yra ne vienas nemokamas įrankis kurio net diegti į kompiuterį
-nereikia. Ar registruotis. Vienas tokių būtų [Tomato.es](http://www.tomato.es/?utm_source=https%3A%2F%2Fwww.jarmalavicius.lt&utm_medium=blog&utm_campaign=pomodoro-technika).
+nereikia. Ar registruotis. Vienas tokių būtų
+{% include external_link.html url="http://www.tomato.es" text="Tomato.es" %}.
 
 6) Po ciklo (4 pomodoro) daroma ilgesnė, 15-30 minučių pertrauka. Originalioje technikoje čia
 žymėjimo ciklas (4 punktas) pradedamas nuo 0.
