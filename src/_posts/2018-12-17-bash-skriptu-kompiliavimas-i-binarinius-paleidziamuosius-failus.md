@@ -72,5 +72,4 @@ sukompiliuotas_skriptas: Mach-O 64-bit executable x86_64
 
 Arba tiesiog pažiūrėjus jo turinį su `less sukompiliuotas_skriptas`.
 
-Ką daugiau gali ši komanda galite perskaityti [shc žinyno
-puslapyje](https://linux.die.net/man/1/shc?utm_source=https%3A%2F%2Fwww.jarmalavicius.lt&utm_medium=blog&utm_campaign=bash-skriptu-kompiliavimas).
+Ką daugiau gali ši komanda galite perskaityti {% include external_link.html url="https://linux.die.net/man/1/shc" text="shc žinyno puslapyje" %}.
