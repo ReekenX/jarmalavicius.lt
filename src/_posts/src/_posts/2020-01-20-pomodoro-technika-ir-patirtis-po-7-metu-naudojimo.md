@@ -1,5 +1,5 @@
 ---
-title: Pomodoro technika - patirtis po 7+ metų naudojimo
+title: Pomodoro technika ir patirtis po 7+ metų naudojimo
 category: mano-projektai
 image: i/pomodoro_laikmatis.jpg
 description: Pomodoro atradau 2012 metais, nuo tada praktiškai nepertraukiamai naudojau kiekvieną darbo dieną. Mano įspūdžiai, patirtis ir kodėl vis dar šios technikos laikausi.
