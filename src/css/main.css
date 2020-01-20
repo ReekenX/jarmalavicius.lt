@@ -53,9 +53,16 @@ p {
   @apply pl-8;
 }
 
-
 .custom-page-content a {
   @apply font-semibold;
+}
+
+.custom-page-toc {
+  @apply bg-gray-100 p-4 border border-gray-300 rounded-lg my-4;
+}
+
+.custom-page-toc ul {
+  @apply mt-2;
 }
 
 .custom-menu {

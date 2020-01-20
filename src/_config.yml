@@ -25,6 +25,8 @@ exclude:
   - _i18n
   - js
 
+excerpt_separator: <!-- toc -->
+
 feed:
   path: rss.xml
   excerpt_only: true

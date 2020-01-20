@@ -12,6 +12,18 @@ layout: default
   <hr class="mb-4"/>
 
   <div class="custom-page-content">
-    {{ content | markdownify }}
+    {% if page.toc %}
+      {{ page.excerpt }}
+
+      <div class="custom-page-toc">
+        <h2 id="turinys">Turinys</h2>
+
+        {{ page.content | toc_only }}
+      </div>
+
+      {{ page.content | remove: page.excerpt }}
+    {% else %}
+      {{ page.content }}
+    {% endif %}
   </div>
 </div>
