@@ -53,6 +53,10 @@ p {
   @apply pl-8;
 }
 
+.custom-page-content ul > li {
+  @apply mb-2;
+}
+
 .custom-page-content a {
   @apply font-semibold;
 }
