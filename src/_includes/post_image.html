@@ -1,5 +1,9 @@
 <p class="text-center">
-  <img src="{{ include.image }}" class="max-w-full inline-block" />
+  {% if include.image contains '/i/' %}
+    <img src="{{ site.url }}{{ include.image }}" class="max-w-full inline-block" />
+  {% else %}
+    <img src="{{ include.image }}" class="max-w-full inline-block" />
+  {% endif %}
   <div class="text-xs text-gray-600 text-center">
     {{ include.text }}
   </div>
