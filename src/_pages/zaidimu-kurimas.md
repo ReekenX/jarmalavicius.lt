@@ -1,7 +1,7 @@
 ---
 layout: category
 permalink: /zaidimu-kurimas/
-title: Žaidimų kūrimas
+title: Straipsniai apie žaidimų kūrimą
 category_slug: zaidimu-kurimas
 introduction: "Kaip kurti kompiuterinius žaidimus, ką naudoti ir kokius įrankius su savimi reikia turėti."
 pagination:

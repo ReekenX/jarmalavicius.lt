@@ -5,7 +5,7 @@ image: i/ted_talks_knyga.png
 description: Iš daugiau nei 200 perskaitytų knygų šią knygą išrinkau kaip geriausią knygą skirtą viešojo kalbėjimo įgūdžiams lavinti. Su šimtais praktinių pavyzdžių, daugybę istorijų ir tikra gyva patirtimi.
 ---
 
-Nesu TED prezentacijų megėjas, tačiau ši knyga (tiek audio, tiek popieriniame variante) yra tikrai **geriausia ką galima rasti viešojo kalbėjimo tematika**.
+Nesu TED prezentacijų mėgėjas, tačiau ši knyga (tiek audio, tiek popieriniame variante) yra tikrai **geriausia ką galima rasti viešojo kalbėjimo tematika**.
 
 Pati knyga prasideda įdomia istorija kaip TED vos "nemirė" vos tik šiam renginiui/idėjai prasidėjus.
 
@@ -17,7 +17,7 @@ Tie patys TED organizatoriai turi sukaupę didelį žinių bagažą ir dalinasi 
 
 Tarp visokių minčių galima rasti:
 
-"Yra vienas dalykas ko niekas kitas neturi pasaulyje: tai būtent Jūsų patirties/patyrimo kai kažkas vyko apie ką pasakojate".
+Yra vienas dalykas ko niekas kitas neturi pasaulyje: tai būtent Jūsų patirties/patyrimo kai kažkas vyko apie ką pasakojate".
 
 "Žmonės mėgsta istorijas ir kiekvienas gali išmokti jas pasakoti".
 
@@ -27,6 +27,6 @@ Knygoje yra ir ne vienas „planas“ ar „sistema“ kaip savo prezentaciją g
 
 Turinio, patarimo, istorijų ir pavyzdžių šimtais. Sunku tiek „suvirškinti“, tačiau tai tikrai geriausia ką esu iki šiol skaitęs šia tema.
 
-Kol kas knyga tik angliškai, bet ir sunkiau angliškai skaitantiems - knyga bus tikrai lengvai skaitoma.
-
-Anksčiau esu rašęs apie dar vieną naudingą knygą apie viešojo kalbėjimo meną kuri gali taip pat būti naudinga - [Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga](/knygos/cercilio-iskalba-linkolno-tvirtybe-knygos-apzvalga).
+Anksčiau esu rašęs apie dar vieną naudingą knygą apie viešojo kalbėjimo meną
+kuri gali taip pat būti naudinga -
+[Knygos Čerčilio iškalba, Linkolno tvirtybė apžvalga](/knygos/knygos-cercilio-iskalba-linkolno-tvirtybe-apzvalga).

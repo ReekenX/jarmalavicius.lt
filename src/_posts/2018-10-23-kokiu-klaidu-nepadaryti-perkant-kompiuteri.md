@@ -19,7 +19,13 @@ Brangesni yra žaidimų kompiuteriai. Dažniausiai juos perkantys jau žino koki
 
 Darote labai didelę klaidą, jei susižavite daugiausiai reklamuojamais ir giriamais kompiuteriais – net ir turėdami aukščiausias specifikacijas, jie gali nepateisinti asmeninių lūkesčių, todėl Jūs tiesiog permokėsite.
 
-Geriausia, jei tiksliai žinotumėte, kokiems tikslams jį naudosite ir kokios funkcijos yra svarbiausios. Pagal tai galėsite susidaryti kompiuteriui skirtą biudžetą, žinosite kokių maždaug pajėgumų kompiuterio Jums reikia ir galėsite pasirinkti ne iš vieno varianto. Pavyzdžiui, jei ieškote paprasto, kasdienėms užduotims skirto įrenginio, puikiai pasitarnauti gali ir galingų specifikacijų nesiūlantys [pigūs nešiojami kompiuteriai](https://pigu.lt/lt/kompiuteriai/nesiojami-kompiuteriai) ar [planšetiniai kompiuteriai](https://pigu.lt/lt/plansetiniai-kompiuteriai/plansetes-tablets).
+Geriausia, jei tiksliai žinotumėte, kokiems tikslams jį naudosite ir kokios
+funkcijos yra svarbiausios. Pagal tai galėsite susidaryti kompiuteriui skirtą
+biudžetą, žinosite kokių maždaug pajėgumų kompiuterio Jums reikia ir galėsite
+pasirinkti ne iš vieno varianto. Pavyzdžiui, jei ieškote paprasto, kasdienėms
+užduotims skirto įrenginio, puikiai pasitarnauti gali ir galingų specifikacijų
+nesiūlantys {% include external_link.html url="https://pigu.lt/lt/kompiuteriai/nesiojami-kompiuteriai" text="pigūs nešiojami kompiuteriai" %} ar
+{% include external_link.html url="https://pigu.lt/lt/plansetiniai-kompiuteriai/plansetes-tablets" text="planšetiniai kompiuteriai" %}
 
 ## Nepagalvojama apie ateitį
 
@@ -47,7 +53,8 @@ Pastebėkite, kad mažesnius ekranus turintys kompiuteriai dažniausiai turi ilg
 
 Pigūs nešiojami kompiuteriai visuomet pirmiausia atkreipia mūsų dėmesį, tačiau klausimas, ar jie visada atitinka mūsų lūkesčius?
 
-Todėl šiuo atveju rekomenduotina ieškoti ne pigiausio, bet geriausio modelio: jei iš anksto nuspręsite, kokią sumą galite skirti šiam pirkiniui, palyginę skirtingus kompiuterius toje pačioje kainų kategorijoje, surasite tą, kuris tinka būtent Jums. Gausų kompiuterių pasirinkimą rasite [Pigu.lt](https://pigu.lt/lt/) el. parduotuvėje. 
+Todėl šiuo atveju rekomenduotina ieškoti ne pigiausio, bet geriausio modelio: jei iš anksto nuspręsite, kokią sumą galite skirti šiam pirkiniui, palyginę skirtingus kompiuterius toje pačioje kainų kategorijoje, surasite tą, kuris tinka būtent Jums. Gausų kompiuterių pasirinkimą rasite
+{% include external_link.html url="https://pigu.lt" text="Pigu.lt" %} el. parduotuvėje. 
 
 ## Neatsižvelgiama į jungtis
 

@@ -2,7 +2,7 @@
 title: Kaip su Pygame varžiausi Pyweek #26 turnyre
 category: zaidimu-kurimas
 image: i/pyweek_26_zaidimas.png
-description: Kokį žaidimą kūriau Pyweek #26 turnyrui; kaip sekėsi kūryba ir kas buvo sunkiausia; kokią vietą laimėjau Pyweek 26 turnyre ir kaip galite Jūs varžytis žaidimų kūrime.
+description: "Kokį žaidimą kūriau Pyweek #26 turnyrui; kaip sekėsi kūryba ir kas buvo sunkiausia; kokią vietą laimėjau Pyweek 26 turnyre ir kaip galite Jūs varžytis žaidimų kūrime."
 ---
 
 2018 spalį vyko jau 26 Pyweek turnyras. Tai trečiasis turnyras kuriame spėjau sudalyvauti.
@@ -19,7 +19,7 @@ Su Pygame varikliu kūriau piratų mūšio žaidimą:
 
 {% include post_image.html image="https://github.com/ReekenX/pyweek-pirate-flow/raw/master/data/screenshots/gameplay.png?raw=true" text="Pyweek #26 žaidimo 'Pirate Flow' ekrano vaizdas" %}
 
-**Per 19 valandų** pavyko sukurti žaidimą kuriame galima šaudyti priešus (laivai ir patrankas), plaukioti po didžiulį pasaulį, rinkti taškus, gyvybes ir atlikti kelias misijas.
+**Per 19 valandų** pavyko sukurti žaidimą kuriame galima šaudyti priešus (laivus ir patrankas), plaukioti po didžiulį pasaulį, rinkti taškus, gyvybes ir atlikti kelias misijas.
 
 Deja, nors ir skyriau tikrai daug valandų - tai ką buvau sumąstęs savaitės pradžioje - nepavyko padaryti. Bet dėl to neverta nusiminti.
 
@@ -57,7 +57,7 @@ Ir visus visus žaidimus apžiūriu kaip jie suprogramuoti. Kadangi Pyweek'e gau
 
 **Bijote, kad nesugebėsite?** Tai nesvarbu. Padarykite kažką kas bent jau judėtų ar reaguotų ir viešinkite. Vėliau tikrai rasite noro ir jėgų patobulinti.
 
-**Neturite laiko tokiems dalykams, bet patinka žaidimų kūrimas?** Tai Pyweek kaip tik Jums! Tik viena savaitė ir viskas. Kiek spėsite - tiek spėsite. Greičiausiai tiek turėsite daug motyvacijos, kad negalėsite atsiplėšti ir sedėsite vakarais / naktimis.
+**Neturite laiko tokiems dalykams, bet patinka žaidimų kūrimas?** Tai Pyweek kaip tik Jums! Tik viena savaitė ir viskas. Kiek spėsite - tiek spėsite. Greičiausiai tiek turėsite daug motyvacijos, kad negalėsite atsiplėšti ir sėdėsite vakarais / naktimis.
 
 Atsimenu pirmasis-antrasis Pyweek'as man buvo šiek tiek su stresu, kadangi norėjosi tarsi nesusimauti. **Susimauti - čia nėra kur**. Kolektyvas kuris kuria ir vertina žaidimus priims labai nuoširdžiai ką Jūs padarėte ir negausite piktų žinučių vertinimo metu.
 

@@ -13,7 +13,7 @@ Jeigu žinote ar skaitėte anksčiau kaip veikia Docker, tai jis kiekvienam Dock
 
 Pažiūrėti kiek užima Docker atvaizdai galima su komanda:
 
-```
+```bash
 $ docker images
 
 REPOSITORY                               [..]         SIZE
@@ -30,7 +30,7 @@ python                                   [..]         74.3MB
 
 Jeigu domina išsirikiuoti atvaizdus pagal dydį, kad identifikuoti kas daugiausiai vietos užima ir ką galima optimizuoti:
 
-```
+```bash
 $ docker images | awk 'NR!=1 {print $7"\t"$1}' | sort -rh
 
 1.4GB   jarmalaviciuslt_jarmalavicius.lt-web
