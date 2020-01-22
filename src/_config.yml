@@ -33,11 +33,13 @@ feed:
 
 responsive_image:
   template: _includes/srcset.html
+  default_quality: 95
+  strip: true
   sizes:
-   - width: 480
-     quality: 90
-   - width: 800
-     quality: 90
+   - width: 300
+   - width: 600
+  base_path: i
+  output_path_format: i/resized/%{width}/%{basename}
 
 defaults:
   -
