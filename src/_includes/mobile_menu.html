@@ -1,5 +1,9 @@
-<div onclick="document.querySelector('.mobile-menu').classList.toggle('hidden')">
-  <svg class="md:hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M3 11h14V9H3v2zm0 5h14v-2H3v2zM3 4v2h14V4H3z" fill="#626262" /></svg>
+<div onclick="document.querySelector('.mobile-menu').classList.toggle('hidden'); document.querySelector('.mobile-menu-icon').classList.toggle('is-active')">
+  <button class="mobile-menu-icon hamburger hamburger--squeeze text-sm" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
   <div class="mobile-menu hidden">
     <ul class="absolute bg-white custom-mobile-menu z-10">
       <li>
