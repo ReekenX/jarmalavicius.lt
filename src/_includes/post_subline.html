@@ -5,7 +5,9 @@
 
   {% include post_category.html category=include.post.category %}
 
-  <span class="mx-1 text-gray-400">&bullet;</span>
+  <span class="hidden sm:inline-block">
+    <span class="mx-1 text-gray-400">&bullet;</span>
 
-  {% include post_words.html content=include.post.content %}
+    {% include post_words.html content=include.post.content %}
+  </span>
 </div>
