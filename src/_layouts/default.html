@@ -13,11 +13,11 @@
   <link type="application/rss+xml" rel="alternate" href="/rss.xml" />
 
   {% if jekyll.environment == 'production' %}
-    <link rel="stylesheet" href="/main.css" />
+    <link async rel="stylesheet" href="/main.css" />
     <script defer src="/turbolinks.js"></script>
     {% include analytics.html %}
   {% else %}
-    <link rel="stylesheet" href="/css/main.css">
+    <link async rel="stylesheet" href="/css/main.css">
   {% endif %}
 </head>
 <html>
