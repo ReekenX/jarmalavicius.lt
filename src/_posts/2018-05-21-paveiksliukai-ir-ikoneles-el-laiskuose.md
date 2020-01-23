@@ -14,7 +14,7 @@ Deja, pats paveiksliukų procesas vistiek yra labai problematiškas, nes yra try
 Pats paprasčiausias ir lengviausias būdas, tai dėti el. laiškuose nuotraukas su nuorodomis į internetą:
 
 ```html
-{% include post_image.html image="http://example.com/nuotrauka.png" text="" %}
+<img src="http://example.com/nuotrauka.png" alt="Logo" />
 ```
 
 Paprasčiausias būdas turi daugybę trūkumų:
@@ -40,7 +40,7 @@ Toks būdas turi tokius trūkumus:
 Tai labai populiarus būdas visą nuotraukos turinį užkoduoti ir prikabinti standartiniais būdais prie laiško:
 
 ```html
-{% include post_image.html image="data:image/png;base64,iVBORw0KGgoAAAANS...." text="" %}
+<img src="data:image/png;base64,iVBORw0KGgoAAAANS...." alt="Logo" />
 ```
 
 Tokiu būdu laimėsite:

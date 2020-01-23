@@ -8,4 +8,5 @@ pagination:
   enabled: true
   category: knygos
   permalink: /puslapis-:num.html
+  sort_reverse: true
 ---

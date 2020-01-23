@@ -19,7 +19,9 @@ Kur pasidėti - labai paprasta - Dropbox. Bet kaip juos sugeneruoti ir kaip juos
 
 Jeigu pirmiausiai šovė į galvą:
 
-    git diff > failas.patch
+```bash
+git diff > failas.patch
+```
 
 Tai iškart galiu pasakyti, kad toks generavimas turi krūvas minusų:
 
@@ -30,7 +32,9 @@ Tai iškart galiu pasakyti, kad toks generavimas turi krūvas minusų:
 
 Todėl produktyviausiu būdu tampa: standartinis darbas (kada komitinat daug mažų pakeitimų) ir:
 
-    git format-patch origin/master -o pakeitimai
+```bash
+git format-patch origin/master -o pakeitimai
+```
 
 Viena komanda, o daro daug:
 
@@ -44,9 +48,11 @@ O dėl `origin/master` ar nereikia repozitorijai būti pasiekiamai? Ne, nes siun
 
 Applyint'i pakeitimus labai lengva:
 
-    while true
-    do
-      git apply pakeitimai/*
-    done
+```bash
+while true
+do
+  git apply pakeitimai/*
+done
+```
 
 Shell'as turėtų paduoti `git apply` išrikiuotus failų vardus.

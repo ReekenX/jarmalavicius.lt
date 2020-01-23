@@ -27,7 +27,9 @@ EXPOSE 80
 
 Tiek nedaug reikia nurodyti `nginx`, kad mūsų projekto katalogą įkeltų į tipinę `nginx` vietą - `/usr/share/nginx/html`. Pagal nutylėjimą `nginx` rodys viską iš šio katalogo (paveiksliukus, media, HTML ir pan.).
 
-Viską galėtume gerokai sutrumpinti, pavyzdžiui neturėti `$APP_HOME` env kintamojo kūrimo - bet tada teks ilgą kelią rašyti kelis kartus. Todėl vadovaukitės DRY pricipu.
+Viską galėtume gerokai sutrumpinti, pavyzdžiui neturėti `$APP_HOME` env
+kintamojo kūrimo - bet tada teks ilgą kelią rašyti kelis kartus. Todėl
+vadovaukitės DRY principu.
 
 Galima neturėti `WORKDIR $APP_HOME` sakinio, bet jis labai gelbėja, kada norite prisijungti prie Docker konteinerio ir pažiūrėti ar yra ten kažkokių problemų. Tuomet komanda `docker exec -it svetaine bash` Jus nukels tiesiai į `/usr/share/nginx/html` - sutaupysite laiko.
 

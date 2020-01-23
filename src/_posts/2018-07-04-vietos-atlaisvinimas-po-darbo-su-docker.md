@@ -18,9 +18,8 @@ Tie, kurie jau visai užmiršti, guli tiesiog eikvodami disko vietą ir nieko na
 Jeigu norite tik prasivalyti nuo šiukšlių, lengviausiai pavykdyti vieną komandą ir to užteks:
 
 ```bash
-docker system prune
-```
-```
+$ docker system prune
+
 WARNING! This will remove:
         - all stopped containers
         - all networks not used by at least one container
@@ -36,7 +35,7 @@ deleted: sha256:d93d2a5931da6a282368079
 Total reclaimed space: 2.408GB
 ```
 
-Kaip matote iš išrašo auksčiau - pravalys kešą, nebenaudojamus atvaizdus, interneto prieigas ir išjungtus konteinerius.
+Kaip matote iš išrašo aukščiau - pravalys kešą, nebenaudojamus atvaizdus, interneto prieigas ir išjungtus konteinerius.
 
 Tie, kas nenori valyti konteinerių, gali pasinaudoti pavienėmis komandomis žemiau.
 
@@ -45,9 +44,8 @@ Tie, kas nenori valyti konteinerių, gali pasinaudoti pavienėmis komandomis že
 Išvalyti nenaudojamus atvaizdus galima taip:
 
 ```bash
-docker image prune -a
-```
-```
+$ docker image prune -a
+
 WARNING! This will remove all images without
 at least one container associated to them.
 Are you sure you want to continue? [y/N] y
@@ -80,9 +78,8 @@ Trumpas paaiškinimas:
 Tai padės padaryti viena komanda:
 
 ```bash
-docker volume prune
-```
-```
+$ docker volume prune
+
 WARNING! This will remove all local volumes not used
 by at least one container.
 Are you sure you want to continue? [y/N] y
@@ -99,6 +96,6 @@ Total reclaimed space: 2.179GB
 
 Konteinerius, kaip ir atvaizdus, trinti yra saugu. Jeigu vėl mėginsite leisti projektą, tai Jums Docker per naujo parsiųs atvaizdus (jeigu to reikia) ir per naujo sukurs konteinerius.
 
-Valydami skirsnius būkite atsargūs - tai Jūsų sukaupti duomenys. Auksčiau aprašyta komanda `docker volume prune` išvalys tik neprijungtus prie nieko skirsnius (nenaudojamus), todėl komanda yra saugi. Tokius skirsnius visada galite pasitikrinti su `docker volume ls -f dangling=true`.
+Valydami skirsnius būkite atsargūs - tai Jūsų sukaupti duomenys. Aukščiau aprašyta komanda `docker volume prune` išvalys tik neprijungtus prie nieko skirsnius (nenaudojamus), todėl komanda yra saugi. Tokius skirsnius visada galite pasitikrinti su `docker volume ls -f dangling=true`.
 
 Po pusės metų intensyvaus darbo su Docker keliomis komandomis pavyko atlaisvinti daugiau nei 13GB disko vietos.

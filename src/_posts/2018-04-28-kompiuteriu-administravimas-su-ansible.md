@@ -22,11 +22,11 @@ Iš esmės turint viename kompiuteryje Ansible paketus aš galiu pilnai sutvarky
 Ansible įdiegti galima iš paketų valdiklio. Atitinkamai viena iš šių komandų:
 
 ```bash
-    sudo apt-get install ansible   # Ubuntu
-    sudo aptitude install ansible  # Debian
-    sudo yum install ansible       # Centos
-    sudo dnf install ansible       # Fedora
-    sudo brew install ansible      # Jeigu esi turtingas
+sudo apt-get install ansible   # Ubuntu
+sudo aptitude install ansible  # Debian
+sudo yum install ansible       # Centos
+sudo dnf install ansible       # Fedora
+sudo brew install ansible      # Jeigu esi turtingas
 ```
 
 ## Ko gali reikėti naujuose serveriuose / kompiuteriuose
@@ -36,7 +36,7 @@ Sąrašas būtų begalinis, todėl pademonstruosiu kaip atrodo realus diegimas /
 Jeigu dirbčiau su diagiakalbyste reikalaujančiais projektais, tai norėčiau visų kalbų sistemoje palaikymo. Jas įdiegčiau taip:
 
 ```bash
-    ansible-playbook -i 12.34.54.78, locales.yml
+ansible-playbook -i 12.34.54.78, locales.yml
 ```
 
 Kur `12.34.54.78` yra IP adresas. Kablelis reikalingas atskirti „inventorių“ nuo mašinos adreso. Apie tai čia nerašysiu - reikėtų atskiro straipsnio. Komandos gale paduodu konfigūracinį failą kurį esu išdirbęs ir kuriame yra instrukcijos surašytos lokalių diegimui, priklausomai nuo to kokią OS turite.
@@ -48,29 +48,29 @@ Priminsiu, kad šį ir kitus failus galite rasti [mano Ansible Github repozitori
 Noriu, kad nauja mašina turėtų mano [namų katalogo konfigūracijas](https://github.com/ReekenX/dotfiles/):
 
 ```bash
-    ansible-playbook -i $IP, dotfiles.yml
+ansible-playbook -i $IP, dotfiles.yml
 ```
 
 Reikia įdiegti `docker` ir `docker-compose`? Paskaitykite abiejų diegimo instrukcijas - belekiek darbo. O čia, tik viena komanda:
 
 ```bash
-    ansible-playbook -i $IP, docker.yml
-    ansible-playbook -i $IP, docker-compose.yml
+ansible-playbook -i $IP, docker.yml
+ansible-playbook -i $IP, docker-compose.yml
 ```
 
 Tingite tvarkyti Python `Pillow` palaikymą visiem failų formatams? Ranka darant sutvarkyti be StackOverflow - neįmanomas darbas. Bet su viena Ansible komanda:
 
 ```bash
-    ansible-playbook -i $IP, pil.yml
+ansible-playbook -i $IP, pil.yml
 ```
 
 Reikia įrankių programavimui? Priklausomai nuo to kokia kalba dirbate:
 
 ```
-    ansible-playbook -i $IP, ruby_dev.yml
-    ansible-playbook -i $IP, python_dev.yml
-    ansible-playbook -i $IP, php_dev.yml
-    ansible-playbook -i $IP, javascript_dev.yml
+ansible-playbook -i $IP, ruby_dev.yml
+ansible-playbook -i $IP, python_dev.yml
+ansible-playbook -i $IP, php_dev.yml
+ansible-playbook -i $IP, javascript_dev.yml
 ```
 
 Šis ir daugiau konfigūracijų yra mano [Ansible konfigūracijų Github repozitorijoje](https://github.com/ReekenX/ansible-playbooks). Išmėginkite, pasitobulinkite pagal savo poreikius ir liaukitės švaistyti laiką neautomatizuotoms problemoms spręsti.

@@ -44,7 +44,9 @@ Naujame Raspberry Pi rasime ir tokią jungtį:
 
 Kai kurie routeriai vaizdo kameroms elektros srovę perduoda LAN kabeliu ir tai vadinama Power over Ethernet. Iš to laimima, kad įrenginiui nereikia dar kažkokio lizdo maitinimui, kurį dėtumėte į elektros lizdą.
 
-Tokią galimybę ir Raspberry Pi 3 B+ turi. Tačiau tam, kad per LAN laidą užmaitintumėte Raspberry dar reikės nusipirkti šiam lizdui (nuotrauka viršuje) PoE Hat įrenginuką. Pastarasis kainuoja kažkur 17€.
+Tokią galimybę ir Raspberry Pi 3 B+ turi. Tačiau tam, kad per LAN laidą
+užmaitintumėte Raspberry dar reikės nusipirkti šiam lizdui (nuotrauka viršuje)
+PoE Hat įrenginį. Pastarasis kainuoja kažkur 17€.
 
 ## Kiek kainuoja Raspberry Pi 3 B+?
 

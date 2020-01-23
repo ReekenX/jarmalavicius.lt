@@ -29,7 +29,7 @@ Tokio pokalbio metu, neturint didelio portfolio į daug klausimų gali tekti ats
 
 ## Ką galima rasti knygoje ir ko išmokti?
 
-Gerai, glausčiai ir nenuobodžiai aprašyta knyga Jus supažindins su tokiais dalykais:
+Gerai, trumpais skyriais ir nenuobodžiai aprašyta knyga Jus supažindins su tokiais dalykais:
 
 * Web scraping'u - duomenų iš interneto parsisiuntimu ir analizavimu.
 * Resursų iš interneto parsisiuntimu (pavyzdžiui nuotraukų iš „Google Images“).

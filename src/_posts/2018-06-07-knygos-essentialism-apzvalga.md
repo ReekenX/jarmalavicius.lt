@@ -25,7 +25,7 @@ Keletas man labiausiai patikusių šios knygos frazių:
 * Nuolat savęs klauskite - ar tai tikrai TOP svarbiausias dalykas ką galėčiau daryti?
 * Galvokite mažiau - bet geriau.
 * **Žodis „prioritetas“ daugiau nei 500 metų buvo vartojamas vienaskaita. Tik prieš šimtą metų šis žodis buvo pradėtas naudoti daugiskaita.**
-* Kada paskutinį kartą tiesiog sedėjote ramiai ir galvojote?
+* Kada paskutinį kartą tiesiog sėdėjote ramiai ir galvojote?
 * Sunku išsirinkti ką norisi veikti ar turėti? Knygoje pateiktas 90-10 modelis - manau, kad kiekvienas stipriai užsiėmęs žmogus galėtų pritaikyti šią vertinimo sistemą gyvenime ar karjeroje.
 
 Šioje knygoje rasite tikrai daug patarimų kaip „išsivalyti“ savo užimtą gyvenimą: kaip planuoti susitikimus ar pasitarimus, kaip įprasti sakyti „ne“, kaip vertinti materialius dalykus, kaip branginti laiką ar miegą, kokiais kriterijais samdyti žmones ir taip toliau.

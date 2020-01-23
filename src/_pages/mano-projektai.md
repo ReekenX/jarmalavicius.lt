@@ -8,5 +8,6 @@ pagination:
   enabled: true
   category: mano-projektai
   permalink: /puslapis-:num.html
+  sort_reverse: true
 ---
 

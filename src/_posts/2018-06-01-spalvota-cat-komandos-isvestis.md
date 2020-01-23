@@ -11,7 +11,7 @@ Vienas iš dalykų kuris man labai patinka ir labai seniai naudoju - tai `cat` k
 
 ## Pirmiausiai įdiegiame Pygments
 
-Tai viena populiariausių Python bibliotektų, tai ją įdiegsite taip:
+Tai viena populiariausių Python bibliotekų, tai ją įdiegsite taip:
 
 ```bash
 sudo pip install Pygments

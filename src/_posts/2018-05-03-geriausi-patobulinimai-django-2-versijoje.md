@@ -7,7 +7,7 @@ description: Kas naujo ir gero Django 2 versijoje? Ką verta žinoti, atkreipti 
 
 Django programuotoju tapau dar 2009 metais, kada kūrėjai turėjo tik 1.1 platformos versiją. Tada, be eilinio ir dar vieno framework'o pasaulyje, Django išsiskyrė puikiu scaffolding'u - Django administracija. Aišku, per kelis metus konkurenciniai framework'ai šį privalumą tiesiog „suvalgė“.
 
-Per devynerius metus pasikeitimų šiame framework'e įvyko tikrai daug. 2017 metų gruodį buvo išleista dar viena versija, pagrindinė, Django 2.0. Po keletos mėnesių migravau į šią versiją projektą iš 1.11 (kurį pradėjau nuo 1.4 versijos) į Django 2.0.
+Per devynis metus pasikeitimų šiame framework'e įvyko tikrai daug. 2017 metų gruodį buvo išleista dar viena versija, pagrindinė, Django 2.0. Po keleto mėnesių migravau į šią versiją projektą iš 1.11 (kurį pradėjau nuo 1.4 versijos) į Django 2.0.
 
 Po šiokios tokios praktikos išrinkau geriausius šios versijos patobulinimus.
 
@@ -19,9 +19,9 @@ Tokiose situacijose labai praverčia konteinerizavimai - man užteko `Dockerfile
 
 Išties gera naujovė. Kiek matau iš operacinių sistemų priklausomybių ir atviro kodo projektų - Python 2 labai sunku atsikratyti, nors praėjo daug metų kada Python 3 buvo išleistas.
 
-## Draugiška mobiliems adminisracija
+## Draugiška mobiliems administracija
 
-Šio pakeitimo labai laukiau ne vienerius metus. Yra tekę ne vieną kartą dėti ant Django administracijos temą, kuri paverčia administraciją draugiška mobiliems įrenginiams. Dabar to daryti nereikės, viskas - standartiniais būdais.
+Šio pakeitimo labai laukiau ne vienus metus. Yra tekę ne vieną kartą dėti ant Django administracijos temą, kuri paverčia administraciją draugiška mobiliems įrenginiams. Dabar to daryti nereikės, viskas - standartiniais būdais.
 
 {% include post_image.html image="/i/django_2_mob.png" text="Django 2.0 su mobilios versijos palaikymu" %}
 

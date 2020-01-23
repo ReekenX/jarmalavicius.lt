@@ -8,5 +8,6 @@ pagination:
   enabled: true
   category: atviras-kodas
   permalink: /puslapis-:num.html
+  sort_reverse: true
 ---
 
