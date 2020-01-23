@@ -45,5 +45,23 @@
       <!-- This project does not use VueJS yet, but keeping this comment for future needs. -->
       <script src="/main.js"></script>
     {% endcomment %}
+
+    <script type="text/javascript">
+      if ('fetch' in window) {
+        var peek = 1;
+        function runPeek() {
+          var secs = peek < 4 ? peek * 15 : peek * 60;
+          setTimeout(function() {
+              peek += 1;
+              fetch('/api/?peek=' + secs + '&{{ page.url | url_escape }}');
+              runPeek();
+            },
+            secs * 1000
+          );
+        }
+
+        runPeek();
+      }
+    </script>
   </body>
 </html>
