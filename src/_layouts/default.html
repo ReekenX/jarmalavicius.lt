@@ -14,7 +14,7 @@
 
   {% if jekyll.environment == 'production' %}
     <link rel="stylesheet" href="/main.css" />
-    <script src="/turbolinks.js"></script>
+    <script defer src="/turbolinks.js"></script>
     {% include analytics.html %}
   {% else %}
     <link rel="stylesheet" href="/css/main.css">
@@ -42,6 +42,9 @@
       {% include footer.html %}
     </div>
 
-    <script src="/main.js"></script>
+    {% comment %}
+      <!-- This project does not use VueJS yet, but keeping this comment for future needs. -->
+      <script src="/main.js"></script>
+    {% endcomment %}
   </body>
 </html>
