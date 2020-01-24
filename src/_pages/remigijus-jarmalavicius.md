@@ -34,10 +34,12 @@ Dabar jeigu tenka daryti viešas kalbas tai nebent įmonių, kuriose dirbu, vidu
 
 ## Knygos
 
-Labai mėgstu skaityti. Turiu užsibrėžęs tikslą per gyvenimą [perskaityti vieną tūkstantį knygų](/knygos/1000-knygu-tikslas.html).
+Labai mėgstu skaityti. Turiu užsibrėžęs tikslą per gyvenimą [perskaityti vieną tūkstantį knygų](/knygos/1000-knygu-tikslas).
 Jau seniai perlipau 250 knygų slenkstį. Ir ką tai man davė? Dabar žinau, kad... eina sau kiek daug dar nežinau!
 
 Kas metus perskaitau - bent po 30 knygų.
+
+{% include post_image.html image="/i/goodreads.png" text="Ką jau perskaičiau galite pamatyti <a href='https://www.goodreads.com/ReekenX' target='_blank'>mano Goodreads paskyroje</a>." %}
 
 Taip pat karštai žiūriu/dalyvauju IT konferencijose. Tai jeigu paklausit ar žiūrėjau XYZ metų Ruby Conf, Rails Conf, ReactJs Conf,
 Python Conf, Django Conf, CSS conf - atsakysiu, kad tikrai taip!
