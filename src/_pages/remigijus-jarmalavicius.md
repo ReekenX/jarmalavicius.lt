@@ -35,7 +35,9 @@ Dabar jeigu tenka daryti viešas kalbas tai nebent įmonių, kuriose dirbu, vidu
 ## Knygos
 
 Labai mėgstu skaityti. Turiu užsibrėžęs tikslą per gyvenimą [perskaityti vieną tūkstantį knygų](/knygos/1000-knygu-tikslas).
-Jau seniai perlipau 250 knygų slenkstį. Ir ką tai man davė? Dabar žinau, kad... eina sau kiek daug dar nežinau!
+Jau seniai perlipau 260 knygų slenkstį. Ir ką tai man davė? Vienoje knygoje skaičiau
+tokį juokingą gyvenimo paradoksą: tu nežinai - ko dar nežinai. Ši frazė mane visada prajuokina.
+Dabar po tiek knygų tikrai žinau, kad dar daug ko nežinau. Knygos stipriai plečia akiratį.
 
 Kas metus perskaitau - bent po 30 knygų.
 
