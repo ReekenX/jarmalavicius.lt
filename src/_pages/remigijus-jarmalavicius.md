@@ -85,3 +85,7 @@ darbus: darau kodo patikrinimus, deployment'us, prižiūriu informacijos saugum�
 Kaip sakiau, mėgstu bendrauti, todėl su manimi nesunkiai galima susisiekti.
 
 Jeigu turite kokių pastabų, klausimų ar pasiūlymų - pasinaudokite [kontaktų puslapiu](/kontaktai/).
+
+Ir nepamirškite mane sekti
+{% include external_link.html url="https://twitter.com/ReekenX" text="Twitter platformoje" %} – joje
+beveik kasdien dalinuosi įdomiais IT atradimais.
