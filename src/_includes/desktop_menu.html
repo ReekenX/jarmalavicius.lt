@@ -1,4 +1,4 @@
-<ul class="hidden md:flex justify-end tracking-wide">
+<ul class="hidden md:flex justify-start tracking-wide">
   <li><a href="/">Titulinis</a></li>
   <li class="relative">
     <div>
@@ -30,3 +30,7 @@
     <a href="/kontaktai" class="ml-8">Kontaktai</a>
   </li>
 </ul>
+
+<div class="hidden md:flex justify-start tracking-wide">
+  <input type="text" class="max-w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location = '/paieska#' + encodeURI(event.target.value)  }">
+</div>
