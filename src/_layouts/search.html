@@ -48,6 +48,7 @@ layout: default
 
   // Find matching articles
   var placeholders = document.querySelectorAll('.js-search-placeholder');
+  var totalFound = 0;
   var i, n;
   for (i = 0; i < placeholders.length; i++) {
     var found = 0;
@@ -59,14 +60,17 @@ layout: default
       }
     }
 
-    if (words.length === 1 && found > 0) {
+    if ((words.length === 1 && found > 0) || (words.length > 1 && found > 1)) {
       placeholder.parentNode.classList.remove('hidden');
-    } else if (words.length > 1 && found > 1) {
-      placeholder.parentNode.classList.remove('hidden');
+      totalFound += 1;
     }
   }
 
   // Stop search
   isLoading = false;
-  document.querySelector('.js-loading').classList.add('hidden');
+  if (totalFound > 0) {
+    document.querySelector('.js-loading').classList.add('hidden');
+  } else {
+    document.querySelector('.js-loading').innerHTML = 'Nėra straipsnio atitinkančio Jūsų raktažodį. Pasitikrinkite rašybą.';
+  }
 </script>
