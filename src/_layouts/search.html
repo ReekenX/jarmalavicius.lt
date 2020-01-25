@@ -42,7 +42,7 @@ layout: default
   animateLoading();
 
   // Cleanup search keyword
-  var keywords = decodeURI(window.location.hash.slice(1));
+  var keywords = decodeURI(window.location.href.replace(/.*\?/, ''));
   document.querySelector('.js-keywords').innerHTML = keywords;
   var words = keywords.replace(/[^a-zA-Z0-9ąčęėįšųūž ]/g, ' ').replace(/  +/g, ' ').toLowerCase().split(' ');
 
