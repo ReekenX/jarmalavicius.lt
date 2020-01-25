@@ -3,3 +3,6 @@ url: 'https://www.jarmalavicius.lt'
 
 # Clean URLs not having .html prefix
 permalink: /:categories/:title
+
+# URLs extension
+ext:

@@ -32,5 +32,5 @@
 </ul>
 
 <div class="hidden md:flex justify-start tracking-wide">
-  <input type="text" class="max-w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location = '/paieska#' + encodeURI(event.target.value)  }">
+  <input type="text" class="max-w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location = '/paieska{{ site.ext }}#' + encodeURI(event.target.value)  }">
 </div>
