@@ -9,8 +9,16 @@ layout: default
 
   <hr class="mb-4"/>
 
-  <div class="custom-page-content js-loading mb-8">
-    Ieškama straipsnių, truputį palaukite...
+  <div class="custom-page-content mb-8">
+    <div class="hidden md:block js-loading">
+      Ieškama straipsnių, truputį palaukite...
+    </div>
+    <div class="md:hidden">
+      <div class="mb-2">
+        Įveskite paieškos raktažodį:
+      </div>
+      <input type="text" class="w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location.href = '/paieska{{ site.ext }}?' + encodeURI(event.target.value); window.location.reload(); }">
+    </div>
   </div>
 
   {% for post in site.posts %}
@@ -29,6 +37,7 @@ layout: default
   var isLoading = true;
   var loadingCount = 0;
   var loadingText = 'Ieškama straipsnių, truputį palaukite';
+  var timer;
   function animateLoading() {
     if (!isLoading) return;
 
@@ -37,40 +46,48 @@ layout: default
 
     document.querySelector('.js-loading').innerHTML = loadingText + " .".repeat(loadingCount);
 
-    setTimeout(animateLoading, 500);
+    timer = setTimeout(animateLoading, 500);
   }
   animateLoading();
 
-  // Cleanup search keyword
-  var keywords = decodeURI(window.location.href.replace(/.*\?/, ''));
-  document.querySelector('.js-keywords').innerHTML = keywords;
-  var words = keywords.replace(/[^a-zA-Z0-9ąčęėįšųūž ]/g, ' ').replace(/  +/g, ' ').toLowerCase().split(' ');
+  // Check if anything to search was requested
+  if (!window.location.href.includes('?')) {
+    isLoading = false;
+    document.querySelector('.js-loading').innerHTML = 'Įveskite paieškos tekstą laukelyje žemiau:';
+  } else {
+    // Cleanup search keyword
+    var keywords = decodeURI(window.location.href.replace(/.*\?/, ''));
+    document.querySelector('.js-keywords').innerHTML = keywords;
+    var words = keywords.replace(/[^a-zA-Z0-9ąčęėįšųūž ]/g, ' ').replace(/  +/g, ' ').toLowerCase().split(' ');
 
-  // Find matching articles
-  var placeholders = document.querySelectorAll('.js-search-placeholder');
-  var totalFound = 0;
-  var i, n;
-  for (i = 0; i < placeholders.length; i++) {
-    var found = 0;
-    var placeholder = placeholders[i];
-    var text = placeholder.innerHTML.toLowerCase();
-    for (n = 0; n < words.length; n++) {
-      if (text.includes(words[n])) {
-        found += 1;
+    // Find matching articles
+    var placeholders = document.querySelectorAll('.js-search-placeholder');
+    var totalFound = 0;
+    var i, n;
+    for (i = 0; i < placeholders.length; i++) {
+      var found = 0;
+      var placeholder = placeholders[i];
+      var text = placeholder.innerHTML.toLowerCase();
+      for (n = 0; n < words.length; n++) {
+        if (text.includes(words[n])) {
+          found += 1;
+        }
+      }
+
+      if ((words.length === 1 && found > 0) || (words.length > 1 && found > 1)) {
+        placeholder.parentNode.classList.remove('hidden');
+        totalFound += 1;
       }
     }
 
-    if ((words.length === 1 && found > 0) || (words.length > 1 && found > 1)) {
-      placeholder.parentNode.classList.remove('hidden');
-      totalFound += 1;
+    // Stop search
+    clearTimeout(timer);
+    isLoading = false;
+    if (totalFound > 0) {
+      document.querySelector('.js-loading').classList.add('hidden');
+      document.querySelector('.js-loading').classList.remove('md:block');
+    } else {
+      document.querySelector('.js-loading').innerHTML = 'Nėra straipsnio atitinkančio Jūsų raktažodį. Pasitikrinkite rašybą.';
     }
-  }
-
-  // Stop search
-  isLoading = false;
-  if (totalFound > 0) {
-    document.querySelector('.js-loading').classList.add('hidden');
-  } else {
-    document.querySelector('.js-loading').innerHTML = 'Nėra straipsnio atitinkančio Jūsų raktažodį. Pasitikrinkite rašybą.';
   }
 </script>
