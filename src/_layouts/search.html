@@ -9,7 +9,26 @@ layout: default
 
   <hr class="mb-4"/>
 
-  <div class="custom-page-content">
+  <div class="custom-page-content js-loading">
     Ieškama straipsnių, truputį palaukite...
   </div>
 </div>
+
+<script type="text/javascript">
+  var isLoading = true;
+  var loadingCount = 0;
+  var loadingText = 'Ieškama straipsnių, truputį palaukite';
+
+  function animateLoading() {
+    if (!isLoading) return;
+
+    loadingCount += 1;
+    if (loadingCount === 4) loadingCount = 0;
+
+    document.querySelector('.js-loading').innerHTML = loadingText + " .".repeat(loadingCount);
+
+    setTimeout(animateLoading, 500);
+  }
+
+  animateLoading();
+</script>
