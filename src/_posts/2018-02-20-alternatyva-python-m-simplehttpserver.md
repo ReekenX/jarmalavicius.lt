@@ -7,7 +7,7 @@ description: NodeJs alternatyva populiariąjam Python SimpleHTTPServer moduliui.
 
 Kiekvienas programuotojas bus ne kartą susidūręs su tuo, kad reikia kažkam parodyti failus jų nekeliant į serverį. Būnant ant to paties tinklo lengviausias būdas pasidalinti failais yra:
 
-```
+```bash
 $ python -m SimpleHTTPServer
 Serving HTTP on 0.0.0.0 port 8000 ...
 ```
@@ -28,7 +28,7 @@ Kitas minusas - paleidai statinį serverį - o koks tavo IP adresas? Reikės ie�
 
 Internete yra pavienių skriptų kurie gali išspręsti `SimpleHTTPServer` lėtumą, bet NodeJs alternatyva tiesiog reikalauja mažiau darbo. O ir prisėdus prie kito kompiuterio lengviau tą patį gauti su:
 
-```
+```bash
 $ sudo npm install http-server -g
 $ http-server
 Starting up http-server, serving ./

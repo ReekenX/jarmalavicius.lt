@@ -9,7 +9,7 @@ description: Xiaomi Mi Mix 2 techninė specifikacija, apžvalga ir nuoširdus ve
 
 Išsamią specifikaciją galima rasti [internete](https://www.gsmarena.com/xiaomi_mi_mix_2-8529.php), o svarbiausios charakteristikos būtų tokios:
 
-<table width="100%">
+<table width="100%" cellpadding="10">
   <thead>
     <tr>
       <th width="50%">Ypatybė</th>
@@ -54,19 +54,15 @@ Išsamią specifikaciją galima rasti [internete](https://www.gsmarena.com/xiaom
 
 Ir atrodo stilingai:
 
-{% include post_image.html image="/i/xiaomi_mix_2.png" text="" %}
-
-<small class="text-muted">Xiaomi Mi Mix 2 - protingesnis net už savininką!</small>
+{% include post_image.html image="/i/xiaomi_mix_2.png" text="Xiaomi Mi Mix 2 - protingesnis net už savininką!" %}
 
 Visa komplektacija su dėžute atrodo taip:
 
-{% include post_image.html image="/i/xiamo_mix_2_dezute.jpg" text="" %}
-
-<small class="text-muted">Xiaomi Mi Mix 2 dėžutė ir priedai</small>
+{% include post_image.html image="/i/xiamo_mix_2_dezute.jpg" text="Xiaomi Mi Mix 2 dėžutė ir priedai" %}
 
 ## Kamera
 
-Pirmiausiai labiausiai nuvylęs dalykas ne tik mane, bet ir tūkstantį komentatorių internete - prastos kokybės kamera. Nufotografavus dienos šviesoje žmogų jo plaukai tampa sulipę, oda atrodo taip, tarsi būtųmėte nuotrauką išsaugoję su kokia 70% JPEG kokybe.
+Pirmiausiai labiausiai nuvylęs dalykas ne tik mane, bet ir tūkstantį komentatorių internete - prastos kokybės kamera. Nufotografavus dienos šviesoje žmogų jo plaukai tampa sulipę, oda atrodo taip, tarsi būtumėte nuotrauką išsaugoję su kokia 70% JPEG kokybe.
 
 Deja, kiek teko bandyti programinės įrangos, kuri šią bėdą sprendžia - pagerinti nuotraukų kokybę, darytų su Xiaomi, nepavyks.
 
@@ -102,7 +98,7 @@ Kaip ir dauguma telefonų turi apačioje mirksintį LED'ą, todėl žinosite jei
 
 ## Keramika
 
-Šio telefono dižiausias marketinginis triukas - keraminis telefonas.
+Šio telefono didžiausias marketinginis triukas - keraminis telefonas.
 
 Tikrai nepajusite tos keramikos, telefonas atrodo kaip koks stiklinis ir tiek. Nėra kuo ir žavėtis. Deja.
 
@@ -124,7 +120,7 @@ Apskritai šnekant MIUI operacinė sistema (ar apvalkalas) yra daug kartų patog
 
 ## Atrakinimas piršto antspaudu
 
-Veikia įspūdingai gerai ir greitai. Piršto skaitytuvas yra telefono gale-centrre, labai patogioje vietoje. Telefoną atrakinsite akimirksniu.
+Veikia įspūdingai gerai ir greitai. Piršto skaitytuvas yra telefono gale-centre, labai patogioje vietoje. Telefoną atrakinsite akimirksniu.
 
 Tai sakyčiau vienas geriausių dalykų (po baterijos) telefone - telefonas ne tik išlieka saugus (nes užrakintas), bet atrakinimui nesugaišite nė sekundės!
 
@@ -136,6 +132,6 @@ Telefonas tikrai atrodo kokybiškas, gražus ir patogus. Dėl savo stiliaus kuri
 
 Trumpai tariant - už 500 € - tikrai neverta.
 
-Trapus ekranas ir prasta fotografavimo kokybė didžilis minusas. Todėl už tokią sumą geriau žiūrėtis Samsung produkcijos. Arba Apple - jeigu įperkat.
+Trapus ekranas ir prasta fotografavimo kokybė didžiulis minusas. Todėl už tokią sumą geriau žiūrėtis Samsung produkcijos. Arba Apple - jeigu įperkat.
 
 Visa kita labai puikiai padaryta, nors to marketinginio dalyko nelabai pajusite - keramikos. Be to, gi nežiūrėsit į telefono galą vien dėl to, kad ten yra keramika? Greičiausiai turėsite dėkliuką telefonui, kuriuo uždengsite visą marketingo rezultatą.

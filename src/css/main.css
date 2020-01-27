@@ -58,7 +58,7 @@ p {
 }
 
 .custom-page-content ul > li {
-  @apply mb-2;
+  @apply mb-2 leading-loose;
 }
 
 .custom-page-content a {

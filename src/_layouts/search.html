@@ -11,9 +11,9 @@ layout: default
 
   <div class="custom-page-content mb-8">
     <div class="hidden md:block js-loading">
-      Ieškama straipsnių, truputį palaukite...
+      Ieškoma straipsnių, truputį palaukite...
     </div>
-    <div class="md:hidden">
+    <div class="sm:hidden">
       <div class="mb-2">
         Įveskite paieškos raktažodį:
       </div>
@@ -53,12 +53,13 @@ layout: default
   // Check if anything to search was requested
   if (!window.location.href.includes('?')) {
     isLoading = false;
-    document.querySelector('.js-loading').innerHTML = 'Įveskite paieškos tekstą laukelyje žemiau:';
+    document.querySelector('.js-loading').innerHTML = 'Nėra straipsnio atitinkančių Jūsų raktažodį.';
   } else {
     // Cleanup search keyword
     var keywords = decodeURI(window.location.href.replace(/.*\?/, ''));
     document.querySelector('.js-keywords').innerHTML = keywords;
     var words = keywords.replace(/[^a-zA-Z0-9ąčęėįšųūž ]/g, ' ').replace(/  +/g, ' ').toLowerCase().split(' ');
+    words = words.filter(word => word.length > 2);
 
     // Find matching articles
     var placeholders = document.querySelectorAll('.js-search-placeholder');

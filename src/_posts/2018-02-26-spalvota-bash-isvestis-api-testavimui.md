@@ -2,7 +2,7 @@
 title: Spalvota BASH išvestis API testavimui
 category: atviras-kodas
 image: i/json.png
-description: Kodėl kartais Bash API testavimui yra geriau nei Postman? Kaip galima turėti prodyktyvesnį API testavimą terminale ir kuom jis pranašesnis.
+description: Kodėl kartais Bash API testavimui yra geriau nei Postman? Kaip galima turėti prodyktyvesnį API testavimą terminale ir kuo jis pranašesnis.
 ---
 
 Daug dirbant su API tokie įrankiai kaip [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) yra nepakeičiami. Tačiau jeigu reikia vieno-kito API pabandymo ar „testinio važiavimo“, tai surinkti `curl` sakinį terminale - paprasčiau.
@@ -11,7 +11,7 @@ Pats dažnai pasiduodu darbui su API terminale, todėl čia ypatingai svarbu mat
 
 Panagrinėkime labai nedidelį pavyzdį:
 
-```
+```bash
 $ curl -X POST 'https://example.com/api/v1/users/token'
 {"error":"UNAUTHORIZED","message":"Invalid username / password"}
 ```
@@ -22,7 +22,7 @@ Kai nedaug turinio - viskas labai paprasta.
 
 Turint daug daugiau turinio/išvesties - skaityti bus nepatogu. Todėl formatavimui galima pasitelkti Python pagalbą:
 
-```
+```bash
 $ curl -qs -X POST 'https://example.com/api/v1/users/token' | python -m json.tool
 {
     "error": "UNAUTHORIZED",
@@ -46,8 +46,8 @@ Todėl paprastiems dalykams puikiai tiks `python -m json.tool`, o sudėtingesnie
 
 Jeigu duomenų tikrai daug - būtų patogiau juos matyti dar patogiau - su spalvomis. Įdiekime `Pygmentize` biblioteką:
 
-```
-$ sudo pip install Pygments
+```bash
+sudo pip install Pygments
 ```
 
 Ir tada prie `python -m json.tool` pridurkime `pygmentize -l json`.
@@ -66,7 +66,7 @@ alias json="python -m json.tool | pygmentize -l json"
 
 Todėl galiu rašyti trumpiau komandas:
 
-```
+```bash
 $ curl -X POST 'https://example.com/api/v1/users/token' | json
 ```
 

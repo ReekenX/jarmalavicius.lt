@@ -27,7 +27,8 @@ Raspberry Pi 2 parduotuvėje Ebay kainuoja apie 35€.
 
 Raspberry Pi 3 parduotuvėje Ebay kainuoja apie 40€.
 
-Visos kainos yra įskaičiuojant pristatymo kainą bei muito mokesčius. Muitas šiprekėms taikomas itin retai.
+Visos kainos yra įskaičiuojant pristatymo kainą bei muito mokesčius. Muitas
+šioms prekėms taikomas itin retai.
 
 ## Kainos Aliexpress parduotuvėje
 
@@ -35,7 +36,7 @@ Visi šie įrenginiai vidutiniškai ten kainuoja 1-3€ pigiau nei Ebay parduotu
 
 Aliexpress siuntimas dažniausiai būna bent savaite greitesnis.
 
-Perkant šioje parduotuvėje rekomenduočiau atkreipti dėmesį į kiek šių įrengipardavė pardavėjas iš kurio ruošiatės pirkti ir kokį reitingą jis turi. Šioje parduotuvėje apgavysčių yra kiek daugiau nei Ebay.
+Perkant šioje parduotuvėje rekomenduočiau atkreipti dėmesį į kiek šių įrenginių pardavė pardavėjas iš kurio ruošiatės pirkti ir kokį reitingą jis turi. Šioje parduotuvėje apgavysčių yra kiek daugiau nei Ebay.
 
 ## Kokios yra Raspberry Pi priedų kainos?
 

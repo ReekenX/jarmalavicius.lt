@@ -9,7 +9,7 @@ Esu išsikėlęs tikslą [perskaityti 1000 knygų](/knygos/1000-knygu-tikslas) p
 
 ## Ką reiškia „būtina“?
 
-Skaitau tik asmeninio tobulėjimo knygas. Todėl sakydamas „būtina“ turiu omeny, kad perskaitytos knygos atnešą vertę gyvenimui, mąstymui ar praktinę naudą. Perskaitęs tokią knygą kažkuom tampi pranašesnis. Ir aišku, labai smagu, kai nupirkta knyga yra naudinga, o ne šiaip - laiko praleidimas.
+Skaitau tik asmeninio tobulėjimo knygas. Todėl sakydamas „būtina“ turiu omeny, kad perskaitytos knygos atnešą vertę gyvenimui, mąstymui ar praktinę naudą. Perskaitęs tokią knygą kažkuo tampi pranašesnis. Ir aišku, labai smagu, kai nupirkta knyga yra naudinga, o ne šiaip - laiko praleidimas.
 
 ## Knygų sąrašas kurias būtina perskaityti
 
@@ -103,7 +103,7 @@ Net 83 „būtina perskaityti“ knygų sąraše iš 200? Sakyčiau neblogai.
 
 ## Knygos kurias privalo perskaityti kiekvienas programuotojas
 
-Kalbėdamas su programuotojais išskirčiau tris knygas kurias kiekvienas turėtų mintimai žinoti:
+Kalbėdamas su programuotojais išskirčiau tris knygas kurias kiekvienas turėtų mintinai žinoti:
 
 <table width="100%" border="1" cellpadding="15" cellspacing="0" style="margin-bottom: 15px">
 <thead>

@@ -17,9 +17,9 @@ Ką ši komanda daro? Vietoje nuobodžių tekstų ir didelio turinio pateikia pa
 
 Nežinote kokia eilės tvarka komandos argumentus parašyti, kad suarchyvuoti failus arba išarchyvuoti vieną ar kelis failus iš archyvo? Pasinaudokite [tldr](https://tldr.ostera.io/tar).
 
-Dar naudingiau šią komandą turėti terminale. Įdiegti galite labai paprastai. Instrukcijos tiesiai iš [oficialaus github puslapio](https://github.com/tldr-pages/tldr):
+Dar naudingiau šią komandą turėti terminale. Įdiegti galite labai paprastai. Instrukcijos tiesiai iš [oficialaus GitHub puslapio](https://github.com/tldr-pages/tldr):
 
-```
+```bash
 npm install -g tldr
 ```
 
@@ -29,6 +29,6 @@ Pavyzdžiui: jeigu tenka tik kartą per mėnesį naudotis `dd` komanda, bus leng
 
 Kartais bus naudinga atnaujinti komandų trumpinių duombazę su:
 
-```
+```bash
 tldr --update
 ```

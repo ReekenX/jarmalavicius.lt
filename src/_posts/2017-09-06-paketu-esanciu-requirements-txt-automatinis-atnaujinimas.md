@@ -9,7 +9,7 @@ Bene kiekvienas projektas Python kalboje turi `requirements.txt` failą, kuriame
 
 Dirbant ilgiau su projektu - reikės šias **versijas atnaujinti**. Tą daryti verta bent dėl kelių priežasčių:
 
-* Paketai gali turėti **saugumo spragų** (pavyzdžiui `OpenSSL` susiję pakeitai jų turi dažniausiai);
+* Paketai gali turėti **saugumo spragų** (pavyzdžiui `OpenSSL` susiję paketai jų turi dažniausiai);
 * Senesni paketai gali turėti **neištaisytų programinės įrangos klaidų** (ypatingai naudojant frameworkus, tokius kaip `Django`);
 * Naujesni paketai gali būti **optimizuoti**.
 
@@ -32,7 +32,9 @@ Tuomet greičiausiai atnaujinti paketus bus su `pur` įrankiu.
 
 Įdiegti galima pasinaudojus `pip` įrankiu:
 
-    pip install pur
+```bash
+pip install pur
+```
 
 Arba, jeigu nenaudojate virtualios aplinkos, tuomet prie komandos prirašykite `sudo`, kad įdiegti į sistemą.
 
@@ -40,7 +42,9 @@ Arba, jeigu nenaudojate virtualios aplinkos, tuomet prie komandos prirašykite `
 
 Paprasčiausiai duokime šiai komandai `requirements.txt` failą:
 
-    pur -r requirements.txt
+```bash
+pur -r requirements.txt
+```
 
 Jeigu esate tame pačiame kataloge kur ir šis failas, tuomet užtektų ir `pur` komandos pakvietimo be jokių argumentų.
 
@@ -63,4 +67,6 @@ Jis atnaujins requirements.txt failą su naujausiomis versijomis ir parodys atna
 
 Tik nepamirškite, kad **šis įrankis neatnaujina paketų**. Jis tik **atnaujina jų versijas į naujausias** `requirements.txt` faile. Todėl atnaujinti paketams reikės dar pavykdyti:
 
-    pip install -U -r requirements.txt
+```bash
+pip install -U -r requirements.txt
+```

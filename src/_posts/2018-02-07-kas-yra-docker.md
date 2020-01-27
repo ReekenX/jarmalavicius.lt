@@ -21,7 +21,7 @@ Svarbu pabrėžti, kad Docker'is šiuo metu yra populiariausia konteinerių (tai
 
 {% include post_image.html image="/i/docker-susidomejimas.png" text="Susidomėjimas Docker sistema pagal Google Trends" %}
 
-Nuotraukoje viršuje matyti kaip stipriai Docker susidomėjimaas augo nuo 2013 metų.
+Nuotraukoje viršuje matyti kaip stipriai Docker susidomėjimas augo nuo 2013 metų.
 
 ## Docker diegimas
 

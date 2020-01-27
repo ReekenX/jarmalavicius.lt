@@ -2,14 +2,14 @@
 title: OpenSSL paketas sertifikatų informacijai tikrinti
 category: atviras-kodas
 image: i/https.png
-description: Kaip su Bash patikrinti HTTPS paketų informaciją, galiiojimo laiką ir klaidas.
+description: Kaip su Bash patikrinti HTTPS paketų informaciją, galiojimo laiką ir klaidas.
 ---
 
 [Let's Encrypt](https://letsencrypt.org/) išgelbėjo daugelį svetainių turėtojų nuo mokamų HTTPS sertifikatų. Jeigu anksčiau sertifikatą domenui pirkdavau už 60€ metams, tai dabar jį galima susigeneruoti nemokamai tiesiog turinti prieigą prie serverio.
 
 ## Let's Encrypt sertifikato galiojimo problema
 
-Let's Encrypt sertifikatai galioja tik 90 dienų. Juos reikia atnaujinti prieš galiojimo pabaigą, kitaip svetainės lankytojai negalės patektį į Jūsų svetainę.
+Let's Encrypt sertifikatai galioja tik 90 dienų. Juos reikia atnaujinti prieš galiojimo pabaigą, kitaip svetainės lankytojai negalės patekti į Jūsų svetainę.
 
 Laimei pats Let's Encrypt atsiųs Jums laišką-įspėjimą (laiškas siunčiamas į pašto dėžutę su kuria registruotas sertifikatas):
 
@@ -37,7 +37,7 @@ Nereikia ieškoti internete įrankių su kuriais galima būtų spręsti arba sur
 
 Detalią informaciją apie sertifikatą gausime taip:
 
-```
+```bash
 openssl s_client -showcerts -connect www.jarmalavicius.lt:443
 ```
 
@@ -59,7 +59,7 @@ Atnaujinus sertifikatą ir mėginant pažiūrėti jo galiojimo pabaigos datą pe
 
 Sertifikato datas galima pasitikrinti su:
 
-```
+```bash
 $ openssl s_client -servername NAME -connect jarmalavicius.lt:443 2>/dev/null | openssl x509 -noout -dates
 notBefore=Jan 24 12:23:39 2018 GMT
 notAfter=Apr 24 12:23:39 2018 GMT

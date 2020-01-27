@@ -23,7 +23,8 @@ docker run --name vietinis-mysql \
     -d mysql:latest
 ```
 
-Ir tada turint `mysql-client` paketą, galima prisijungti prie naujai sukurtos duomenų bazių sitemos:
+Ir tada turint `mysql-client` paketą, galima prisijungti prie naujai sukurtos
+duomenų bazių sistemos:
 
 ```bash
 mysql -h 127.0.0.1 -u root -p
@@ -41,7 +42,7 @@ Jeigu kalbėti tik apie vieną įrangą Dockeryje - Mysql - tai niekuom. Tačiau
 
 Jeigu esate Linux „senbuvis“, tai tikrai žinosite, kad įdiegti senesnę programinę įrangą į sistemą yra labai sunku. Su Docker - jokių problemų įdiegti bet kurią Mysql versiją.
 
-Sistemoje ne visada turėsite naujausią Mysql versiją. Turėsite tokią, kokią opeacinės sistemos programuotojai pažymi kaip „stabilią“. Jeigu esate tinginys ir operacinės sistemos dažnai neatnaujinate - įdiegti kažkokį paketą be priklausomybių problemų bus tikras galvos skausmas.
+Sistemoje ne visada turėsite naujausią Mysql versiją. Turėsite tokią, kokią operacinės sistemos programuotojai pažymi kaip „stabilią“. Jeigu esate tinginys ir operacinės sistemos dažnai neatnaujinate - įdiegti kažkokį paketą be priklausomybių problemų bus tikras galvos skausmas.
 
 Taip pat yra ir su Docker konteinerių pašalinimu. Pabandėte ir jau nebereikia? Tiesiog ištrinate konteinerį su `docker rm`.
 

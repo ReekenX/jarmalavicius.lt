@@ -11,25 +11,25 @@ Pavyzdžiui `Ubuntu 17.04` oficialiose repozitorijose turi versiją 4.7.*. Atnau
 
 Išvalykime sisteminį kešą (kad kitų komandų diegimo metu negautume senų paketų):
 
-```
+```bash
 sudo npm cache clean -f
 ```
 
 Įdiekime naujausią `nodejs` versijų valdytoją:
 
-```
+```bash
 sudo npm install -g n
 ```
 
 Įdiekime naujausią `nodejs` versiją:
 
-```
+```bash
 sudo n stable
 ```
 
-Nurodykime sistemai vietoje senojo `nodejs` ir `node` naudoti naujajį:
+Nurodykime sistemai vietoje senojo `nodejs` ir `node` naudoti naująjį:
 
-```
+```bash
 KELIAS=/usr/local/n/versions/node;
 sudo ln -sf $KELIAS/<VERSIJA>/bin/node /usr/bin/nodejs;
 sudo ln -sf $KELIAS/<VERSIJA>/bin/node /usr/bin/node;
@@ -37,7 +37,7 @@ sudo ln -sf $KELIAS/<VERSIJA>/bin/node /usr/bin/node;
 
 Versiją po įdiegimo galite pasitikrinti komanda:
 
-```
+```bash
 $ node -v
 v9.2.1
 ```

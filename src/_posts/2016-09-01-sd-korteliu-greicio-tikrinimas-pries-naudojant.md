@@ -2,7 +2,7 @@
 title: SD kortelių greičio tikrinimas prieš naudojant
 category: raspberry-pi
 image: i/sd-korteliu-greicio-tikrinimas-pries-naudojant.png
-description: Kaip sužinoti SD (ar microSD) kortelės greitį prieš ją naudojant su Rasberry Pi.
+description: Kaip sužinoti SD (ar microSD) kortelės greitį prieš ją naudojant su Raspberry Pi.
 ---
 
 Visai neseniai teko „pakurti“ dar vieną projektą su Raspberry Pi. Tvarkiau
@@ -16,24 +16,26 @@ kortelė yra lengva.
 
 Pirmiausiai įdėjus ją į kitą kompiuterį reikėtų sužinoti kuriame Linux įrenginyje
 kortelė buvo priregistruota. Tą padaryti galima pasižiūrėjus komandos `fdisk -l`
-išvesties skirtumą prieš kortelę įdedant ir po idėjimo.
+išvesties skirtumą prieš kortelę įdedant ir po įdėjimo.
 
 Žinant, kur priregistruotas naujas įrenginys, pasižiūrėti jo įrašymo ir skaitymo
 greitį galima pasinaudojus `hdparm` programa.
 
 Praktinis panaudojimo pavyzdys:
 
-    $ sudo fdisk -l
+```bash
+$ sudo fdisk -l
 
-    [..]
+[..]
 
-    Device     Boot Start     End Sectors  Size Id Type
-    /dev/sdb1  *       63 7897086 7897024  3,8G 83 Linux
+Device     Boot Start     End Sectors  Size Id Type
+/dev/sdb1  *       63 7897086 7897024  3,8G 83 Linux
 
-    $ sudo hdparm -t /dev/sdb1
+$ sudo hdparm -t /dev/sdb1
 
-    /dev/sdb1:
-     Timing buffered disk reads:  48 MB in  3.06 seconds =  15.68 MB/sec
+/dev/sdb1:
+ Timing buffered disk reads:  48 MB in  3.06 seconds =  15.68 MB/sec
+```
 
 Patarimas - greitį pasitikrinkite kelis kartus. Jis gali nežymiai kisti. Taip yra
 dėl daugelio priežasčių.

@@ -33,7 +33,7 @@ Kadangi Nagios nepraneša apie sėkmingai veikiantį projektą, tikrinam [klient
 
 Taigi, kadangi jų vidinė sistema neveikia ir problemos sutvarkyti negalima, belieka kreiptis pas paslaugų tiekėją tiesiogiai - rašyti el. laišką.
 
-Laiškas išsiųstas su prašymu paleisti serverį. Kadangi jų darbo laikas prasideda 08:30, **profesionaliausias#### daly ką galima šiuo atveju padaryti - įspėti visus klientus kurių projektai/paslaugos yra nepasiekiamos. Juos reikėtų informuoti apie tai, kas vyksta, kodėl įvyko, kada greičiausiai viskas startuos ir, aišku, atsarginį planą, kad esant rimtai bėdai - projektai po pietų veiks iš atsarginio serverio.
+Laiškas išsiųstas su prašymu paleisti serverį. Kadangi jų darbo laikas prasideda 08:30, **profesionaliausias** daly ką galima šiuo atveju padaryti - įspėti visus klientus kurių projektai/paslaugos yra nepasiekiamos. Juos reikėtų informuoti apie tai, kas vyksta, kodėl įvyko, kada greičiausiai viskas startuos ir, aišku, atsarginį planą, kad esant rimtai bėdai - projektai po pietų veiks iš atsarginio serverio.
 
 ## 08:50 Vis dar nieko iš Interneto Vizijos
 
@@ -45,7 +45,8 @@ Tikriausiai vieno sakinio laišką parašyti jiems, kad bėda tvarkoma, buvo per
 
 Nesulaukus jokios paslaugų tiekėjo reakcijos - skambinam. Patikina, kad problema kaip tik sprendžiama.
 
-**Profesionaliausias#### dalykas ką galima padaryti šioje situacijoje - informuoklientus, kad bėda tikrai sprendžiama arba bent jau bus sprendžiama po kažkurio laiko tarpo. Tą padariau visiems klientams kuriuos ši bėda taip pat palietė.
+**Profesionaliausias** dalykas ką galima padaryti šioje situacijoje - informuoti
+klientus, kad bėda tikrai sprendžiama arba bent jau bus sprendžiama po kažkurio laiko tarpo. Tą padariau visiems klientams kuriuos ši bėda taip pat palietė.
 
 ## 10:00 „Priežasties dar neradome“ - dedikuoti.lt
 
@@ -53,7 +54,7 @@ Pirmoji reakcija, vieno sakinio, iš jų pusės.
 
 Kaip pirmas informavimas po 1.5 valandos - gana prastai. Ne tik neaišku kas buvo daroma, kiek tai laiko truko, bet tuo labiau kas toliau bus daroma ir kiek tai truks.
 
-Žinoma, sitaucija bloga. [Komunikacija iš paslaugų tiekėjo siaubinga](https://www.dedikuoti.lt).
+Žinoma, situacija bloga. [Komunikacija iš paslaugų tiekėjo siaubinga](https://www.dedikuoti.lt).
 
 Dar kartą informuojame klientus apie tai kas vyksta ir apibrėžiam viską laiko rėžiais. Tai yra, jeigu iki pietų Interneto Vizija taip graudžiai spręs problemas, tai kursime naują serverį, ir kelsime atsarginę versiją. Rankomis, žinoma.
 
@@ -75,15 +76,15 @@ Jūsų serveris visiškai neatsako į paleidimo komandą. Administratoriams per�
 situaciją nustatėme, kad serveris po perkrovimo nepasileidžia dėl nekorektiškai
 įdiegtų paketų su "force-confdef" parametru:
 
-Start-Date: 2016-06-17  09:45:52
-Commandline: /usr/bin/apt-get -y -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold install libapache2-mod-php5
-Upgrade: [..]
-End-Date: 2016-06-17  09:46:03
+    Start-Date: 2016-06-17  09:45:52
+    Commandline: /usr/bin/apt-get -y -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold install libapache2-mod-php5
+    Upgrade: [..]
+    End-Date: 2016-06-17  09:46:03
 
-Start-Date: 2016-06-17  09:49:26
-Commandline: /usr/bin/apt-get -q -y -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold remove samba-libs
-Remove: [..]
-End-Date: 2016-06-17  09:49:27
+    Start-Date: 2016-06-17  09:49:26
+    Commandline: /usr/bin/apt-get -q -y -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold remove samba-libs
+    Remove: [..]
+    End-Date: 2016-06-17  09:49:27
 
 Šiuo atveju galėtume Jums pasiūlyti <b>perrašyti serverio operacinę sistemą</b>
 ir <b>atstatyti serverio duomenų kopiją į serveryje esančią direktoriją</b>.
@@ -136,7 +137,7 @@ Jokios informacijos, kad failai jau baigti kopijuoti negavau. Įprasta, iš Inte
 
 Panikuoti nereikia, kaip yra taip. Sprendžiam problemą - reikia kuo skubiau paleisti visus projektus.
 
-Profesionalus sprendimo būdas šioje situacijoje - automatizuotas programinės įrangos įdiegimas. Parsisiunčiame „paruoštuką“ programinei įrangai diegti [su ansible](https://github.com/ReekenX/ansible-playbooks) arba [saltstack](https://github.com/ReekenX/salt-configs) ir per mažiau nei 10 minučių sudiegiame visą programinę įrangą
+Profesionalus sprendimo būdas šioje situacijoje - automatizuotas programinės įrangos įdiegimas. Parsisiunčiame „paruoštuką“ programinei įrangai diegti [su Ansible](https://github.com/ReekenX/ansible-playbooks) arba [saltstack](https://github.com/ReekenX/salt-configs) ir per mažiau nei 10 minučių sudiegiame visą programinę įrangą
 į serverį.
 
 Atsargines kopijas pats turiu. Jeigu skaitėte mano ankstesnius straipsnius, tai yra ne vienas būdas kaip jas daryti. Šioje vietoje „paėmiau“ tai, ką IV sukrovė į `/mnt/` katalogą. Pereiname per `/etc`, `/var`, `/usr`, `/home` katalogus ir sukilnojame failus/konfigūracijas.
@@ -151,7 +152,7 @@ Aišku, visko tikrinimas - trunka labai ilgai.
 
 ## 10 valandų „downtime“
 
-Prisipažinsiu, kad tiek „downtime“ laiko per pastaruosius 5 serverių administravimo metus - neturėjau. Apmaudu, kad taip nutiko. Bet dar apmaudžiau, kad [Interneto Vizija](https://www.iv.lt/), tokia žinoma kompanija, visiškai pro pirštus žiūri į kritiškas situacijas. Ir dar apmaudžiau, kad taip **nuvilia#### paslaugų tiekėjakurio paslaugomis naudojuosi kokius 7 metus.
+Prisipažinsiu, kad tiek „downtime“ laiko per pastaruosius 5 serverių administravimo metus - neturėjau. Apmaudu, kad taip nutiko. Bet dar apmaudžiau, kad [Interneto Vizija](https://www.iv.lt/), tokia žinoma kompanija, visiškai pro pirštus žiūri į kritiškas situacijas. Ir dar apmaudžiau, kad taip **nuvilia** paslaugų tiekėją kurio paslaugomis naudojuosi kokius 7 metus.
 
 Pabaigai - viską vainikuoja Interneto Vizijos mandagus atsiprašymo laiškas. Kurį galėjau susikurti savo vaizduotėje.
 
@@ -159,9 +160,11 @@ Aš, kad ir kaip vertinti situaciją - *atsiprašiau klientų*.
 
 ## Laikas keisti paslaugų tiekėją?
 
-Žinoma, kad ne. Nusivyliau labai komunikacija ir tuom, kad problema buvo sprendžiama kaip kokioj „praktikantų“ firmoje.
+Žinoma, kad ne. Nusivyliau labai komunikacija ir tuo, kad problema buvo
+sprendžiama kaip kokioje „praktikantų“ firmoje.
 
-Kažkurioje savo skaitytų knygų perskaičiau tokią frazę: "protingas žmogus išspręs problemą jai *jau susidarius*, išmintigas pasiruoš problemai, kad *ji - nesusidarytų*“.
+Kažkurioje savo skaitytų knygų perskaičiau tokią frazę: "protingas žmogus
+išspręs problemą jai *jau susidarius*, išmintingas pasiruoš problemai, kad *ji - nesusidarytų*“.
 
 Svarbu ne tai, kaip pasiruošę kiti - o kaip pats pasiruošęs.
 
@@ -169,7 +172,7 @@ Svarbu ne tai, kaip pasiruošę kiti - o kaip pats pasiruošęs.
 
 Nors pats tokiam duomenų dingimui buvau visai neblogai pasiruošęs (neskaitant to fakto, kad paslaugų tiekėjas sugaišo brangias 6 valandas, o man pačiam viską atstatyti truko 40 minučių) priminsiu kaip pasiruošit tokioms katastrofoms.
 
-Visada **turėkite atargines kopijas**. Ne mėnesio ar savaitės senumo. Jau dienos - yra blogai. Turėkite bent 2 kartų dienoje kopijas.
+Visada **turėkite atsargines kopijas**. Ne mėnesio ar savaitės senumo. Jau dienos - yra blogai. Turėkite bent 2 kartų dienoje kopijas.
 
 Nesaugokite kopijų tik viename archyve. Įprastai, aš turiu 3 vietas saugoti duomenis.
 

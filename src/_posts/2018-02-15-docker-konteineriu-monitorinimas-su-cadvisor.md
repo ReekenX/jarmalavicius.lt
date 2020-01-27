@@ -58,6 +58,6 @@ Dar matysite ir grafikus ir kaip naudojami Jūsų sistemos resursai:
 
 ## Kaip išbandyti?
 
-Jeigu tik pradedate naudoti docker ir trūksta idėjų ką su juo daryti, tai patarčiau išmėginti [mano programavimo platformą](https://github.com/ReekenX/docker-for-webdevs) kuri padaryta su Docker. Platformoje rasite apache2, php, mysql, memcached, redis, elasticsearch, postgres. Paketas su populiariausia programine įrange WEB programavimui.
+Jeigu tik pradedate naudoti docker ir trūksta idėjų ką su juo daryti, tai patarčiau išmėginti [mano programavimo platformą](https://github.com/ReekenX/docker-for-webdevs) kuri padaryta su Docker. Platformoje rasite apache2, php, mysql, memcached, redis, elasticsearch, postgres. Paketas su populiariausia programine įranga WEB programavimui.
 
 Nebūtina šią platformą naudoti, bet galima panaudoti CAdvisor išmėginimui.

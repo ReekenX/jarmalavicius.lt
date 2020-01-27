@@ -55,7 +55,7 @@ Jeigu norite Raspberry Pi pirkti, bet 100% dar nenusprendę kam jis Jums reikali
 
 Dažnai jie su savimi turi Raspberry Pi įrenginį, bet - ne visada. Todėl būtinai pasitikrinkite ką perkate.
 
-Šie „starter kit'ai“ yra puiki pramoga ir dovana vaikams. Prietaisas gana saugus daryti eksperimentus net esant megėjui. Blogiausiai kas galėtų atsitikti - sugadinsite vieną ar kitą dalyką nepridarydami per daug žalos. Pavyzdžiui koks atstumo matuoklis kainuoja vos 2€ - sugadinus tiesiog nusipirktumėte kitą.
+Šie „starter kit'ai“ yra puiki pramoga ir dovana vaikams. Prietaisas gana saugus daryti eksperimentus net esant mėgėjui. Blogiausiai kas galėtų atsitikti - sugadinsite vieną ar kitą dalyką nepridarydami per daug žalos. Pavyzdžiui koks atstumo matuoklis kainuoja vos 2€ - sugadinus tiesiog nusipirktumėte kitą.
 
 ## Daugiau Raspberry Pi straipsnių?
 

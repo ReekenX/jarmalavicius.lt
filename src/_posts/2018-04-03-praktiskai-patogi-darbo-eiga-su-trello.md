@@ -9,7 +9,7 @@ Trello pradėjau naudoti 2012 metais. Naudoju iki šių dienų. Praėjo tikrai n
 
 Per tą laiką spėjau išbandyti kokį šimtą darbo eigų kurias galima rasti [oficialiame Trello tinklaraštyje](https://blog.trello.com/). Nuolat keisdavau darbo eigas nes, tai vienas, tai kitas, dalykas atrodė nepatogus arba gaišinantis laiką.
 
-Šiai dienai esu išsigryninęs sistemą kuri yra be galo patogi, nereikalauja daug laiko ir svarbiausiai - galiu matyti visus projektus iš šalies (populiarus angliškas terminas „big picture“).
+Šiai dienai esu išgryninęs sistemą kuri yra be galo patogi, nereikalauja daug laiko ir svarbiausiai - galiu matyti visus projektus iš šalies (populiarus angliškas terminas „big picture“).
 
 {% include post_image.html image="/i/trello_remigijus.png" text="Trello spalvų paletė" %}
 
@@ -21,7 +21,7 @@ Aš naudoju nemokamą planą, nes nėra poreikio Trello integruoti į kitas sist
 
 ## Darbo eigos taisyklės
 
-Turiu vieną lentą pavadinimu „Projektai“, kitą „Marketingas“ ir pan. Vienoje lentoje, vienas stulpelis yra vienas projektas (pažymėta raidėmis P1, P2 nuotraukoje auksčiau).
+Turiu vieną lentą pavadinimu „Projektai“, kitą „Marketingas“ ir pan. Vienoje lentoje, vienas stulpelis yra vienas projektas (pažymėta raidėmis P1, P2 nuotraukoje aukščiau).
 
 Galėčiau pasakyti, kad toks išdėstymas Trello yra vos ne vienintelis norint matyti „big picture“. Įmonėje dirbant patogu skirti vieną lentą vienam projektui. Dirbant su asmeniniais projektais ir su nedidele komanda - tai yra ne tik nepatogu, bet ir daug laiko reikalauja.
 
@@ -29,7 +29,7 @@ Kiekviena užduoties kortelė turi spalvą:
 
 {% include post_image.html image="/i/trello_spalvos.png" text="Trello spalvų paletė" %}
 
-Prioritetus peržiūriu dažnai - bent kartą dienoje. Klaida pažymėta kortelė - visada auksčiausias prioritetas, nesvarbu didelė ta klaida ar ne.
+Prioritetus peržiūriu dažnai - bent kartą dienoje. Klaida pažymėta kortelė - visada aukščiausias prioritetas, nesvarbu didelė ta klaida ar ne.
 
 Na, ir dirbant su komanda labai svarbu naudotis sąrašais (angl. „checklist“) ir komentarais kortelėje.
 
@@ -43,7 +43,9 @@ Pasitikrinęs el. paštą susidedu visus komentarus į Todoist (tik asmeniniai d
 
 Tada prioritizuoju pačius darbus. Iš pradžių peržiūriu kiekvieno projekto stulpelį ir perrikiuoju darbus, nes naujausi dažnai būna pačioje apačioje. Surikiavęs darbų svarbą pagal projektą imuosi kitos planavimo dalies - dienos planavimo.
 
-Prie kiekvienos kortelės pasižymiu vieną arba dvi to projekto užduotis kurias norėsiu atlikti šią dieną. Kadangi užduočių kiekis nėra didelis (tik viena arba dvi smulkios užduotėlės) - tai planą praktiškai visada įvykdau iki dienos pabaigos.
+Prie kiekvienos kortelės pasižymiu vieną arba dvi to projekto užduotis kurias
+norėsiu atlikti šią dieną. Kadangi užduočių kiekis nėra didelis (tik viena arba
+dvi smulkios užduotys) - tai planą praktiškai visada įvykdau iki dienos pabaigos.
 
 Čia bene pats svarbiausias ir pats produktyviausias dalykas ką galite padaryti bet kur - planuokite itin smulkiai. Neturėkite užduočių kurios trunka 2 ar daugiau valandų. Suskaldykite taip smulkiai, kad darbo būtų vos 10-15 minučių. Tokiu būdu įveiksite net ir didžiausius kalnus.
 
@@ -55,6 +57,6 @@ Jeigu jis būtų mokamas - tai greičiausiai apsistočiau pas šio konkurentus. 
 
 Kadangi įrankis nemokamas, patogus ir velniškai greitas - naudoti tikrai verta. Naudoju ir Trello API, kad automatizuoti kai kuriuos darbus arba „apskaičiuoti produktyvumą“.
 
-Gali būti labai smalsu kaip kiti naudoja šį įrankį - pažiūrėkite oficialų Trello tinklaraštį. Jame labai daug įmonių ir samdomų darbuotojų dalinasi savo įspūdžiais, produktyviom darbo eigom ir pan. Tikrai ką nors rasite.
+Gali būti labai smalsu kaip kiti naudoja šį įrankį - pažiūrėkite oficialų Trello tinklaraštį. Jame labai daug įmonių ir samdomų darbuotojų dalinasi savo įspūdžiais, darbo eigom ir pan. Tikrai ką nors rasite.
 
 Būtinai išbandykite ;)

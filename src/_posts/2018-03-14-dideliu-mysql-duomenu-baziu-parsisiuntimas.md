@@ -107,12 +107,12 @@ Paleidimas turėtų būti gana aiškus:
 ./skriptas serveris nuotoline-duombaze lokali-duombaze
 ```
 
-Kuom šis skriptas sprendžia problemą didelėms duombazėms:
+Kuo šis skriptas sprendžia problemą didelėms duombazėms:
 
 * Siunčiami tik paskutiniai `MAX_ROWS` lentelių įrašai. Kaip matote, kad parsiųsti paskutinius reikia dar ir paskaičiuoti kiek tų įrašų yra.
 * Vienu metu daromi iki 10 siuntimų ir tuomet palaukiama kol 10 segmentas baigsis ir tada siunčiama dar 10 vienu metu. Skaičių galite padidinti/sumažinti pakeitę `COMMIT_LIMIT` konstantą.
 * Skriptas praneša kokios lentelės, kiek juose yra įrašų ir ar siunčiama visa lentelė ar tik jos dalis.
-* Naudojamas gzip suglaudinimas kad pataupyti visų pusių resursus.
+* Naudojamas `gzip` suglaudinimas kad pataupyti visų pusių resursus.
 
 ## Praktinis pavyzdys
 

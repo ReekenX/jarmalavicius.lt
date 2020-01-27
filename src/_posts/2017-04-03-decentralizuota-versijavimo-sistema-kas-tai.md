@@ -11,11 +11,11 @@ Pavyzdžiui **centralizuota versijavimo sistema SVN** „priverčia“ jos naudo
 
 GIT šiuo atveju neprašo savo išeities kodą kam nors siųsti.
 
-Čia puikus pavyzdys būtų <a href="https://github.com">github.com</a> projektas. Tai vienas populiariausių projektų laikaintis milijonus atviro kodo išeities kodų, kuriuos bet kada galima parsisiųsti. Visos repozitorijos (išeities kodo saugyklos) yra viešai prieinamos (t.y. bet kuris žmogus turi repozitorijos skaitymo teises).
+Čia puikus pavyzdys būtų <a href="https://github.com">github.com</a> projektas. Tai vienas populiariausių projektų laikantis milijonus atviro kodo išeities kodų, kuriuos bet kada galima parsisiųsti. Visos repozitorijos (išeities kodo saugyklos) yra viešai prieinamos (t.y. bet kuris žmogus turi repozitorijos skaitymo teises).
 
 Tačiau rašymo teises į repozitoriją turi tik jos savininkas ar įgaliotas asmuo. Dėl šios priežasties, norint paskelbti oficialioje repozitorijoje savo pakeitimus teks gauti leidimą arba siųsti autoriui pakeitimus ir prašyti juos įkelti.
 
-Kas šioje situacija vaizduoja „decentralizavimą“? Ogi tai, kad iš vienos vietos gautą kodą Jūs neprivalote su niekuom dalintis. Galite kodą modifikuoti (jeigu leidžia licencija), platinti (jeigu leidžia licencija) tarp savo draugų ar įmonės kolegų.
+Kas šioje situacija vaizduoja „decentralizavimą“? Ogi tai, kad iš vienos vietos gautą kodą Jūs neprivalote su niekuo dalintis. Galite kodą modifikuoti (jeigu leidžia licencija), platinti (jeigu leidžia licencija) tarp savo draugų ar įmonės kolegų.
 
 ## Realus decentralizuotos sistemos pavyzdys
 
