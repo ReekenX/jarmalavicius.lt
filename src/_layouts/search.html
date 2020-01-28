@@ -17,7 +17,7 @@ layout: default
       <div class="mb-2">
         Įveskite paieškos raktažodį:
       </div>
-      <input type="text" class="w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location.href = '/paieska{{ site.ext }}?' + encodeURI(event.target.value); }">
+      <input type="text" class="w-full border rounded p-2 w-64" placeholder="Ieškoti straipsnių..." onkeyup="if (event.keyCode === 13 && event.target.value.length > 0) { window.location.href = '/paieska{{ site.ext }}?' + encodeURI(event.target.value).replace(/%20/, '+'); }">
     </div>
   </div>
 
@@ -56,7 +56,7 @@ layout: default
     document.querySelector('.js-loading').innerHTML = 'Nėra straipsnio atitinkančių Jūsų raktažodį.';
   } else {
     // Cleanup search keyword
-    var keywords = decodeURI(window.location.href.replace(/.*\?/, ''));
+    var keywords = decodeURI(window.location.href.replace(/.*\?/, '')).replace(/\+/g, ' ');
     document.querySelector('.js-keywords').innerHTML = keywords;
     var words = keywords.replace(/[^a-zA-Z0-9ąčęėįšųūž ]/g, ' ').replace(/  +/g, ' ').toLowerCase().split(' ');
     words = words.filter(word => word.length > 2);
