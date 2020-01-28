@@ -2,7 +2,7 @@
 title: HTTPie - CLI įrankis žmonių kalba
 category: atviras-kodas
 image: i/httpie_logo.png
-description: Straipsnis apie HTTPIe įrankį lengvai atlikti sudėtingas CURL komandas.
+description: Straipsnis apie HTTPie įrankį lengvai atlikti sudėtingas CURL komandas.
 ---
 
 Programuojant ne kartą teks imti duomenis iš kokios nors API arba tiesiog atlikinėti kokias nors HTTP užklausas. Aišku, į galvą šaus pati populiariausia programinė įranga - `curl`. Nors su ja galima padaryti stebuklus, bet dažnam naudojimui ji yra ganėtinai nepatogi.
@@ -13,13 +13,13 @@ Jeigu šiuo reikalu dirbate dažnai, čia labai stipriai pagelbės [HTTPie](http
 
 Įdiegti ją labai paprasta (Debian operacinių šeimose):
 
-```
+```bash
 apt-get install httpie
 ```
 
 Arba bet kurioje kitoje sistemoje galima atsisiųsti tiesiai iš pypi repozitorijos:
 
-```
+```bash
 pip install httpie
 ```
 
@@ -27,7 +27,7 @@ Tiesa, pastarasis variantas gali būti geresnis, nes didesnė tikimybė gauti na
 
 Paprastam turiniui ir antraštėms gauti užteks tik adreso:
 
-```
+```bash
 $ http www.jarmalavicius.lt
 HTTP/1.1 301 Moved Permanently
 Content-Encoding: gzip
@@ -39,19 +39,19 @@ Content-Length: 196
 
 Testuojant API (pvz. man ne kartą pravertė testuojant [Trello](https://trello.com/) API) galima paduoti HTTP metodo tipą ir argumentus:
 
-```
+```bash
 http PUT example.org key=value
 ```
 
 Arba praverčia testuojant formas:
 
-```
+```bash
 http POST example.org username=example
 ```
 
 Ypatingai patiko debug režimo palaikymas:
 
-```
+```bash
 $ http -v POST example.org key=value | head
 POST / HTTP/1.1
 Content-Length: 16
@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 
 Žinoma, ir failų įkėlimas į internetą veikia:
 
-```
+```bash
 http example.org < failas.txt
 ```
 
 Bei failų parsisiuntimas:
 
-```
+```bash
 http example.org/norimas/failas > failas.txt
 ```
 
@@ -83,7 +83,7 @@ Na, o „killer“ funkcionalumas - galimybė išlaikyti sesijas tarp užklausų
 
 Kaip [HTTPie](https://github.com/jkbrzt/httpie) veikia, galima patestuoti su atviro kodo interneto paslauga:
 
-```
+```bash
 $ http --session=sesija -a username:password httpbin.org/get API-Key:123
 $ http --session=sesija httpbin.org/headers
 ```
