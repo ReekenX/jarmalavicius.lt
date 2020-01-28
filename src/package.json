@@ -8,7 +8,7 @@
     "build:js": "npm run webpack:build && cp js/turbolinks.js turbolinks.js",
     "build:css": "cp css/main.css main.css",
     "build:html": "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml && rm -rf _site/css _site/js",
-    "deploy": "npm run build && rsync -Pa --delete _site/ 2gb:projects/www.jarmalavicius.lt/_site/"
+    "deploy": "rm -rf _site && npm run build && rsync -Pa --delete _site/ 2gb:projects/www.jarmalavicius.lt/_site/"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
