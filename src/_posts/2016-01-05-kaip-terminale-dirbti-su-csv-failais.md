@@ -13,12 +13,12 @@ Pirmiausiai tai trumpai kas yra CSV failo formatas, jeigu yra dar nežinančių 
 * pirmoje failo eilutėje gali būti (gali ir nebūti) išvardinti duomenų stulpeliai;
 * kitose eilutėse arba nuo pat pirmos gali būti išvardinti duomenys - vienas duomenų masyvas per eilutę;
 * stulpeliams atskirti naudojami kableliai (iš to kilęs formato pavadinimas - kableliu atskirtos reikšmės);
-* reikšmės turinkčios kablelį turi būti apskliaudžiamos kabutėmis;
+* reikšmės turinčios kablelį turi būti apskliaudžiamos kabutėmis;
 * kabutės reikšmėse turi būti aprašomos dviem kabutėmis arba dedamas '\' simbolis prieš jas.
 
 Jeigu kartais prireikia dirbti su CSV failu terminale, tai puikiai pravers atviro kodo [miller](https://github.com/johnkerl/miller) programa. Kadangi kūrėjai instrukcijų (dar?) neparašė, tai įdiegsime ją taip paprastai:
 
-```
+```bash
 git clone https://github.com/johnkerl/miller.git
 cd miller
 autoreconf -if
@@ -30,11 +30,11 @@ Sutinku, ne pats gražiausias diegimo procesas, bet ką jau padarysi. Yra kur to
 
 Ir Jūsų kompiuteryje bus įdiegta `mlr` komanda, kurią galėsite pasinaudoti darbui su CSV failais.
 
-Programos pagalos apraše rasite krūvas panaudojimo pavyzdžių.
+Programos pagalbos apraše rasite krūvas panaudojimo pavyzdžių.
 
 Pasižiūrime CSV failo turinį:
 
-```
+```bash
 $ mlr --csv cat Managers.csv
 
 playerID,yearID,teamID,lgID,inseason,G,W,L,rank,plyrMgr
@@ -46,7 +46,7 @@ lennobi01,1871,FW1,NA,1,14,5,9,8,Y
 
 Rodome tik kai kuriuos stulpelius:
 
-```
+```bash
 $ mlr --csv cut -f playerID,yearID  Managers.csv
 
 playerID,yearID
@@ -58,7 +58,7 @@ lennobi01,1871
 
 Darome tikrą CSV failo duomenų filtravimą:
 
-```
+```bash
 $ mlr --csv filter '$yearID > 1871'  Managers.csv
 
 playerID,yearID,teamID,lgID,inseason,G,W,L,rank,plyrMgr
@@ -70,7 +70,7 @@ woodji01,1872,BR1,NA,2,18,3,15,9,Y
 
 Išrikiuojame duomenis pagal stulpelį:
 
-```
+```bash
 $ mlr --csv sort -f playerID Managers.csv
 
 playerID,yearID,teamID,lgID,inseason,G,W,L,rank,plyrMgr
@@ -82,7 +82,7 @@ actama99,2010,CLE,AL,1,162,69,93,4,N
 
 Darome aritmetines operacijas:
 
-```
+```bash
 $ mlr --csv put '$years = $yearID + 1000' then cut -f playerID,years Managers.csv
 
 playerID,years
@@ -92,6 +92,8 @@ paborch01,2871
 lennobi01,2871
 ```
 
-Trumpai tariant - įspūdinga biblioteka. Lengvai eksportuoti duomenys į CSV failą gali virsti tikra duomenų baze su daugybe galimybių. Žinoma, gerai išmanant `awk` galbūt ir nenorėsis mokintis naudotis dar viena programa, bet man, asmeniškai, po `awk` ši komanda pasirodė kaip produktyvesnis būdas tai daryti.
+Trumpai tariant - įspūdinga biblioteka. Lengvai eksportuoti duomenys į CSV failą
+gali virsti tikra duomenų baze su daugybe galimybių. Žinoma, gerai išmanant
+`awk` galbūt ir nesinorės mokytis naudotis dar viena programa, bet man, asmeniškai, po `awk` ši komanda pasirodė kaip produktyvesnis būdas tai daryti.
 
 Išbandykite patys. O programos pagalbos apraše rasite dar daugiau naudingų pavyzdžių.

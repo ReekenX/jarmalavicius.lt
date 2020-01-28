@@ -15,13 +15,15 @@ Taip, aš jau seniai `:wq` (arba `ZZ` arba tiesiog `:w`) komandos nenaudoju, nes
 
 Vienas iš tokių įskiepių VIM'ui yra [vim-auto-save](https://github.com/vim-scripts/vim-auto-save). Pats jį naudojau pusmetį, tačiau „atsimušiau“ į kelis bjaurius dalykus:
 
-* Jeigu šį įskiepį naudosite su automatiniais linter'iais - turėsite labai stipriai stabadantį redaktorių.
+* Jeigu šį įskiepį naudosite su automatiniais linter'iais - turėsite labai stipriai stabdantį redaktorių.
 * Jis visada saugo duomenis kas tam tikrą laiko tarpą. Tai reiškia, kad jeigu aktyviai „refaktorinat“, tai išsaugojimas įvyks iškart kai tik paspausite „ESC“ klavišą. Taigi, sintaksės klaidos pasikartos tikrai labai dažnai Jūsų kode.
 * Dėl pastarojo dalyko naudoti tokį dalyką kaip „grunt watch“ tampa neįmanoma, nes `grunt` pamatęs pakeitimus mėgins atlikti savo darbus ir „nusikeiks“ pamatęs, jog kažkokie failai turi sintaksės klaidų.
 
 Taigi, ėmiau ir pasirašiau aš patobulinimą šiam įskiepiui. Ne ne, iškart pasakysiu, kad straipsnis ne apie savo įrankio reklamavimą. Taigi, skaitom toliau.
 
-Sugaišus daug laiko ir turint truputėlį pahakintą kodą pasidomėjau kas vyksta kai VIM'as saugoja failus ir priėjau prie išvados, kad visas šis tobulas funkcionalumas gaunamas vos keliom eilutėm kodo `.vimrc` faile:
+Sugaišus daug laiko ir turint truputėlį pahakintą kodą pasidomėjau kas vyksta
+kai VIM'as saugoja failus ir priėjau prie išvados, kad visas šis tobulas
+funkcionalumas gaunamas vos kelioms eilutėm kodo `.vimrc` faile:
 
     set updatetime=1000
     autocmd CursorHold,CursorHoldI * silent update

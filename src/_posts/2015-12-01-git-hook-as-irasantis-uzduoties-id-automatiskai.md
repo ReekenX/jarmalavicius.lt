@@ -7,10 +7,15 @@ description: GIT gali automatiškai Jums nustatyti ir prirašyti prie commit ži
 
 Jeigu darbui naudojate [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) Jums bus pažįstamas branchų versijavimas ir kam ir kodėl jis reikalingas. Jeigu nenaudojate - siūlyčiau pasekti nuorodą ir susipažinti. Ši darbų eiga tikrai gali Jums padėti pasidaryti tokią programavimo darbų eigos architektūrą, kuri gerokai patobulintų darbo kokybę ir sudarytų tinkamą, šiuolaikišką ir patogią struktūrą versijuojant projektus.
 
-Daug kam bus nesvetimas ir užduoties ID rašymas `commit` žinutėse. Kaip užtikrinti, kad visos `commit` žinutės turėtų užduoties ID - jau rašiau [praėjusiame straipsnyje](/git/tikriname-commit-zinutes-del-uzduoties-id). Kad nereiktų ilgai galvoit, atsidarinėti naršyklės ir ieškoti savo „track'o“ su užtuoties ID siūlau jį rašyti branchų varduose, pavyzdžiui:
+Daug kam bus nesvetimas ir užduoties ID rašymas `commit` žinutėse. Kaip
+užtikrinti, kad visos `commit` žinutės turėtų užduoties ID - jau rašiau
+[praėjusiame straipsnyje](/git/tikriname-commit-zinutes-del-uzduoties-id). Kad
+nereiktų ilgai galvosit, atsidarinėti naršyklės ir ieškoti savo „track'o“ su užduoties ID siūlau jį rašyti branchų varduose, pavyzdžiui:
 
-    git branch feature/2911-users-api
-    git branch hotfix/3341-aws-sync-large-files
+```bash
+git branch feature/2911-users-api
+git branch hotfix/3341-aws-sync-large-files
+```
 
 Na, ir galiausiai susikurkime tokį Hook'ą faile `.git/hooks/prepare-commit-msg`:
 

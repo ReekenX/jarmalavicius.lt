@@ -24,37 +24,41 @@ Išmokta pamoka - vienas sunkiausių dalykų darant atsargines kopijas yra patog
 Taigi, kaip atrodo kelias iki pavienes saugyklos:
 
 ```
-    /backups/serveris-1/websites/2015/2015-10/2015-10-01_13:59_example.org.tar.gz
+/backups/serveris-1/websites/2015/2015-10/2015-10-01_13:59_example.org.tar.gz
 ```
 
 Oh, kiek metų dubliavimo! Taip. Ir patikėkite, jis labai reikalingas (skaitykite toliau).
 
 Pavyzdžiui svetainės `example.org` visų archyvų paieškai galime panaudoti:
 
-```
-    find -iname '*example.org.tar.gz'
+```bash
+find -iname '*example.org.tar.gz'
 ```
 
-Arba saugyklai labai išsipūtus, galima paimti ir ankstesnius metus, pavyzdžiui `/backups/serveris-1/websites/2014` perkelti į [Amazon Glacier](https://aws.amazon.com/glacier/) kur jie bus pigiai saugomi. Aišku, tokia saugykla, jeigu Jums teko kada naudotis, turi minusą, kad prie failų prieisite tik po keletos valandų, jeigu bus poreikis. Bet čia ir esmė saugoti juos tik tam, kad turėti (turiu omeny „tokius senus archyvus“). O pinigine prasme tikrai verta! Labai panašiai veikia ir [Google Nearline](https://cloud.google.com/storage/docs/nearline?hl=en) tik jos duomenų atidavimas yra greitesnis.
+Arba saugyklai labai išsipūtus, galima paimti ir ankstesnius metus, pavyzdžiui
+`/backups/serveris-1/websites/2014` perkelti į [Amazon
+Glacier](https://aws.amazon.com/glacier/) kur jie bus pigiai saugomi. Aišku,
+tokia saugykla, jeigu Jums teko kada naudotis, turi minusą, kad prie failų
+prieisite tik po kelių valandų, jeigu bus poreikis. Bet čia ir esmė saugoti juos tik tam, kad turėti (turiu omeny „tokius senus archyvus“). O pinigine prasme tikrai verta! Labai panašiai veikia ir [Google Nearline](https://cloud.google.com/storage/docs/nearline?hl=en) tik jos duomenų atidavimas yra greitesnis.
 
 Na, ir keletas tipsų apie greitą duomenų atstatymą. Pirmiausiai, tai turint `.tar.gz` Jums nereikės `gunzip` pavykdyti prieš dirbant su atsargine kopija. Čia užteks `tar -z` pagalbos.
 
 Pradžiai tikriausiai visada reikės pasižiūrėti kas yra archyve:
 
-```
-    tar -tvzf 2015-10-01_13:59_example.org.tar.gz | less
+```bash
+tar -tvzf 2015-10-01_13:59_example.org.tar.gz | less
 ```
 
 Suradus tam tikrą failą ar katalogą galime jį atstatyti:
 
-```
-    tar -xzfv 2015-10-01_13:59_example.org.tar.gz kelias/iki/katalogo/ar/failo
+```bash
+tar -xzfv 2015-10-01_13:59_example.org.tar.gz kelias/iki/katalogo/ar/failo
 ```
 
 Užrašymui „ant viršaus“ naudojame („tikras atstatymas“):
 
-```
-    tar -xzfv 2015-10-01_13:59_example.org.tar.gz -C /var/www
+```bash
+tar -xzfv 2015-10-01_13:59_example.org.tar.gz -C /var/www
 ```
 
 Mano aukščiau naudotų komandų argumentų paaiškinimai:
@@ -62,4 +66,4 @@ Mano aukščiau naudotų komandų argumentų paaiškinimai:
 * -t -v - atspausdina kas yra archyve.
 * -f - išveda failus į failų sistemą.
 * -z - reikalingas dirbti su „zipuotais“ failais. Turint tik `.tar` plėtinį šios komandos nereikia.
-* -x - yra išarchyvavomo komanda.
+* -x - yra išarchyvavimo komanda.

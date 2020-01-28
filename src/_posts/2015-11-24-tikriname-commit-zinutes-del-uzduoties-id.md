@@ -37,8 +37,8 @@ Eilutė `grep -Pvq "^#[0-9]+"` atrodo gana baisiai. Čia su `grep` ieškome eilu
 
 Na ir eilutės:
 
-        echo >&2 "ERROR: Ticket number is missing in commit message"
-        exit 1
+    echo >&2 "ERROR: Ticket number is missing in commit message"
+    exit 1
 
 Turėtų būtų gana suprantamos: išvedamas tekstas į `stderr` išvestį ir su `exit 1` nutraukiamas tikrasis
 commit'as, dėl surastos klaidos.

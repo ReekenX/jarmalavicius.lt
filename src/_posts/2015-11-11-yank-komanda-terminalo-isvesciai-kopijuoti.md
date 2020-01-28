@@ -14,7 +14,7 @@ Diegimo instrukcijas rasite repozitorijoje. O greitam išbandymui tiesiog „klo
 Pavyzdžiui persikopijuoti kažkurio proceso `PID` galite su:
 
 ```
-    pgrep -f chromium | yank
+pgrep -f chromium | yank
 ```
 
 Ir galėsite klaviatūros rodyklių pagalba pasirinkti ką persikopijuoti. Vėliau perkopijuotą informaciją galėsite įsiterpti su shift+insert klavišais klaviatūroje.
@@ -22,7 +22,7 @@ Ir galėsite klaviatūros rodyklių pagalba pasirinkti ką persikopijuoti. Vėli
 Dar vienas smagus panaudojimas yra IP adreso persikopijavimas iš `ifconfig`:
 
 ```
-    ifconfig | yank -d " :"
+ifconfig | yank -d " :"
 ```
 
 Atkreipkite dėmesį į -d („delimiter“ angliškai) argumento panaudojimą. Jis leidžia skaldyti išvestį į tam tikrus skirtukus. Labai panašiai veikia `awk -F` komanda. Mums reikia dviejų skirtukų šioje komandoje - dvitaškio kuris būna prieš ip tekstą ir tarpo kuris bus po jo. Būtent šios formuluotės sąlyga ir yra " :".
