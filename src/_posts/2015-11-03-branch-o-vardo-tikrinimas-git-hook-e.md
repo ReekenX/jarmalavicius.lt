@@ -1,7 +1,7 @@
 ---
 title: Branch'o vardo tikrinimas GIT Hook'e
 category: git
-image: i/git_branchas.png
+image: i/placeholder.jpg
 description: Brancho vardo tikrinimas GIT Hook pagalba. Labai naudinga, jeigu Jūsų organizacija laikosi tam tikrų programavimo standartų.
 ---
 
