@@ -21,15 +21,21 @@ layout: default
     </div>
   </div>
 
-  {% for post in site.posts %}
-    <div class="hidden">
-      <div class="js-search-placeholder hidden">
-        {{ post.title }}
-        {{ post.content | strip_html }}
+  <div class="js-search-items">
+    {% for post in site.posts %}
+      <div class="hidden">
+        <div class="js-search-item hidden">
+          <div>
+            {{ post.title }}
+          </div>
+          <div>
+            {{ post.content | strip_html }}
+          </div>
+        </div>
+        {% include post_row.html post=post forloop_last=forloop.last %}
       </div>
-      {% include post_row.html post=post forloop_last=forloop.last %}
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
 <script type="text/javascript">
@@ -62,28 +68,52 @@ layout: default
     words = words.filter(word => word.length > 2);
 
     // Find matching articles
-    var placeholders = document.querySelectorAll('.js-search-placeholder');
+    var placeholders = document.querySelectorAll('.js-search-item');
     var totalFound = 0;
     var i, n;
     for (i = 0; i < placeholders.length; i++) {
       var found = 0;
       var placeholder = placeholders[i];
-      var text = placeholder.innerHTML.toLowerCase();
+
+      // Search by title and for every word give 3 points
+      var title = placeholder.childNodes[1].innerHTML.toLowerCase();
       for (n = 0; n < words.length; n++) {
-        if (text.includes(words[n])) {
+        if (title.includes(words[n])) {
+          found += 3;
+        }
+      }
+
+      // Search by description and for every word give 1 point
+      var description = placeholder.childNodes[3].innerHTML.toLowerCase();
+      for (n = 0; n < words.length; n++) {
+        if (description.includes(words[n])) {
           found += 1;
         }
       }
 
-      if ((words.length === 1 && found > 0) || (words.length > 1 && found > 1)) {
-        placeholder.parentNode.classList.remove('hidden');
+      // Add points score directly to DOM elements
+      if (found >= words.length) {
+        placeholder.parentNode.dataset.foundWords = found;
         totalFound += 1;
+      } else {
+        placeholder.parentNode.dataset.foundWords = 0;
       }
     }
+
+    // Sort DOM results by best matches
+    [...document.querySelectorAll('.js-search-item')]
+      .map(x => x.parentNode)
+      .sort((a, b) => parseInt(a.dataset.foundWords) > parseInt(b.dataset.foundWords) ? -1 : 1)
+      .forEach(x => {
+        x.classList.remove('hidden');
+        document.querySelector('.js-search-items').appendChild(x);
+      });
 
     // Stop search
     clearTimeout(timer);
     isLoading = false;
+
+    // Show success or failure message on the top
     if (totalFound > 0) {
       document.querySelector('.js-loading').classList.add('hidden');
       document.querySelector('.js-loading').classList.remove('md:block');
