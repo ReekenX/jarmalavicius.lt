@@ -26,13 +26,17 @@ Taigi jau turėsime tokį sąrašą (pavyzdys):
 
 Komandos mūsų istorijoje gali būti sudėtinės. T.y. galime turėti komandą kuri susideda iš kitokių komandų, pavyzdžiui:
 
-Kaip matote, komanda pavykdo mysqldump komandą nutolusiame serveryje ir rezultatą perduoda į vietinę komandą mysql. Taigi, mūsų trečioji komanda
+Kaip matote, komanda įvykdo mysqldump komandą nutolusiame serveryje ir rezultatą perduoda į vietinę komandą mysql. Taigi, mūsų trečioji komanda
 
     awk 'BEGIN &#123;FS="|"&#125;{print \$1}'
 
-leidžia atfiltruoti tokias sudėtines komandas ir palikti tik pirmąsias (jų „pradžias“). Jeigu žiūrėti tik į pavyzdį, tai būtų prisijungimas prie nutolusio serverio ir mysqldump pavykdymas. Jeigu savo TOP'e norite matyti pilną komandą (su visomis sudėtinėmis logikomis), tai tiesiog pašalinkite šio filtravimo komandos dalį.
+leidžia atfiltruoti tokias sudėtines komandas ir palikti tik pirmąsias (jų
+„pradžias“). Jeigu žiūrėti tik į pavyzdį, tai būtų prisijungimas prie nutolusio
+serverio ir mysqldump įvykdymas. Jeigu savo TOP'e norite matyti pilną komandą (su visomis sudėtinėmis logikomis), tai tiesiog pašalinkite šio filtravimo komandos dalį.
 
-Vėliau atfiltruotą komandų sąrašą išrikiuojame pagal pavadinimą sort pagalba. Norėdami sužinoti kiek komanda kartų buvo minėta išrikiuotame pagal pavadinimą sąraše, pavykdome uniq -c komandą. Ji duos komandos pakartojimų skaičių ir komandos pavadinimą. Rezultatas kurį turėsime (pavyzdys):
+Vėliau atfiltruotą komandų sąrašą išrikiuojame pagal pavadinimą sort pagalba.
+Norėdami sužinoti kiek komanda kartų buvo minėta išrikiuotame pagal pavadinimą
+sąraše, paleidžiame uniq -c komandą. Ji duos komandos pakartojimų skaičių ir komandos pavadinimą. Rezultatas kurį turėsime (pavyzdys):
 
     17 ssh localhost 'mysqldump'
     26 ls -alh

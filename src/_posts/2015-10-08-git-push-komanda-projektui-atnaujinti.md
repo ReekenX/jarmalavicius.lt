@@ -13,36 +13,45 @@ Pirmiausiai reikėtų suprasti kaip tai turėtų veikti. Savo darbo aplinkoje, k
 
 Pavyzdžiui tipiniai mano 'remote' yra:
 
-    $ git remote -v
-    origin  saugykla.example.org:personal-projects/www.jarmalavicius.lt (fetch)
-    origin  saugykla.example.org:personal-projects/www.jarmalavicius.lt (push)
-    production  server.example.org:www.jarmalavicius.lt (fetch)
-    production  server.example.org:www.jarmalavicius.lt (push)
-    staging  staging.example.org:www.jarmalavicius.lt (fetch)
-    staging  staging.example.org:www.jarmalavicius.lt (push)
+```bash
+$ git remote -v
+origin  saugykla.example.org:personal-projects/www.jarmalavicius.lt (fetch)
+origin  saugykla.example.org:personal-projects/www.jarmalavicius.lt (push)
+production  server.example.org:www.jarmalavicius.lt (fetch)
+production  server.example.org:www.jarmalavicius.lt (push)
+staging  staging.example.org:www.jarmalavicius.lt (fetch)
+staging  staging.example.org:www.jarmalavicius.lt (push)
+```
 
 Kaip iš pavadinimo turėtų būti aišku, kad `origin` saugykla saugoja privatų repozitorijos turinį (čia veikia prieigos teisės ir saugoma visa istorija tarsi centriniame repozitoriume), `production` yra `ssh` kelias iki projekto failų, `staging` yra testavimo versijos `ssh` kelias iki failų.
 
 Kaip prisidėti `remote` tikriausiai žinosite:
 
-    git remote add origin saugykla.example.org:personal-projects/www.jarmalavicius.lt
+```bash
+git remote add origin saugykla.example.org:personal-projects/www.jarmalavicius.lt
+```
 
 Taigi, susikonfigūravę teisingus `remote` sąrašus reikėtų eiti į serverius ir susikurti labai paprastą GIT HOOK'ą automatiniams atnaujinimams padaryti.
 
 Analizuokime šį užrašą iš `git remove -v` komandos:
 
-    production  server.example.org:www.jarmalavicius.lt (fetch)
+```bash
+production  server.example.org:www.jarmalavicius.lt (fetch)
+```
 
 Keliaujame į `server.example.org` ir jame esantį namų katalogą `www.jarmalavicius.lt`. Susikurkime failą `.git/hooks/post-receive` su turiniu:
 
-    #!/bin/sh
+```bash
+#!/bin/sh
 
-    cd ..
-    git checkout -q -f master
+cd ..
+git checkout -q -f master
+```
 
 Ir, aišku, jam suteikiame vykdymo teises su `chmod +x .git/hooks/post-receive`.
 
-Toks kodo gabaliukas atrodo gana grubiai. Pirmoji eilutė `cd ..` yra naudojama todėl, kad `git` skripto vykdymo metu bus `.git` kataloge. Todėl jame būnant pavykdžius `git checkout` komandą gautume klaidos pranešimą: `fatal: This operation must be run in a work tree`.
+Toks kodo gabaliukas atrodo gana grubiai. Pirmoji eilutė `cd ..` yra naudojama
+todėl, kad `git` skripto vykdymo metu bus `.git` kataloge. Todėl jame būnant įvykdžius `git checkout` komandą gautume klaidos pranešimą: `fatal: This operation must be run in a work tree`.
 
 Taigi, teisingam keliui gauti arba naudojame `cd ..` arba `git --work-tree=../` komandas.
 

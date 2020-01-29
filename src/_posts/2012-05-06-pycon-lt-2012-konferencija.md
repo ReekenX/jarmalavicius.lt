@@ -5,7 +5,7 @@ image: i/mano-projektai/pycon-lt-2012-konferencija.png
 description: Kaip išmokti Python? Ką su juo galima daryti? Sutikite mus Python konferencijoje PyCon LT 2012.
 ---
 
-2012 metų balandžio 28 dieną Vilniuje įvyko PyCon LT 2012 konferencija. Jos metu konrefencijos dalyviai pristatė kaip Python gali būti naudojamas įvairiose platformose, kaip gali būti naudojama mokyti kitus, kas yra Python paketai ir kaip galima gauti neblogų rezultatų panaudojus tam tikrus, atviro kodo, Python modulius. Vilniaus kolegijos patalpose vykusi konferencija visgi sulaukė tikrai nemažai dalyvių. Nors konkretaus dalyvių skaičiaus pateikti negaliu, tačiau ne tokia jau ir kukli salė buvo užimta pilnai.
+2012 metų balandžio 28 dieną Vilniuje įvyko PyCon LT 2012 konferencija. Jos metu konferencijos dalyviai pristatė kaip Python gali būti naudojamas įvairiose platformose, kaip gali būti naudojama mokyti kitus, kas yra Python paketai ir kaip galima gauti neblogų rezultatų panaudojus tam tikrus, atviro kodo, Python modulius. Vilniaus kolegijos patalpose vykusi konferencija visgi sulaukė tikrai nemažai dalyvių. Nors konkretaus dalyvių skaičiaus pateikti negaliu, tačiau ne tokia jau ir kukli salė buvo užimta pilnai.
 
 Ir nors konferencija jau yra praėjusi, bet renginių organizatoriai suteikė galimybę jas peržiūrėti internete. Tiesa, dėl techninių priežasčių viena prezentacija nebuvo įrašyta - „Django, nuo ko pradėti, kaip pabaigti“, kurią pasakojo renginio organizatorius Mantas Zimnickas. Bet nieko nepadarysi, tenka džiaugtis tuo ką turim.
 

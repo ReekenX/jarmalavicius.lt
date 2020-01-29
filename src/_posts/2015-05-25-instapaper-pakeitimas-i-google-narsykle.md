@@ -21,6 +21,6 @@ Ir šitas katalogas, pakeitus įrenginį bus iškart matomas!
 
 ![Nuoroda matoma telefone](/i/google_bookmarks_mobile.png)
 
-Taigi, ištryniau Instapaper paskyrą ir perėjau prie šio varianto. Juom jau naudojuosi daugiau nei pusę metų. Tikiuosi kam nors pravers (jeigu teko susidurti su šia problema).
+Taigi, ištryniau Instapaper paskyrą ir perėjau prie šio varianto. Juo jau naudojuosi daugiau nei pusę metų. Tikiuosi kam nors pravers (jeigu teko susidurti su šia problema).
 
-Žinoma, Firefox mylėtojams šis dalykas netiks, bet ir jiems tokia galimybė atsiveria pasinaudojus įvairiais papildyniais. Apie tai galima perskaityti [oficialiame Mozilla puslapyje](https://support.mozilla.org/en-US/kb/how-do-i-set-up-firefox-sync).
+Žinoma, Firefox mylėtojams šis dalykas netiks, bet ir jiems tokia galimybė atsiveria pasinaudojus įvairiais papildiniais. Apie tai galima perskaityti [oficialiame Mozilla puslapyje](https://support.mozilla.org/en-US/kb/how-do-i-set-up-firefox-sync).

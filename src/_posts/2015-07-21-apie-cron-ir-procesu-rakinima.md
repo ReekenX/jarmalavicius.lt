@@ -5,7 +5,7 @@ image: i/placeholder.jpg
 description: Kaip padaryti, kad CRON įrašai nepersidengtų su jau prieš tai paleistais procesais tos pačios komandos.
 ---
 
-Ne kartą tekę į `CRON` rašyti tokias komandas, kurios turėtų pasivykdyti kas tam tikrą laiką, pavyzdžiui kas minutę ar kelias. Dideliuose projektuose šią bėdą lengva išspręsti išvis nenaudojant `CRON` - tiesiog „pabėgti“ į kokią nors užduočių eilės sistemą, kad ir [RabbitMQ](https://www.rabbitmq.com/).
+Ne kartą tekę į `CRON` rašyti tokias komandas, kurios turėtų įvykti kas tam tikrą laiką, pavyzdžiui kas minutę ar kelias. Dideliuose projektuose šią bėdą lengva išspręsti išvis nenaudojant `CRON` - tiesiog „pabėgti“ į kokią nors užduočių eilės sistemą, kad ir [RabbitMQ](https://www.rabbitmq.com/).
 
 Tačiau jeigu tokios galimybės nėra, o procesą reikia vykdyti labai dažnai, teks išspręsti pasikartojančių procesų bėdą. Kad vienu metu du ar daugiau procesų nedarytų to paties darbo (tarkime nedubliuotų išvesties).
 
@@ -32,7 +32,11 @@ Failo `/kelias/iki/komandos.bash` turinyje deklaruokime darbą kuris trunka daug
     rm /tmp/zurnalas.log
 ```
 
-Progama nėra sudėtinga. Įsivaizduokime, kad failas `/tmp/zurnalas.log` yra pildomas taip dažnai, kad net nereikia tikrinti, ar jis tikrai egzistuoja. „Suseksime“, kiek kartų skriptas bus panaudotas failo `/tmp/eiga.log` turinio dėka. Jeigu paleisime skriptą tris kartus, turėtume pamatyti šiame faile tris eilutes „Aš buvau pavykdytas“.
+Programa nėra sudėtinga. Įsivaizduokime, kad failas `/tmp/zurnalas.log` yra
+pildomas taip dažnai, kad net nereikia tikrinti, ar jis tikrai egzistuoja.
+„Suseksime“, kiek kartų skriptas bus panaudotas failo `/tmp/eiga.log` turinio
+dėka. Jeigu paleisime skriptą tris kartus, turėtume pamatyti šiame faile tris
+eilutes „Aš buvau įvykdytas“.
 
 Kokia „problema“ šiame skripte? Paleidus skriptą kas minutę atsitiktų taip, kad faile `/kelias/iki/pilno_zurnalo.log` gautume dubliuotą turinį. Išmėginkite patys!
 
@@ -61,7 +65,7 @@ Praktinis pavyzdys:
     flock -n /tmp/testas.lock sleep 50 # [..]
 ```
 
-Naudingas yra ir `-w LAIKAS` argumentas, kurio dėka galima liepti skriptui palaukti tam tikrą laiką sekundžių, kol bus atrakintas užraktas komandai pavykdyti. Pavyzdžiui `cron` eilutės atveju, kad neatsitiktų taip, jog pasivykdžius pirmam skriptui minutę ir keletą sekundžių nereikėtų laukti sekančios minutės pradžios. Tokiu atveju skriptas vykdytųsi nulinę minutę ir antrąją, iš viso per tris minutes pasivykdydamas maksimum tris kartus. Kad ta atkarpa būtų mažesnė, galima nustatyti kažką panašaus:
+Naudingas yra ir `-w LAIKAS` argumentas, kurio dėka galima liepti skriptui palaukti tam tikrą laiką sekundžių, kol bus atrakintas užraktas komandai pavykdyti. Pavyzdžiui `cron` eilutės atveju, kad neatsitiktų taip, jog pasivykdžius pirmam skriptui minutę ir keletą sekundžių nereikėtų laukti sekančios minutės pradžios. Tokiu atveju skriptas vykdytusi nulinę minutę ir antrąją, iš viso per tris minutes pasivykdydamas maksimum tris kartus. Kad ta atkarpa būtų mažesnė, galima nustatyti kažką panašaus:
 
 ```
     * * * * *  flock -w 30 /tmp/bash.lock -c "bash /kelias/iki/komandos.bash"

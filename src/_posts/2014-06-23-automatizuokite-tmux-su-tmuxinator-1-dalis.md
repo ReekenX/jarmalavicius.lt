@@ -5,7 +5,7 @@ image: i/tmux/automatizuokite-tmux-su-tmuxinator-1-dalis.png
 description: Kaip automatizuoti Tmux su Tmuxinator pagalba. 1 dalis. Kas yra šie du įrankiai ir kaip jie padeda darbui terminale?
 ---
 
-Screen? Oj, tikrai ne. Nors, serveriuose, kur galbūt neturiu root ir negaliu įsidiegti, tai taip.
+Screen? Oi, tikrai ne. Nors, serveriuose, kur galbūt neturiu root ir negaliu įsidiegti, tai taip.
 
 Bet visais kitais atvejais - tmux. Kuom gi jis geresnis:
 

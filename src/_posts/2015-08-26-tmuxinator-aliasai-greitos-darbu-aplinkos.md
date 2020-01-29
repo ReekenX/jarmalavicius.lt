@@ -27,8 +27,10 @@ Visos aukščiau išvardintos aplinkos buvo sukurtos `tmuxinator new APLINKOS-VA
 
 Taigi, pradedant dirbti prie kokio Django projekto, užtenka nueiti iki jo katalogo ir startuoti aplinką:
 
-    cd /kelias/iki/projekto
-    tmuxinator start django projekto-vardas
+```bash
+cd /kelias/iki/projekto
+tmuxinator start django projekto-vardas
+```
 
 Čia `tmuxinator` sukurs pagal `django` konfigūraciją `tmux` sesiją pavadinimu `projekto-vardas`.
 

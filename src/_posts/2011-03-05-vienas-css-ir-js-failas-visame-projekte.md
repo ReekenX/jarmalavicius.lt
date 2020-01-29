@@ -39,7 +39,7 @@ Tie, kurie nenaudoja buildout'o (tikrai verta, pamėginkit) galima jį parsisių
 
     INSTALLED_APPS += ('compress',)
 
-Ir paketas sėkmingai veiks Jūsų projekte. Dabar tik reikia nurodyti CSS ir JS grupes, suspaudimo lygį savo nuostatymuose (tame pačiame projekto settings.py faile):
+Ir paketas sėkmingai veiks Jūsų projekte. Dabar tik reikia nurodyti CSS ir JS grupes, suspaudimo lygį savo nustatymuose (tame pačiame projekto settings.py faile):
 
     COMPRESS = True
     COMPRESS_VERSION = True

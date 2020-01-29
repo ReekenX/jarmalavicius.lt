@@ -7,7 +7,7 @@ description: HDD disko buklės patikrinimas gsmartcontrol pagalba. Kaip įdiegti
 
 Natūralu, kad nuolat dirbant kompiuteriu jo dalys po truputį dėvisi. Dauguma (jei ne visi) kompiuterio komponentai turi savo gyvenimo trukmę.
 
-Neseniai susidūriau su per stipriai suletėjusio disko bėda. Gal ir nieko keisto, nešiojami kompiuteriai, dažniausiai, turi žymiai lėtesnį kietajį diską nei stacionarūs. Kalbu apie pasenusius HDD, ne greituosius SSD.
+Neseniai susidūriau su per stipriai sulėtėjusio disko bėda. Gal ir nieko keisto, nešiojami kompiuteriai, dažniausiai, turi žymiai lėtesnį kietąjį diską nei stacionarūs. Kalbu apie pasenusius HDD, ne greituosius SSD.
 
 Linux duoda keletą įrankių pasitikrinti savo HDD būklę. Galima įdiegti `gsmartcontrol` GUI programą ir greitai ir lengvai pasitikrinti diską. Nepatyrusiems šiuose dalykuose rekomenduočiau ją įsidiegti, nes jos išvestyje galėsite pamatyti ką reiškia kai kurie būsenų statusai.
 

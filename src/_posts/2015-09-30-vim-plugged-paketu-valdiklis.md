@@ -19,8 +19,10 @@ Taigi, ieškom geresnių alternatyvų!
 
 Didelis privalumas yra jo įdiegimas. Viena komanda ir viskas:
 
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 Paketų valdymas ypatingai paprastas, vos trys eilutės kodo ir važiuojam!
 

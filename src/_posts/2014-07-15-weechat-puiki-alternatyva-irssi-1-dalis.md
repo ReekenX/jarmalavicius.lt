@@ -5,7 +5,7 @@ image: i/placeholder.jpg
 description: Weechat labai puiki alternatyva irssi IRC klientui. Ką gali Weechat, ko negali Irssi? Ir kodėl reikia keisti IRC klientą?
 ---
 
-Irssi naudojau ne vienerius metus, bet vien tik todėl, kad anksčiau nesugebėjau surasti geresnių, terminale veikiančių, alternatyvų. Trumpai apie tai ką gali/turi atviro kodo IRC klientas `irssi`:
+Irssi naudojau ne vienus metus, bet vien tik todėl, kad anksčiau nesugebėjau surasti geresnių, terminale veikiančių, alternatyvų. Trumpai apie tai ką gali/turi atviro kodo IRC klientas `irssi`:
 
 -   Automatinį prisijungimą prie kanalų.
 -   Automatines komandas po prisijungimo (naudinga norint prisijungti prie registruotų kanalų).

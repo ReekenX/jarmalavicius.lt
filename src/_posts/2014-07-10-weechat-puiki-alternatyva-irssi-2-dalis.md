@@ -5,7 +5,8 @@ image: i/placeholder.jpg
 description: Weechat labai puiki alternatyva irssi IRC klientui. 2 dalis straipsnio.
 ---
 
-[Praėjusiame straipsnyje](/weechat/weechat-puiki-alternatyva-irssi-1-dalis) paminėjau, kad irssi IRC klientą naudojau ne vienerius metus kol nusprendžiau jį pakeisti. Pratęsiant praėjusį straipsnį papasakosiu apie
+[Praėjusiame straipsnyje](/weechat/weechat-puiki-alternatyva-irssi-1-dalis)
+paminėjau, kad irssi IRC klientą naudojau ne vienus metus kol nusprendžiau jį pakeisti. Pratęsiant praėjusį straipsnį papasakosiu apie
 weechat.
 
 Nors irssi įdiegus gausite nemažai privalumų ir trūkumų (apie juos skaitykite praėjusiame straipsnyje), weechat „ateina“ su pataisymų krūva. Didžiausi privalumai:

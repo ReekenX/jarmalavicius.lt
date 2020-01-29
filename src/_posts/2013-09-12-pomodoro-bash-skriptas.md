@@ -44,6 +44,7 @@ Pirma eilutė - priminimas prie ko dirbama. Antra dalis (rodoma „surinkus“ b
 
 Paleidus programą savo kompiuterio lango krašte pamatysite užrašą, kad Pomodoro darbo sesija sėkmingai pradėta (tekstas bus tik kelias sekundes). O pasibaigus sesijai, bus atspausdintas dar vienas pranešimas.
 
-Na, jeigu sumąstysite šiuo pagalbininku pasinaudoti, tai tikrai sugebėsite pasikoreguoti laikus ir tekstus pagal save :)
+Na, jeigu sumąstysite šiuo pagalbininku pasinaudoti, tai tikrai sugebėsite
+pakoreguoti laikus ir tekstus pagal save :)
 
 Man visada smalsu ką kiti naudoja laiko sekimui. Šiuo metu pasaulyje programų yra sukurta tūkstančiai, pasiūla tikrai didelė. Be to, būtų keista išgirsti iš programuotojo sakant, kad jis neseka savo laiko :)

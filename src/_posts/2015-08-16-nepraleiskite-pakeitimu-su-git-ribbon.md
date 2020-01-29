@@ -5,7 +5,8 @@ image: i/git_ribbon.jpg
 description: Straipsnis apie GIT RIBBON programą pakeitimas sužiūrėti po tam tikro laiko.
 ---
 
-Ir vėl grįžus iš atostogų tenka prisiminti prie ko dirbau, planuotis ką turėčiau daryti toliau ir sužiūrėti kas gero nutiko anskčiau. Laimei, kalbant ne apie įmonės viduje esančius dalykus, o apie programavimo kodą - tą padaryti nėra sunku.
+Ir vėl grįžus iš atostogų tenka prisiminti prie ko dirbau, planuotis ką turėčiau
+daryti toliau ir sužiūrėti kas gero nutiko ankščiau. Laimei, kalbant ne apie įmonės viduje esančius dalykus, o apie programavimo kodą - tą padaryti nėra sunku.
 
 Tokiems kaip aš, kuriems smalsu kas per keletą atostogų savaičių pasikeitė, yra labai geras įrankis pavadinimu [git ribbon](https://github.com/kablamo/git-ribbon). Jis iš esmės išsprendžia keletą problemų:
 
@@ -46,7 +47,8 @@ Taigi, iš esmės grįžęs po atostogų, atlieku tokius veiksmus:
     git ribbon
     git ribbon --save
 
-Tiesa, praverstų susikonfigūruoti savo `diff` redaktorių, kad peržiūra nebūtų tokia sunki ir taupytų brangų laiką. Tai `.gitconfig` faile atrodų taip:
+Tiesa, praverstų susikonfigūruoti savo `diff` redaktorių, kad peržiūra nebūtų
+tokia sunki ir taupytų brangų laiką. Tai `.gitconfig` faile atrodytų taip:
 
     [diff]
         tool = vimdiff

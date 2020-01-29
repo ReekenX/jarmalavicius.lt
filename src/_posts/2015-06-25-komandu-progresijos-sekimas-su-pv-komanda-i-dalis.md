@@ -61,4 +61,5 @@ Gausime išvestį:
     12.5MB 0:00:00 [13.8MB/s] [===============================>] 100%
 ```
 
-Gali susidaryti įspūdis, kad `pv` komanda veiks tik tada, kai jai galime paduoti failinį duomenų srautą. Tačiau tai netiesa. Kitame straipsnyje parodysiu įdomesnių panaudojimo atvejų, ne tik su darbu su failais.
+Gali susidaryti įspūdis, kad `pv` komanda veiks tik tada, kai jai paduosime
+failą. Tačiau tai netiesa. Kitame straipsnyje parodysiu įdomesnių panaudojimo atvejų, ne tik su darbu su failais.

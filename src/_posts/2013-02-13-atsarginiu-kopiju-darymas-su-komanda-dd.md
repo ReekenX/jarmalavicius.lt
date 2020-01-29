@@ -2,12 +2,14 @@
 title: Atsarginių kopijų darymas su komanda - dd
 category: atviras-kodas
 image: i/placeholder.jpg
-description: Straipsnis apie atsarginių kopijų daryma terminalo pagalba su Linux/Unix komanda dd.
+description: Straipsnis apie atsarginių kopijų darymą terminalo pagalba su Linux/Unix komanda dd.
 ---
 
 Praėjo labai daug laiko po mano pastarojo straipsnio apie atsarginių kopijų darymą [su tar komanda](/atviras-kodas/visos-sistemos-atsargines-kopijos-darymas). Nors anksčiau jas darydavau būtent šiuo įrankiu, dabar darau su kitu.
 
-Kodėl buvau pasirinkęs būtent tar? Pirmiausiai dėl naudojimo paprastumo. Taip pat dėl to, kad tar komanda yra bet kuriuose Linux'uose. Toks atsarginių kopijų darymas yra labai primityvus, todėl lenga išmokti ir naudotis.
+Kodėl buvau pasirinkęs būtent tar? Pirmiausiai dėl naudojimo paprastumo. Taip
+pat dėl to, kad tar komanda yra bet kuriuose Linux'uose. Toks atsarginių kopijų
+darymas yra labai primityvus, todėl lengva išmokti ir naudotis.
 
 Šiandien kalbėsiu apie kiek sudėtingesnį įrankį, tačiau su juo atsargines kopijas darausi ne tik savo kompiuterių ar serverių, bet dar ir įvairių įrenginių, kaip pavyzdžiui Ipod ar tiesiog USB atmintinių. Kalbu apie komandą kurią rasite savo Linux'uose - dd.
 
@@ -27,7 +29,8 @@ Nors pats tokias atsargines kopijas darausi jau gana seniai (bent metus tikrai),
 
 Pirmiausiai dėl to, kad kopijuojama visa particija (ar visas medis), atvaizdo dydis tampa laibai didelis. Jeigu particija užima 10 GB, o joje yra failų 2 GB - sukurtas failas kopija.img svers vis tiek 10 GB. Kadangi į failą reikia įrašyti/perkopijuoti visus baitus, tai toks duomenų kiekis trunka pakankamai ilgai. Pvz viename iš kompiuterių Debian sistemą su 10 GB archyvuoja \~14 minučių (daug!), tiek pat laiko ir atstatinėja.
 
-Kitas minusas - nelabai išeina daryti versijavimo. Tarkime laikyti laikyti kelių dienų atvaizdus dar nieko, bet ilgiau - užims laaaabai daug disko vietos. Rezultate - komanda trunka lėtai ir jos išvestis dažnai užima labai daug. Kam tada išvis tokias kopijas darytis?
+Kitas minusas - nelabai išeina daryti versijavimo. Tarkime laikyti laikyti kelių
+dienų atvaizdus dar nieko, bet ilgiau - užims labai daug disko vietos. Rezultate - komanda trunka lėtai ir jos išvestis dažnai užima labai daug. Kam tada išvis tokias kopijas darytis?
 
 Pirmiausiai darydamas Debian sistemos atsarginę kopiją esu 100% tikras, kad atstatęs gausiu 100% tokią sistemą, kurią turėjau šios kopijos darymo dieną. Tokias atsargines kopijas jau tikrai bent 15 kartų atstatinėjau įvairiems įrenginiams.
 

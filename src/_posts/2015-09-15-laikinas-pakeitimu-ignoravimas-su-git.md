@@ -9,7 +9,7 @@ Baisu būna, kai atviro kodo projektai turi kažkokį konfigūracinį failą iš
 
 O ką daryti kai jų nėra? Paprasta - GIT leidžia mums laikinai ignoruoti failus ir paslėpti jų modifikacijas nuo `git status` ar `git diff` komandų.
 
-Tarkime modifikavome konfigūracijų failą `config.py` ir dabar jį matome pavykdę `git status` komandą:
+Tarkime modifikavome konfigūracijų failą `config.py` ir dabar jį matome įvykdę `git status` komandą:
 
     $ git status -sb
     master...origin/master
@@ -26,13 +26,13 @@ Ir dabar paklausus `GIT` pakeitimų gautume tokią išvestį:
 
 Jokių pakeitimų. Nors mūsų pakeitimai tikrai egzistuoja tame faile. Jokios „magijos“ čia nėra. GIT'as savo pakeitimus įsirašo į savo lokalų `index` failą ir užkešuoja šias nuostatas.
 
-Vėliau, nusprendę atstatyti failą į originalų failą (pavyzdžiui po keletos komitų):
+Vėliau, nusprendę atstatyti failą į originalų failą (pavyzdžiui po keleto komitų):
 
     git update-index --no-assume-unchanged config.py
 
-Reikėtų nepamiršti keletos dalykų:
+Reikėtų nepamiršti keleto dalykų:
 
-* Tops sprendimas turėtų būti laikinas.
+* Toks sprendimas turėtų būti laikinas.
 * Persijunginėjant tarp branch'ų toks sprendimas neveiks nes bus naujinamas `index` failas ir valomas kešas.
 * Jūsų pakeitimai gali įtakoti programos rezultatą, tai yra tikimybė, kad susidursite su “o man tai veikia“ situacija.
 

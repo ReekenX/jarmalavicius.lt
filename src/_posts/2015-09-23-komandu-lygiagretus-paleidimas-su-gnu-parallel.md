@@ -11,7 +11,9 @@ Ypatingai dažnai tenka susidurti su komandų gausa kurios trunka ilgai, tačiau
 
 Pirmiausiai įdiekime `GNU Parallel` (Debian paremtose sistemose):
 
-    apt-get install parallel
+```bash
+apt-get install parallel
+```
 
 Viena iš vykdymo sintaksių `GNU Parallel` yra gana neįprasta palyginus ką tenka matyti kitose komandose:
 
@@ -27,7 +29,8 @@ Toks aprašas reikštų, kad vykdysime tokias komandas:
     sleep 2
     sleep 4
 
-Visas vykdymo laikas nuosekliai truktų 3 + 2 + 4 = 9 sekundes. Su `GNU Parallel` komandos būtų pavykdytos lygiagrečiai, taigi, užtruktų šiek tiek ilgiau nei 4 sekundes.
+Visas vykdymo laikas nuosekliai truktų 3 + 2 + 4 = 9 sekundes. Su `GNU Parallel`
+komandos būtų įvykdytos lygiagrečiai, taigi, užtruktų šiek tiek ilgiau nei 4 sekundes.
 
 `GNU Parallel` leidžia komandas apsirašyti ir ne su vienu argumentu. Tokiu atveju sintaksė būtų tokia:
 
@@ -37,7 +40,7 @@ Pavyzdžiui:
 
     parallel echo ::: 0 1 ::: 0 1
 
-Galima tikėtis, kad bus pavykdytos tokios komandos:
+Galima tikėtis, kad bus įvykdytos tokios komandos:
 
     echo 0 1
     echo 0 1

@@ -7,7 +7,9 @@ description: Privačių duomenų šifravimas su ssh viešu raktu. Naudinga, kada
 
 Nesu GnuPG (dar žinomo kaip GPG) mylėtojas, todėl šiame straipsnyje greitai parodysiu kaip užšifruoti kažkokius duomenis turint (gavus) žmogaus viešą raktą.
 
-Viešasis ssh raktas, toks kaip manasis, kurį galite parsisiųsti [iš Launchpad](https://launchpad.net/~reekenx/+sshkeys) yra netinkamas  `openssl` programai, todėl teks susgeneruoti atitinkamo formato raktą-sertifikatą.
+Viešasis ssh raktas, toks kaip manasis, kurį galite parsisiųsti [iš
+Launchpad](https://launchpad.net/~reekenx/+sshkeys) yra netinkamas  `openssl`
+programai, todėl teks susigeneruoti atitinkamo formato raktą-sertifikatą.
 
 Tai galima padaryti su `openssl` komanda:
 

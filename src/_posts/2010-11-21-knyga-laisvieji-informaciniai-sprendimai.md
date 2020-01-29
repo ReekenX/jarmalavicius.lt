@@ -31,7 +31,7 @@ Na, o kiek valstybių yra pastūmėjusios atvirą kodą į savo privačius ir vi
 
 Nors čia paminėjau konkretų miestą, tačiau knygoje buvo daug kalbama apie šalis kurios savo vyriausybėse (ir ne tik) priimė atviro kodo sprendimus ir manau tikrai nesigailėjo. Na, ir praktiškai kiekvienu atveju minimas… Microsoft :)
 
-Esate įmonės direktorius ir norte aprūpinti darbuotojus Windows operacinėmis sistemos, antivirusinėmis, Office biuro įranga? Gal geriau dar kartą pagalvokite ir paskaitykite skyriu apie tai. Konkrečios lietuviškos sumos ir palyginimai su atviro kodo (dažniausiai nemokama, bet tikrai ne visada) įranga. Tiesą pasakius – skaičiai pribloškė.
+Esate įmonės direktorius ir norte aprūpinti darbuotojus Windows operacinėmis sistemos, antivirusinėmis, Office biuro įranga? Gal geriau dar kartą pagalvokite ir paskaitykite skyrių apie tai. Konkrečios lietuviškos sumos ir palyginimai su atviro kodo (dažniausiai nemokama, bet tikrai ne visada) įranga. Tiesą pasakius – skaičiai pribloškė.
 
 Taip pat dar viena arši tema pasaulyje – programinių įrangų patentai – aptarti šioje knygoje. Šiuo metu patentų problemos yra tokios dažnos, kad ir čia svarbu žinoti kas ir kur ir taip save apsaugoti. Paskaitykite, tikrai įdomu.
 

@@ -49,18 +49,24 @@ Pagal [Pareto dėsnį](https://lt.wikipedia.org/wiki/Pareto_principas): tai jau 
 
 Savo `bash` skripte reikėtų laikinai įjungti „debuginimo režimą“. Jį įjungsite į `bash` skripto viršų įrašę:
 
-```
+```bash
 #!/bin/bash
 set -x
 ```
 
-Kadangi iš praėjusio patarimo viską jau siunčiame komandai `logger`, kurį žinutes surašo į klaidų failą, tai ten reikėtų žiūrėti ir dabar. Tiesa, tai turėtų būti laikinas sprendimas, kadangi klaidų žurnale matysite **kiekvieną bash eilutę** kuri buvo pavykdyta. O tai, gali būti daug išvesties.
+Kadangi iš praėjusio patarimo viską jau siunčiame komandai `logger`, kurį
+žinutes surašo į klaidų failą, tai ten reikėtų žiūrėti ir dabar. Tiesa, tai
+turėtų būti laikinas sprendimas, kadangi klaidų žurnale matysite **kiekvieną
+bash eilutę** kuri buvo įvykdyta. O tai, gali būti daug išvesties.
 
 **Du patarimai žiopliems**
 
-Tik nereikia įsižeisti! Klaidų pridaro visi, o kartais jos tokios paprastos. Reikėtų pasitikrinti ar tikrai `cron` komandos paleidžiamos apskritai. Gal sumaišėte [laikų sąlygas](https://en.wikipedia.org/wiki/Cron) ir dėl to `cron` komanda bus pavykdyta kažkada vėliau. Taigi, pastebėkite `cron` žurnalą:
+Tik nereikia įsižeisti! Klaidų pridaro visi, o kartais jos tokios paprastos.
+Reikėtų pasitikrinti ar tikrai `cron` komandos paleidžiamos apskritai. Gal
+sumaišėte [laikų sąlygas](https://en.wikipedia.org/wiki/Cron) ir dėl to `cron`
+komanda bus įvykdyta kažkada vėliau. Taigi, pastebėkite `cron` žurnalą:
 
-```
+```bash
 tail -f /var/log/cron
 ```
 
