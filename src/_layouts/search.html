@@ -74,35 +74,37 @@ layout: default
     for (i = 0; i < placeholders.length; i++) {
       var found = 0;
       var placeholder = placeholders[i];
+      var missingWords = words;
 
       // Search by title and for every word give 3 points
       var title = placeholder.childNodes[1].innerHTML.toLowerCase();
       for (n = 0; n < words.length; n++) {
         if (title.includes(words[n])) {
           found += 3;
+          delete missingWords[missingWords.indexOf(words[n])];
         }
       }
 
       // Search by description and for every word give 1 point
       var description = placeholder.childNodes[3].innerHTML.toLowerCase();
-      for (n = 0; n < words.length; n++) {
-        if (description.includes(words[n])) {
+      for (n = 0; n < missingWords.length; n++) {
+        if (description.includes(missingWords[n])) {
           found += 1;
         }
       }
 
       // Add points score directly to DOM elements
       if (found >= words.length) {
-        placeholder.parentNode.dataset.foundWords = found;
         totalFound += 1;
-      } else {
-        placeholder.parentNode.dataset.foundWords = 0;
       }
+
+      placeholder.parentNode.dataset.foundWords = found;
     }
 
     // Sort DOM results by best matches
     [...document.querySelectorAll('.js-search-item')]
       .map(x => x.parentNode)
+      .filter(x => parseInt(x.dataset.foundWords) >= words.length)
       .sort((a, b) => parseInt(a.dataset.foundWords) > parseInt(b.dataset.foundWords) ? -1 : 1)
       .forEach(x => {
         x.classList.remove('hidden');
