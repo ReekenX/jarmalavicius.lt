@@ -4,7 +4,7 @@ title: Devops straipsniai apie Docker, Ansible, GIT, Django, VIM ir kt.
 description: Devops straipsniai apie Docker, Ansible, GIT, Django, VIM ir kt.
 lang: lt
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+url: ''
 ext: '.html'
 author:
   name : Remigijus Jarmalavičius
