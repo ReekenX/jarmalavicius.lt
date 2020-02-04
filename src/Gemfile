@@ -5,6 +5,7 @@ gem 'jekyll', '~> 4.0'
 
 # Plugins
 group :jekyll_plugins do
+  gem 'jekyll-compose'
   gem 'jekyll-admin'
   gem 'jekyll-browsersync'
   gem 'jekyll-postcss'
