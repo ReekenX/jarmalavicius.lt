@@ -2,10 +2,12 @@
 title: Cron geriausios praktikos
 category: atviras-kodas
 image: i/crontab.png
-description: Po daugiau nei 10 metų Linux sistemų administravimo dalinuosi geriausiomis praktikomis kaip konfigūruoti Cron periodinių užduočių valdymo sistemą ir ką reikėtų žinoti.
+description: Po daugiau nei 10 metų Linux sistemų administravimo dalinuosi geriausiomis
+  praktikomis kaip konfigūruoti Cron periodinių užduočių valdymo sistemą ir ką reikėtų
+  žinoti.
 toc: true
+date: 2020-02-18 14:44 +0200
 ---
-
 Praleidęs daugiu nei 10 metų administruodamas serverius ir įrangą juose nusprendžiau pasidalinti
 patirtimi ir geriausiomis praktikomis kaip administruoti Cron darbus.
 
