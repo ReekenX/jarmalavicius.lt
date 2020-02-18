@@ -26,6 +26,8 @@ layout: default
       {{ page.content }}
     {% endif %}
 
-    {% include comments.html %}
+    {% if jekyll.environment == 'production' %}
+      {% include comments.html %}
+    {% endif %}
   </div>
 </div>
