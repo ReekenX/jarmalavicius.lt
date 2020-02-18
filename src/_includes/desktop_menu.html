@@ -8,7 +8,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" class="inline-block categories-menu hidden" style="-ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z" fill="#626262"/></svg>
       </a>
       <div class="categories-menu hidden">
-        <ul class="bg-white absolute custom-menu ml-4 p-2">
+        <ul class="bg-white absolute custom-menu ml-4 p-2 z-10">
           {% for category in site.data.categories %}
             <li>
               <a href="{{ category.url }}">
