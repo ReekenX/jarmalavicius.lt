@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # Platform
@@ -5,17 +7,15 @@ gem 'jekyll', '~> 4.0'
 
 # Plugins
 group :jekyll_plugins do
-  gem 'jekyll-compose'
   gem 'jekyll-admin'
   gem 'jekyll-browsersync'
-  gem 'jekyll-postcss'
-  gem 'jekyll-purgecss'
-  gem 'jekyll-paginate-v2'
-  gem 'jekyll-responsive-image'
-  gem 'mini_racer'
-  gem 'jekyll-minifier'
+  gem 'jekyll-compose'
   gem 'jekyll-email-protect'
   gem 'jekyll-minifier'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-postcss'
+  gem 'jekyll-purgecss'
+  gem 'jekyll-responsive-image'
   gem 'jekyll-sitemap'
   gem 'jekyll-toc'
 end

@@ -3,8 +3,8 @@ version: '3'
 services:
   jarmalavicius.lt-web:
     container_name: jarmalavicius.lt-web
-    image: jekyll/jekyll
-    command: jekyll browsersync -- --no-notify
+    build: .
+    command: jekyll serve
     ports:
       - 4000:4000
     volumes:
