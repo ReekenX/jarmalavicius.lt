@@ -1,0 +1,21 @@
+name: Production Deployment
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: List files on server
+      uses: ReekenX/github-ssh-action@master
+      with:
+        commands: |
+          cd ~/projects/www.jarmalavicius.lt
+          git pull https://github.com/ReekenX/www.jarmalavicius.lt
+          git checkout -f master
+        host: ${{ secrets.HOST }}
+        user: ${{ secrets.USER }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY}}
