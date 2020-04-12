@@ -5,17 +5,43 @@ on:
     branches: [ master ]
 
 jobs:
-  deploy:
+  upload:
     runs-on: ubuntu-latest
     steps:
-    - name: List files on server
+    - name: Upload files to the server
       uses: ReekenX/github-ssh-action@master
       with:
         commands: |
           cd ~/projects/www.jarmalavicius.lt
           git pull -f https://github.com/ReekenX/www.jarmalavicius.lt
           git checkout -f master
+        host: ${{ secrets.HOST }}
+        user: ${{ secrets.USER }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY}}
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build project on the server
+      uses: ReekenX/github-ssh-action@master
+      with:
+        commands: |
+          cd ~/projects/www.jarmalavicius.lt
           docker-compose build
+        host: ${{ secrets.HOST }}
+        user: ${{ secrets.USER }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY}}
+
+  launch:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Start fresh copy of the project
+      uses: ReekenX/github-ssh-action@master
+      with:
+        commands: |
+          cd ~/projects/www.jarmalavicius.lt
           docker-compose restart
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USER }}
