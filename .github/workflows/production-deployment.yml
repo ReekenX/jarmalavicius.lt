@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - name: List files on server
@@ -13,8 +13,10 @@ jobs:
       with:
         commands: |
           cd ~/projects/www.jarmalavicius.lt
-          git pull https://github.com/ReekenX/www.jarmalavicius.lt
+          git pull -f https://github.com/ReekenX/www.jarmalavicius.lt
           git checkout -f master
+          docker-compose build
+          docker-compose restart
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USER }}
         port: ${{ secrets.PORT }}
