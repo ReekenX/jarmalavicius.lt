@@ -1,10 +1,10 @@
-FROM nginx
+FROM nginx:1.17-alpine
 
 # Install build tools
-RUN apt-get -y update && \
-    apt-get -y install ruby ruby-dev build-essential \
-                       nodejs zlib1g-dev \
-                       libmagickwand-dev imagemagick curl
+RUN apk add --no-cache \
+        ruby ruby-dev curl nodejs openssl-dev build-base \
+        imagemagick6 imagemagick6-libs imagemagick6-dev \
+        zlib zlib-dev ruby-bigdecimal ruby-webrick ruby-etc
 
 # Fix npm version. Installing from apt raises error:
 # `npm does not support Node.js v10.15.2`
@@ -16,6 +16,8 @@ RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
 # Install Bundler
+RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc
+ENV BUNDLE_PATH /gems-cache
 RUN gem install bundler:1.17.3
 RUN bundle config --global silence_root_warning 1
 
@@ -26,8 +28,7 @@ COPY nginx/conf/default.conf /etc/nginx/conf.d/default.conf
 
 # Install Jekyll (project)
 COPY src/Gemfile* $APP_HOME/
-ENV BUNDLE_PATH /gems-cache
-RUN bundle install --without development test
+RUN bundle install --jobs 4 --without development test
 
 # Build production copy of the project
 COPY src $APP_HOME
