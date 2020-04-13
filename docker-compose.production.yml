@@ -2,7 +2,8 @@ version: '3'
 
 services:
   jarmalavicius.lt-web:
-    container_name: jarmalavicius.lt-web
+    container_name: www.jarmalavicius.lt-web
+    build: .
     environment:
       VIRTUAL_HOST: www.jarmalavicius.lt,jarmalavicius.lt
       VIRTUAL_NETWORK: nginx_proxy
@@ -10,6 +11,8 @@ services:
       LETSENCRYPT_HOST: www.jarmalavicius.lt,jarmalavicius.lt
       LETSENCRYPT_EMAIL: remigijus@jarmalavicius.lt
     restart: always
+    volumes:
+      - /gems-cache
 
 networks:
   default:
