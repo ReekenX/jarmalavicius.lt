@@ -4,8 +4,8 @@ services:
   jarmalavicius.lt-web:
     container_name: jarmalavicius.lt-web
     build: .
-    command: jekyll serve
     ports:
-      - 4000:4000
+      - 8000:80
     volumes:
       - ./src:/srv/jekyll
+      - /gems-cache

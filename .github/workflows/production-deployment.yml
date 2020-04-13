@@ -28,7 +28,7 @@ jobs:
       with:
         commands: |
           cd ~/projects/www.jarmalavicius.lt
-          docker-compose build
+          docker-compose -f docker-compose.yml -f docker-compose.production.yml build
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USER }}
         port: ${{ secrets.PORT }}
@@ -42,7 +42,7 @@ jobs:
       with:
         commands: |
           cd ~/projects/www.jarmalavicius.lt
-          docker-compose restart
+          docker-compose -f docker-compose.yml -f docker-compose.production.yml restart
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USER }}
         port: ${{ secrets.PORT }}

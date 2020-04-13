@@ -2,12 +2,12 @@
   "scripts": {
     "webpack:build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "webpack:watch": "cross-env NODE_ENV=development webpack --watch",
-    "serve": "jekyll browsersync --drafts -- --no-notify",
+    "serve": "bundle exec jekyll browsersync --drafts -- --no-notify",
     "server": "npm run serve",
     "build": "npm run build:js && npm run build:css && npm run build:html",
     "build:js": "npm run webpack:build && cp js/turbolinks.js turbolinks.js",
     "build:css": "cp css/main.css main.css",
-    "build:html": "JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml && rm -rf _site/css _site/js",
+    "build:html": "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.prod.yml && rm -rf _site/css _site/js",
     "deploy": "rm -rf _site && npm run build && rsync -Pa --delete _site/ 2gb:projects/www.jarmalavicius.lt/_site/"
   },
   "devDependencies": {
