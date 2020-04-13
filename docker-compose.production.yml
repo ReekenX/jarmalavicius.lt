@@ -3,7 +3,6 @@ version: '3'
 services:
   jarmalavicius.lt-web:
     container_name: jarmalavicius.lt-web
-    build: .
     environment:
       VIRTUAL_HOST: www.jarmalavicius.lt,jarmalavicius.lt
       VIRTUAL_NETWORK: nginx_proxy

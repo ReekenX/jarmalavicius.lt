@@ -7,5 +7,4 @@ services:
     ports:
       - 8000:80
     volumes:
-      - ./src:/srv/jekyll
       - /gems-cache
