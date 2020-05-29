@@ -69,7 +69,7 @@ Importuoti prekes iš kitos sistemos penkios minutės po vidurnakčio:
 
 Kiekvieno mėnesio dešimtą dieną ir 9:45 min. išsiųsti algalapius:
 
-`45 9 1 * * siusti-algalapius`
+`45 9 10 * * siusti-algalapius`
 
 Sudėtingesnius laiko intervalus nurodyti taip pat galima. Pavyzdžiui kiekvieną pirmadienį 9 ryto
 tikrink ar „įkrito“ naujas užsakymas kas 5 minutes:
