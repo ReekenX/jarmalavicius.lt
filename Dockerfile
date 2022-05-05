@@ -18,7 +18,7 @@ WORKDIR $APP_HOME
 # Install Bundler
 RUN echo "gem: --no-rdoc --no-ri" > ~/.gemrc
 ENV BUNDLE_PATH /gems-cache
-RUN gem install bundler:2.2.5
+RUN gem install bundler:1.17.3
 RUN bundle config --global silence_root_warning 1
 
 # Setup directory structure for Nginx

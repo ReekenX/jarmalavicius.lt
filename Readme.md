@@ -1,8 +1,6 @@
 Jarmalavicius.lt static LT blog
 ===============================
 
-![Production Deployment](https://github.com/ReekenX/www.jarmalavicius.lt/workflows/Production%20Deployment/badge.svg)
-
 Static website www.jarmalavicius.lt source code. Along with articles, media files, source code examples and more.
 
 With a custom-built theme.

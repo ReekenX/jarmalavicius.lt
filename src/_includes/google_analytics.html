@@ -1,0 +1,35 @@
+{% if jekyll.environment == 'production' %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7P06RZQ5H5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gaInit() {
+      dataLayer.push(arguments);
+    }
+    gaInit('js', new Date());
+    gaInit('config', 'G-7P06RZQ5H5', { 'anonymize_ip': true });
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+  </script>
+{% else %}
+  <script>
+    function gtag() {
+      console.log('GA EVENT', arguments);
+    }
+  </script>
+{% endif %}
+
+<script>
+  setTimeout(function(){
+    gtag('event', '15_seconds', { action: 'read' });
+  }, 15000);
+
+  setTimeout(function(){
+    gtag('event', '30_seconds', { action: 'read' });
+  }, 30000);
+
+  setTimeout(function(){
+    gtag('event', '60_seconds', { action: 'read' });
+  }, 60000);
+</script>
