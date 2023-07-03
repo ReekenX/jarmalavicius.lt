@@ -21,11 +21,6 @@ Kasdien leidžiu laiką prie kompiuterių/serverių (turiu ne vieną): programuo
 tvarkausi su monitorinimo sistemomis, skaitau naujienas (tokias kaip [HN](https://news.ycombinator.com/best)) ir
 **nuolat ieškau būdų tobulėti savo srityje**.
 
-Esu keliių online verslų savininkas: 
-
-- [UptimeTea monitorinimo platforma](http://uptimetea.com/)
-- [EShopAddons PrestaShop modulių parduotuvė](https://www.eshopaddons.com/)
-
 Humoristinis paveikslėlis apibūdinantis **tipinį programuotojo (mano) gyvenimą**:
 
 {% include post_image.html image="/i/i_am_programmer.jpg" text="Stereotipiškas programuotojo įvaizdis ^" %}
