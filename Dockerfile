@@ -4,11 +4,7 @@ FROM nginx:1.17-alpine
 RUN apk add --no-cache \
         ruby ruby-dev curl nodejs openssl-dev build-base \
         imagemagick6 imagemagick6-libs imagemagick6-dev \
-        zlib zlib-dev ruby-bigdecimal ruby-webrick ruby-etc
-
-# Fix npm version. Installing from apt raises error:
-# `npm does not support Node.js v10.15.2`
-RUN curl https://www.npmjs.com/install.sh | sh
+        zlib zlib-dev ruby-bigdecimal ruby-webrick ruby-etc nodejs npm
 
 # Setup folder structure for Docker
 ENV APP_HOME /project
